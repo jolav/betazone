@@ -1,0 +1,168 @@
+/*  BIG SMALL */
+
+@media only screen and (max-width: 541px) {
+  #data {
+    column-count: 4;
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+  }
+}
+
+@media only screen and (min-width: 541px) {
+  #data {
+    column-count: 6;
+    -moz-column-count: 6;
+    -webkit-column-count: 6;
+  }
+}
+
+@media only screen and (min-width: 661px) {
+  #data {
+    column-count: 7;
+    -moz-column-count: 7;
+    -webkit-column-count: 7;
+  }
+}
+
+@media only screen and (min-width: 761px) {
+  #data {
+    column-count: 9;
+    -moz-column-count: 9;
+    -webkit-column-count: 9;
+  }
+}
+
+body {
+  font-family: "PT Sans", "arial", sans-serif;
+  background-color: #eee;
+  color: #404040;
+  font-size: 0.80em;
+  line-height: 1.1em;
+  margin: 0px auto;
+  max-width: 860px;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+}
+
+
+/* HEADER */
+
+h1 {
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  /*color: #b42c5f;*/
+  color: #437a43;
+  font-size: 1.6em;
+}
+
+h1 span {
+  vertical-align: middle;
+}
+
+
+/*   GENERICs */
+
+a {
+  color: #375EAB;
+  text-decoration: none;
+}
+
+.tool a {
+  text-decoration: none;
+}
+
+.tool a, .tool a:visited {
+  color: inherit;
+}
+
+.centerImage {
+  display: flex;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.verticalImage {
+  vertical-align: middle;
+}
+
+.centerText {
+  text-align: center;
+}
+
+
+/* DATA */
+
+.up {
+  color: #2cb481;
+}
+
+.down {
+  color: #e9552c;
+}
+
+
+/* HR */
+
+hr {
+  margin: 10px 10% 10px 10%;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #888, #ccc);
+}
+
+
+/* FOOTER */
+
+.footer {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+
+/* DATA */
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+}
+
+.row:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+.tooltip .tooltipText {
+  visibility: hidden;
+  display: inline-block;
+  background-color: lightblue;
+  color: #404040;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 30px;
+  transform: translateX(-25%);
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}
+
+
+/* GOHOME */
+
+.goHome img {
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
