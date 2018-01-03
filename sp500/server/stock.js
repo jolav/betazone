@@ -1,7 +1,6 @@
-const lib = require('./lib.js');
+const lib = require(__dirname + '/lib.js');
 
-const configFile = './config/config.json';
-const listFile = './config/list.json';
+const listFile = __dirname + '/list.json';
 const listSP500url = 'https://dimon.ca/my/snp500.json';
 let getDataURL = 'https://api.iextrading.com/1.0/tops/last?symbols=';
 
@@ -9,64 +8,48 @@ let symbolList = '';
 let stockData = [];
 let howManyStocks = 0;
 let development = false;
+let returnData = [];
 
-/* init
-	lib.LoadJSONfromFileMarshall(configFile, &api)
-	maintenance()
-	initUpdateIntervals()
-*/
-
-exports.initApp = function () {
+function initApp () {
   onceADayTask();
-  console.log('Init APP');
-  lib.loadJSONfile(configFile, 1, maintenance);
-};
-
-/* maintenance
-	getSymbolList()
-	populateList()
-	getLastDayPrice()
-	lib.WriteJSONtoFile(listFile, stockData)
-*/
-
-function maintenance () {
-  // console.log('Maintenance')
-  lib.makeHttpRequest(listSP500url, getSymbolList);
+  getSymbolList();
 }
 
-function getSymbolList (err, data) {
-  if (err) {
-    return;
-  }
-  // console.log('getSymbolList')
-  let symlist = [];
-  for (let i = 0; i < data.members.length; i++) {
-    symlist[i] = {};
-    symlist[i].sym = data.members[i].sym;
-    if (i !== data.members.length - 1) {
-      symbolList += symlist[i].sym + ',';
-    } else {
-      symbolList += symlist[i].sym;
+function getSymbolList () {
+  lib.makeHttpRequest(listSP500url, function (err, data) {
+    if (err) {
+      return;
     }
-  }
-  // console.log(`We have ${symlist.length} companies`)
-  if (development) {
-    lib.loadJSONfile(listFile, 0, initUpdateIntervals);
-    return;
-  }
-  howManyStocks = symlist.length;
-  // get all companies data
-  // console.log('getAllCompaniesData', howManyStocks)
-  for (let i = 0; i < symlist.length; i++) {
-    let sym = symlist[i].sym;
-    let link = 'https://api.iextrading.com/1.0/stock/' + sym + '/company';
-    // console.log(link)
-    lib.makeHttpRequest(link, addElementToStockData);
-  }
+    console.log('getSymbolList');
+    let symlist = [];
+    for (let i = 0; i < data.members.length; i++) {
+      symlist[i] = {};
+      symlist[i].sym = data.members[i].sym;
+      if (i !== data.members.length - 1) {
+        symbolList += symlist[i].sym + ',';
+      } else {
+        symbolList += symlist[i].sym;
+      }
+    }
+    console.log(`We have ${symlist.length} companies`);
+    if (development) {
+      lib.loadJSONfile(listFile, initUpdateIntervals);
+      return;
+    }
+    howManyStocks = symlist.length;
+    // get all companies data
+    // console.log('getAllCompaniesData', howManyStocks)
+    for (let i = 0; i < symlist.length; i++) {
+      let sym = symlist[i].sym;
+      let link = 'https://api.iextrading.com/1.0/stock/' + sym + '/company';
+      console.log(link);
+      lib.makeHttpRequest(link, addElementToStockData);
+    }
+  });
 }
 
 function addElementToStockData (err, elem) {
-  // console.log(elem.symbol)
+  console.log(elem.symbol);
   let aux = {};
   if (err) {
     aux.symbol = '';
@@ -85,7 +68,7 @@ function addElementToStockData (err, elem) {
   }
   stockData.push(aux);
   if (stockData.length === howManyStocks) {
-    // console.log('getLastDayPrice')
+    console.log('getLastDayPrice');
     getLastDayPrice();
   }
 }
@@ -109,16 +92,16 @@ function addLastPriceToList (err, elem) {
     }
   }
   if (howManyStocks === 0) {
-    // console.log('writeJSONtoFile')
+    console.log('writeJSONtoFile');
     lib.writeJSONtoFile(listFile, stockData, initUpdateIntervals);
   }
 }
 
-function initUpdateIntervals () {
+function initUpdateIntervals (data) {
   if (development) {
-    stockData = global.bb.spData;
+    stockData = data;
   }
-  // console.log('initUpdateIntervals')
+  console.log('initUpdateIntervals');
   setInterval(function () {
     lib.makeHttpRequest(getDataURL + symbolList, updateData);
   }, 5000);
@@ -126,7 +109,7 @@ function initUpdateIntervals () {
 
 function updateData (err, data) {
   if (err) {
-    // console.log(err)
+    console.log(err);
     return;
   }
   for (let i = 0; i < stockData.length; i++) {
@@ -138,21 +121,31 @@ function updateData (err, data) {
       }
     }
   }
-  global.bb.spData = stockData.sort(lib.dynamicSort('symbol'));
+  returnData = stockData.sort(lib.dynamicSort('symbol'));
 }
 
 function onceADayTask () {
-  let now = new Date();
-  let target = new Date(
+  const now = new Date();
+  const target = new Date(
     now.getFullYear(),
     now.getMonth(),
     now.getDate() + 1, // the next day, ...
     5, 0, 0 // ...at 05:00:00 hours server local time
   );
-  let msToTask = target.getTime() - now.getTime();
+  const msToTask = target.getTime() - now.getTime();
 
   setTimeout(function () {
-    maintenance();
+    getSymbolList();
     onceADayTask();
   }, msToTask);
 }
+
+function getData (req, res, cb) {
+  cb(returnData);
+  return;
+}
+
+module.exports = {
+  getData: getData,
+  initApp: initApp
+};

@@ -5,8 +5,12 @@
 
   <title>SP500 Real Time</title>
 
-  <!--Head -->
-  <!--#include file="/_public/templates/head.html" -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Open Source data projects. Stock market data. SP500 Real Time stocks." />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/_public/icons/datasilo24.png">
 
 </head>
 
@@ -16,7 +20,7 @@
   <header class="header">
     <h1 class="small centerText">
       <div>
-        <img class="verticalImage" src="/_public/icons/stock32.png">
+        <img class="verticalImage" src="/_public/sp500/stock32.png">
         <span> Standard & Poor's 500</span>
       </div>
     </h1>
@@ -33,7 +37,7 @@
 
   <section class="centerText">
     <span>
-      <strong>version 0.1.8</strong>
+      <strong>version 0.1.9</strong>
     </span>
   </section>
 
@@ -62,8 +66,9 @@
         <a href="https://iextrading.com/developer">IEX</a>
       </span>
       <br>
-      <strong>Jolav &copy; 2017 -
-        <a href="https://github.com/jolav">View on GitHub</a>
+      <img class="logo" style="max-height:24px; vertical-align:middle" alt="" src="/_public/icons/jolav32.png">
+      <strong> Jolav &copy; 2018 -
+        <a href="https://github.com/jolav/datasilo">View on GitHub</a>
       </strong>
       <br>
     </small>
@@ -78,10 +83,10 @@
   <!-- cookie Law -->
   <!--#include file="/_public/templates/cookieLaw.html" -->
 
-  <!-- Titillium Web + PT Sans -->
-  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700|PT+Sans:400,700" rel="stylesheet">
+  <!-- PT Sans -->
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
 
-  <script async src="./sp500.ok.js"></script>
+  <script async src="./sp500.js"></script>
 
 </body>
 

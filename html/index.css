@@ -79,11 +79,9 @@ body {
   display: none;
 }
 
-
 /* HEADER */
 
 h1 {
-  font-family: "PT sans", 'arial', sans-serif;
   font-weight: bold;
   margin: 0px;
   padding: 0px;
@@ -94,7 +92,6 @@ h1 {
 h1 span {
   vertical-align: middle;
 }
-
 
 /* TOOLS */
 
@@ -144,7 +141,6 @@ h1 span {
   font-family: "arial", sans-serif;
 }
 
-
 /*   GENERICs */
 
 a {
@@ -174,7 +170,6 @@ a {
   text-align: center;
 }
 
-
 /* HR */
 
 hr {
@@ -184,7 +179,6 @@ hr {
   background: #333;
   background-image: linear-gradient(to right, #ccc, #888, #ccc);
 }
-
 
 /* FOOTER */
 

@@ -1,6 +1,8 @@
-{
-  // const list = 'http://localhost:3000/v1/tick/'
-  const list = 'https://sp500.datasilo.org/api/v1/tick/';
+const app = (function () {
+  'use strict';
+
+  // const list = 'http://localhost:3501/sp500/v1/tick/'
+  const list = 'https://api.datasilo.org/sp500/v1/tick/';
 
   let datas;
 
@@ -44,7 +46,7 @@
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) { // 4 = "DONE"
         if (xhr.status === 200) { // 200 ="OK"
-          console.log(xhr.responseText);
+          // console.log(xhr.responseText)
           callback(JSON.parse(xhr.responseText));
         } else {
           console.log('Error: ' + xhr.status);
@@ -55,6 +57,9 @@
     xhr.send();
   }
 
-  window.addEventListener('load', init);
+  return {
+    init: init
+  };
+}());
 
-}
+window.addEventListener('load', app.init);

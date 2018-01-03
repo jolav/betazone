@@ -1,6 +1,11 @@
 const https = require('https');
 const fs = require('fs');
 
+function sendResult (req, res, data, status) {
+  res.setHeader('Content-Type', 'application/json');
+  res.status(status).send(JSON.stringify(data, null, 3));
+}
+
 function makeHttpRequest (path, callback) {
   https.get(path, (res) => {
     // explicitly treat incoming data as utf8 
@@ -28,19 +33,12 @@ function makeHttpRequest (path, callback) {
   });
 }
 
-function loadJSONfile (filePath, flag, callback) {
+function loadJSONfile (filePath, callback) {
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
       console.log(err);
     } else {
-      if (flag === 1) {
-        global.bb.c = JSON.parse(data);
-      }
-      if (flag === 0) {
-        console.log('OK');
-        global.bb.spData = JSON.parse(data);
-      }
-      callback();
+      callback(JSON.parse(data));
     }
   });
 }
@@ -66,5 +64,6 @@ module.exports = {
   makeHttpRequest: makeHttpRequest,
   loadJSONfile: loadJSONfile,
   writeJSONtoFile: writeJSONtoFile,
-  dynamicSort: dynamicSort
+  dynamicSort: dynamicSort,
+  sendResult: sendResult
 };

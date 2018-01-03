@@ -3,6 +3,7 @@ _aux/
 node_modules/
 
 #Ignore these files
+.env
 .DS_Store
 config.json
 private.json

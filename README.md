@@ -1,16 +1,19 @@
-# ![logo](https://github.com/jolav/datasilo/blob/master/_public/icons/stock32.png?raw=true) **STOCK MARKET**
+# DATASILO
 
-## STANDARD & POOR'S 500 Real Time
+## ![logo](https://github.com/jolav/datasilo/blob/master/_public/sp500/stock32.png?raw=true) **STOCK MARKET**
 
-version 0.1.8
 
-### **[DEMO online](https://sp500.datasilo.org)**
+### STANDARD & POOR'S 500 Real Time
+
+version 0.1.9
+
+### **[DEMO online](https://datasilo.org/sp500/sp500.html)**
 
 Stock values real time.
 
 Updates every 5 seg
 
-![Example](https://github.com/jolav/datasilo/blob/master/_public/images/sp500Ex.png?raw=true)
+![Example](https://github.com/jolav/datasilo/blob/master/_public/sp500/sp500Ex.png?raw=true)
 
 <hr>
 
