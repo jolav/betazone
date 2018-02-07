@@ -49,7 +49,6 @@ body {
   user-select: none;
 }
 
-
 /* HEADER */
 
 h1 {
@@ -65,7 +64,6 @@ h1 {
 h1 span {
   vertical-align: middle;
 }
-
 
 /*   GENERICs */
 
@@ -96,7 +94,6 @@ a {
   text-align: center;
 }
 
-
 /* DATA */
 
 .up {
@@ -106,7 +103,6 @@ a {
 .down {
   color: #e9552c;
 }
-
 
 /* HR */
 
@@ -118,7 +114,6 @@ hr {
   background-image: linear-gradient(to right, #ccc, #888, #ccc);
 }
 
-
 /* FOOTER */
 
 .footer {
@@ -126,7 +121,6 @@ hr {
   text-align: center;
   font-size: 1.25em;
 }
-
 
 /* DATA */
 
@@ -142,6 +136,7 @@ hr {
 }
 
 .tooltip .tooltipText {
+  opacity: 0;
   visibility: hidden;
   display: inline-block;
   background-color: lightblue;
@@ -157,8 +152,8 @@ hr {
 
 .tooltip:hover .tooltipText {
   visibility: visible;
+  opacity: 1;
 }
-
 
 /* GOHOME */
 

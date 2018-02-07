@@ -20,3 +20,5 @@ Updates every 5 seg
 ## **Acknowledgment**
 
 * Data provided for free by [IEX Trading](https://iextrading.com/developer)
+
+* Dmitry Shevkoplyas by SP500 Components JSON list [https://dimon.ca/snp500/](https://dimon.ca/snp500/)

@@ -62,6 +62,7 @@
 body {
   font-family: 'arial', sans-serif;
   font-size: 1em;
+  line-height: 1.2em;
   background-color: #eee;
   color: #404040;
   margin: 0px auto;
@@ -73,6 +74,9 @@ body {
   -ms-user-select: none;
   /* IE 10+ */
   user-select: none;
+  background: #eee url('/_public/images/back.png') no-repeat fixed center;
+  background-size: cover;
+  /*height: 100vh;*/
 }
 
 .notSeen {
@@ -81,7 +85,16 @@ body {
 
 /* HEADER */
 
+.header {
+  margin-top: 15px;
+}
+
+.headerText {
+  padding-top: 0.5em;
+}
+
 h1 {
+  font-family: 'Titillium Web', 'arial', sans-serif;
   font-weight: bold;
   margin: 0px;
   padding: 0px;
@@ -93,13 +106,44 @@ h1 span {
   vertical-align: middle;
 }
 
+/* LEGENDS */
+
+.legends {
+  margin: 0 auto;
+  font-size: 0.8em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+.legend {
+  border-radius: 5px;
+  padding: 2px 5px 3px 5px;
+  border: 1px solid #404040;
+}
+
+.legend.service {
+  background-color: lightblue;
+  color: #008E61;
+}
+
+.legend.thirdParty {
+  background-color: #b6dab6;
+  color: #008E61;
+}
+
+.legend.stuff {
+  background-color: #dddddd;
+  color: #404040;
+}
+
 /* TOOLS */
 
 .tools {
   -moz-column-gap: 30px;
   -webkit-column-gap: 30px;
   column-gap: 30px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .tool {
@@ -108,25 +152,30 @@ h1 span {
   margin: 1em 0px;
   width: 100%;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  /*text-align: justify;*/
 }
 
 .tool.service {
   background-color: #cce5ff;
   border: 2px solid #cce5ff;
+  background: rgba(204, 229, 255, 0.6);
 }
 
 .tool.thirdParty {
   background-color: #b6dab6;
   border: 2px solid #b6dab6;
+  background: rgba(182, 218, 182, 0.6);
 }
 
 .tool.stuff {
   background-color: #dddddd;
   border: 2px solid #dddddd;
+  background: rgba(221, 221, 221, 0.2)
 }
 
 .tool:hover {
   border: 2px solid orange;
+  transform: scale(1.05);
 }
 
 .toolTile {
@@ -134,12 +183,20 @@ h1 span {
 }
 
 .toolTile .title {
+  font-weight: bold;
+  color: #008E61;
+  /*color: #2cb481;*/
+}
+
+.party3 {
   color: #008E61;
 }
 
-.tool p {
-  font-family: "arial", sans-serif;
+.ctStuff {
+  color: #404040;
 }
+
+.tool p {}
 
 /*   GENERICs */
 
@@ -182,7 +239,28 @@ hr {
 
 /* FOOTER */
 
+html {
+  height: 98%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  /*margin: 0;*/
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
 .footer {
   font-family: "arial", sans-serif;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1em;
   text-align: center;
 }
