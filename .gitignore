@@ -1,14 +1,15 @@
 #Ignore these directories
 _aux/
 node_modules/
+tmp/
 
 #Ignore these files
 .env
 .DS_Store
+config.js
 config.json
 private.json
 secret.json
 hits.json
 stats.json
-
 

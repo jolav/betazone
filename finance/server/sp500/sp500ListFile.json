@@ -1,0 +1,1517 @@
+[
+  {
+    "sym": "MMM"
+  },
+  {
+    "sym": "ABT"
+  },
+  {
+    "sym": "ABBV"
+  },
+  {
+    "sym": "ACN"
+  },
+  {
+    "sym": "ATVI"
+  },
+  {
+    "sym": "AYI"
+  },
+  {
+    "sym": "ADBE"
+  },
+  {
+    "sym": "AMD"
+  },
+  {
+    "sym": "AAP"
+  },
+  {
+    "sym": "AES"
+  },
+  {
+    "sym": "AET"
+  },
+  {
+    "sym": "AMG"
+  },
+  {
+    "sym": "AFL"
+  },
+  {
+    "sym": "A"
+  },
+  {
+    "sym": "APD"
+  },
+  {
+    "sym": "AKAM"
+  },
+  {
+    "sym": "ALK"
+  },
+  {
+    "sym": "ALB"
+  },
+  {
+    "sym": "ARE"
+  },
+  {
+    "sym": "ALXN"
+  },
+  {
+    "sym": "ALGN"
+  },
+  {
+    "sym": "ALLE"
+  },
+  {
+    "sym": "AGN"
+  },
+  {
+    "sym": "ADS"
+  },
+  {
+    "sym": "LNT"
+  },
+  {
+    "sym": "ALL"
+  },
+  {
+    "sym": "GOOGL"
+  },
+  {
+    "sym": "GOOG"
+  },
+  {
+    "sym": "MO"
+  },
+  {
+    "sym": "AMZN"
+  },
+  {
+    "sym": "AEE"
+  },
+  {
+    "sym": "AAL"
+  },
+  {
+    "sym": "AEP"
+  },
+  {
+    "sym": "AXP"
+  },
+  {
+    "sym": "AIG"
+  },
+  {
+    "sym": "AMT"
+  },
+  {
+    "sym": "AWK"
+  },
+  {
+    "sym": "AMP"
+  },
+  {
+    "sym": "ABC"
+  },
+  {
+    "sym": "AME"
+  },
+  {
+    "sym": "AMGN"
+  },
+  {
+    "sym": "APH"
+  },
+  {
+    "sym": "APC"
+  },
+  {
+    "sym": "ADI"
+  },
+  {
+    "sym": "ANDV"
+  },
+  {
+    "sym": "ANSS"
+  },
+  {
+    "sym": "ANTM"
+  },
+  {
+    "sym": "AON"
+  },
+  {
+    "sym": "AOS"
+  },
+  {
+    "sym": "APA"
+  },
+  {
+    "sym": "AIV"
+  },
+  {
+    "sym": "AAPL"
+  },
+  {
+    "sym": "AMAT"
+  },
+  {
+    "sym": "ADM"
+  },
+  {
+    "sym": "ARNC"
+  },
+  {
+    "sym": "AJG"
+  },
+  {
+    "sym": "AIZ"
+  },
+  {
+    "sym": "T"
+  },
+  {
+    "sym": "ADSK"
+  },
+  {
+    "sym": "ADP"
+  },
+  {
+    "sym": "AZO"
+  },
+  {
+    "sym": "AVB"
+  },
+  {
+    "sym": "AVY"
+  },
+  {
+    "sym": "BHGE"
+  },
+  {
+    "sym": "BLL"
+  },
+  {
+    "sym": "BAC"
+  },
+  {
+    "sym": "BK"
+  },
+  {
+    "sym": "HII"
+  },
+  {
+    "sym": "BAX"
+  },
+  {
+    "sym": "BBT"
+  },
+  {
+    "sym": "BDX"
+  },
+  {
+    "sym": "BRK.B"
+  },
+  {
+    "sym": "BBY"
+  },
+  {
+    "sym": "BIIB"
+  },
+  {
+    "sym": "BLK"
+  },
+  {
+    "sym": "HRB"
+  },
+  {
+    "sym": "BA"
+  },
+  {
+    "sym": "BWA"
+  },
+  {
+    "sym": "BXP"
+  },
+  {
+    "sym": "BSX"
+  },
+  {
+    "sym": "BHF"
+  },
+  {
+    "sym": "BMY"
+  },
+  {
+    "sym": "AVGO"
+  },
+  {
+    "sym": "BF.B"
+  },
+  {
+    "sym": "CHRW"
+  },
+  {
+    "sym": "CA"
+  },
+  {
+    "sym": "COG"
+  },
+  {
+    "sym": "CDNS"
+  },
+  {
+    "sym": "CPB"
+  },
+  {
+    "sym": "COF"
+  },
+  {
+    "sym": "CAH"
+  },
+  {
+    "sym": "CBOE"
+  },
+  {
+    "sym": "KMX"
+  },
+  {
+    "sym": "CCL"
+  },
+  {
+    "sym": "CAT"
+  },
+  {
+    "sym": "CBG"
+  },
+  {
+    "sym": "CBS"
+  },
+  {
+    "sym": "CELG"
+  },
+  {
+    "sym": "CNC"
+  },
+  {
+    "sym": "CNP"
+  },
+  {
+    "sym": "CTL"
+  },
+  {
+    "sym": "CERN"
+  },
+  {
+    "sym": "CF"
+  },
+  {
+    "sym": "SCHW"
+  },
+  {
+    "sym": "CHTR"
+  },
+  {
+    "sym": "CHK"
+  },
+  {
+    "sym": "CVX"
+  },
+  {
+    "sym": "CMG"
+  },
+  {
+    "sym": "CB"
+  },
+  {
+    "sym": "CHD"
+  },
+  {
+    "sym": "CI"
+  },
+  {
+    "sym": "XEC"
+  },
+  {
+    "sym": "CINF"
+  },
+  {
+    "sym": "CTAS"
+  },
+  {
+    "sym": "CSCO"
+  },
+  {
+    "sym": "C"
+  },
+  {
+    "sym": "CFG"
+  },
+  {
+    "sym": "CTXS"
+  },
+  {
+    "sym": "CLX"
+  },
+  {
+    "sym": "CME"
+  },
+  {
+    "sym": "CMS"
+  },
+  {
+    "sym": "KO"
+  },
+  {
+    "sym": "CTSH"
+  },
+  {
+    "sym": "CL"
+  },
+  {
+    "sym": "CMCSA"
+  },
+  {
+    "sym": "CMA"
+  },
+  {
+    "sym": "CAG"
+  },
+  {
+    "sym": "CXO"
+  },
+  {
+    "sym": "COP"
+  },
+  {
+    "sym": "ED"
+  },
+  {
+    "sym": "STZ"
+  },
+  {
+    "sym": "COO"
+  },
+  {
+    "sym": "GLW"
+  },
+  {
+    "sym": "COST"
+  },
+  {
+    "sym": "COTY"
+  },
+  {
+    "sym": "CCI"
+  },
+  {
+    "sym": "CSRA"
+  },
+  {
+    "sym": "CSX"
+  },
+  {
+    "sym": "CMI"
+  },
+  {
+    "sym": "CVS"
+  },
+  {
+    "sym": "DHI"
+  },
+  {
+    "sym": "DHR"
+  },
+  {
+    "sym": "DRI"
+  },
+  {
+    "sym": "DVA"
+  },
+  {
+    "sym": "DE"
+  },
+  {
+    "sym": "DLPH"
+  },
+  {
+    "sym": "DAL"
+  },
+  {
+    "sym": "XRAY"
+  },
+  {
+    "sym": "DVN"
+  },
+  {
+    "sym": "DLR"
+  },
+  {
+    "sym": "DFS"
+  },
+  {
+    "sym": "DISCA"
+  },
+  {
+    "sym": "DISCK"
+  },
+  {
+    "sym": "DISH"
+  },
+  {
+    "sym": "DG"
+  },
+  {
+    "sym": "DLTR"
+  },
+  {
+    "sym": "D"
+  },
+  {
+    "sym": "DOV"
+  },
+  {
+    "sym": "DWDP"
+  },
+  {
+    "sym": "DPS"
+  },
+  {
+    "sym": "DTE"
+  },
+  {
+    "sym": "DRE"
+  },
+  {
+    "sym": "DUK"
+  },
+  {
+    "sym": "DXC"
+  },
+  {
+    "sym": "ETFC"
+  },
+  {
+    "sym": "EMN"
+  },
+  {
+    "sym": "ETN"
+  },
+  {
+    "sym": "EBAY"
+  },
+  {
+    "sym": "ECL"
+  },
+  {
+    "sym": "EIX"
+  },
+  {
+    "sym": "EW"
+  },
+  {
+    "sym": "EA"
+  },
+  {
+    "sym": "EMR"
+  },
+  {
+    "sym": "ETR"
+  },
+  {
+    "sym": "EVHC"
+  },
+  {
+    "sym": "EOG"
+  },
+  {
+    "sym": "EQT"
+  },
+  {
+    "sym": "EFX"
+  },
+  {
+    "sym": "EQIX"
+  },
+  {
+    "sym": "EQR"
+  },
+  {
+    "sym": "ESS"
+  },
+  {
+    "sym": "EL"
+  },
+  {
+    "sym": "ES"
+  },
+  {
+    "sym": "RE"
+  },
+  {
+    "sym": "EXC"
+  },
+  {
+    "sym": "EXPE"
+  },
+  {
+    "sym": "EXPD"
+  },
+  {
+    "sym": "ESRX"
+  },
+  {
+    "sym": "EXR"
+  },
+  {
+    "sym": "XOM"
+  },
+  {
+    "sym": "FFIV"
+  },
+  {
+    "sym": "FB"
+  },
+  {
+    "sym": "FAST"
+  },
+  {
+    "sym": "FRT"
+  },
+  {
+    "sym": "FDX"
+  },
+  {
+    "sym": "FIS"
+  },
+  {
+    "sym": "FITB"
+  },
+  {
+    "sym": "FE"
+  },
+  {
+    "sym": "FISV"
+  },
+  {
+    "sym": "FLIR"
+  },
+  {
+    "sym": "FLS"
+  },
+  {
+    "sym": "FLR"
+  },
+  {
+    "sym": "FMC"
+  },
+  {
+    "sym": "FL"
+  },
+  {
+    "sym": "F"
+  },
+  {
+    "sym": "FTV"
+  },
+  {
+    "sym": "FBHS"
+  },
+  {
+    "sym": "BEN"
+  },
+  {
+    "sym": "FCX"
+  },
+  {
+    "sym": "GPS"
+  },
+  {
+    "sym": "GRMN"
+  },
+  {
+    "sym": "IT"
+  },
+  {
+    "sym": "GD"
+  },
+  {
+    "sym": "GE"
+  },
+  {
+    "sym": "GGP"
+  },
+  {
+    "sym": "GIS"
+  },
+  {
+    "sym": "GM"
+  },
+  {
+    "sym": "GPC"
+  },
+  {
+    "sym": "GILD"
+  },
+  {
+    "sym": "GPN"
+  },
+  {
+    "sym": "GS"
+  },
+  {
+    "sym": "GT"
+  },
+  {
+    "sym": "GWW"
+  },
+  {
+    "sym": "HAL"
+  },
+  {
+    "sym": "HBI"
+  },
+  {
+    "sym": "HOG"
+  },
+  {
+    "sym": "HRS"
+  },
+  {
+    "sym": "HIG"
+  },
+  {
+    "sym": "HAS"
+  },
+  {
+    "sym": "HCA"
+  },
+  {
+    "sym": "HCP"
+  },
+  {
+    "sym": "HP"
+  },
+  {
+    "sym": "HSIC"
+  },
+  {
+    "sym": "HSY"
+  },
+  {
+    "sym": "HES"
+  },
+  {
+    "sym": "HPE"
+  },
+  {
+    "sym": "HLT"
+  },
+  {
+    "sym": "HOLX"
+  },
+  {
+    "sym": "HD"
+  },
+  {
+    "sym": "HON"
+  },
+  {
+    "sym": "HRL"
+  },
+  {
+    "sym": "HST"
+  },
+  {
+    "sym": "HPQ"
+  },
+  {
+    "sym": "HUM"
+  },
+  {
+    "sym": "HBAN"
+  },
+  {
+    "sym": "IDXX"
+  },
+  {
+    "sym": "INFO"
+  },
+  {
+    "sym": "ITW"
+  },
+  {
+    "sym": "ILMN"
+  },
+  {
+    "sym": "IR"
+  },
+  {
+    "sym": "INTC"
+  },
+  {
+    "sym": "ICE"
+  },
+  {
+    "sym": "IBM"
+  },
+  {
+    "sym": "INCY"
+  },
+  {
+    "sym": "IP"
+  },
+  {
+    "sym": "IPG"
+  },
+  {
+    "sym": "IFF"
+  },
+  {
+    "sym": "INTU"
+  },
+  {
+    "sym": "ISRG"
+  },
+  {
+    "sym": "IVZ"
+  },
+  {
+    "sym": "IRM"
+  },
+  {
+    "sym": "JEC"
+  },
+  {
+    "sym": "JBHT"
+  },
+  {
+    "sym": "SJM"
+  },
+  {
+    "sym": "JNJ"
+  },
+  {
+    "sym": "JCI"
+  },
+  {
+    "sym": "JPM"
+  },
+  {
+    "sym": "JNPR"
+  },
+  {
+    "sym": "KSU"
+  },
+  {
+    "sym": "K"
+  },
+  {
+    "sym": "KEY"
+  },
+  {
+    "sym": "KMB"
+  },
+  {
+    "sym": "KIM"
+  },
+  {
+    "sym": "KMI"
+  },
+  {
+    "sym": "KLAC"
+  },
+  {
+    "sym": "KSS"
+  },
+  {
+    "sym": "KHC"
+  },
+  {
+    "sym": "KR"
+  },
+  {
+    "sym": "LB"
+  },
+  {
+    "sym": "LLL"
+  },
+  {
+    "sym": "LH"
+  },
+  {
+    "sym": "LRCX"
+  },
+  {
+    "sym": "LEG"
+  },
+  {
+    "sym": "LEN"
+  },
+  {
+    "sym": "LUK"
+  },
+  {
+    "sym": "LLY"
+  },
+  {
+    "sym": "LNC"
+  },
+  {
+    "sym": "LKQ"
+  },
+  {
+    "sym": "LMT"
+  },
+  {
+    "sym": "L"
+  },
+  {
+    "sym": "LOW"
+  },
+  {
+    "sym": "LYB"
+  },
+  {
+    "sym": "MTB"
+  },
+  {
+    "sym": "MAC"
+  },
+  {
+    "sym": "M"
+  },
+  {
+    "sym": "MRO"
+  },
+  {
+    "sym": "MPC"
+  },
+  {
+    "sym": "MAR"
+  },
+  {
+    "sym": "MMC"
+  },
+  {
+    "sym": "MLM"
+  },
+  {
+    "sym": "MAS"
+  },
+  {
+    "sym": "MA"
+  },
+  {
+    "sym": "MAT"
+  },
+  {
+    "sym": "MKC"
+  },
+  {
+    "sym": "MCD"
+  },
+  {
+    "sym": "MCK"
+  },
+  {
+    "sym": "MDT"
+  },
+  {
+    "sym": "MRK"
+  },
+  {
+    "sym": "MET"
+  },
+  {
+    "sym": "MTD"
+  },
+  {
+    "sym": "MGM"
+  },
+  {
+    "sym": "KORS"
+  },
+  {
+    "sym": "MCHP"
+  },
+  {
+    "sym": "MU"
+  },
+  {
+    "sym": "MSFT"
+  },
+  {
+    "sym": "MAA"
+  },
+  {
+    "sym": "MHK"
+  },
+  {
+    "sym": "TAP"
+  },
+  {
+    "sym": "MDLZ"
+  },
+  {
+    "sym": "MON"
+  },
+  {
+    "sym": "MNST"
+  },
+  {
+    "sym": "MCO"
+  },
+  {
+    "sym": "MS"
+  },
+  {
+    "sym": "MOS"
+  },
+  {
+    "sym": "MSI"
+  },
+  {
+    "sym": "MYL"
+  },
+  {
+    "sym": "NDAQ"
+  },
+  {
+    "sym": "NOV"
+  },
+  {
+    "sym": "NAVI"
+  },
+  {
+    "sym": "NTAP"
+  },
+  {
+    "sym": "NFLX"
+  },
+  {
+    "sym": "NWL"
+  },
+  {
+    "sym": "NFX"
+  },
+  {
+    "sym": "NEM"
+  },
+  {
+    "sym": "NWSA"
+  },
+  {
+    "sym": "NWS"
+  },
+  {
+    "sym": "NEE"
+  },
+  {
+    "sym": "NLSN"
+  },
+  {
+    "sym": "NKE"
+  },
+  {
+    "sym": "NI"
+  },
+  {
+    "sym": "NBL"
+  },
+  {
+    "sym": "JWN"
+  },
+  {
+    "sym": "NSC"
+  },
+  {
+    "sym": "NTRS"
+  },
+  {
+    "sym": "NOC"
+  },
+  {
+    "sym": "NCLH"
+  },
+  {
+    "sym": "NRG"
+  },
+  {
+    "sym": "NUE"
+  },
+  {
+    "sym": "NVDA"
+  },
+  {
+    "sym": "ORLY"
+  },
+  {
+    "sym": "OXY"
+  },
+  {
+    "sym": "OMC"
+  },
+  {
+    "sym": "OKE"
+  },
+  {
+    "sym": "ORCL"
+  },
+  {
+    "sym": "PCAR"
+  },
+  {
+    "sym": "PKG"
+  },
+  {
+    "sym": "PH"
+  },
+  {
+    "sym": "PDCO"
+  },
+  {
+    "sym": "PAYX"
+  },
+  {
+    "sym": "PYPL"
+  },
+  {
+    "sym": "PNR"
+  },
+  {
+    "sym": "PBCT"
+  },
+  {
+    "sym": "PEP"
+  },
+  {
+    "sym": "PKI"
+  },
+  {
+    "sym": "PRGO"
+  },
+  {
+    "sym": "PFE"
+  },
+  {
+    "sym": "PCG"
+  },
+  {
+    "sym": "PM"
+  },
+  {
+    "sym": "PSX"
+  },
+  {
+    "sym": "PNW"
+  },
+  {
+    "sym": "PXD"
+  },
+  {
+    "sym": "PNC"
+  },
+  {
+    "sym": "RL"
+  },
+  {
+    "sym": "PPG"
+  },
+  {
+    "sym": "PPL"
+  },
+  {
+    "sym": "PX"
+  },
+  {
+    "sym": "PCLN"
+  },
+  {
+    "sym": "PFG"
+  },
+  {
+    "sym": "PG"
+  },
+  {
+    "sym": "PGR"
+  },
+  {
+    "sym": "PLD"
+  },
+  {
+    "sym": "PRU"
+  },
+  {
+    "sym": "PEG"
+  },
+  {
+    "sym": "PSA"
+  },
+  {
+    "sym": "PHM"
+  },
+  {
+    "sym": "PVH"
+  },
+  {
+    "sym": "QRVO"
+  },
+  {
+    "sym": "PWR"
+  },
+  {
+    "sym": "QCOM"
+  },
+  {
+    "sym": "DGX"
+  },
+  {
+    "sym": "Q"
+  },
+  {
+    "sym": "RRC"
+  },
+  {
+    "sym": "RJF"
+  },
+  {
+    "sym": "RTN"
+  },
+  {
+    "sym": "O"
+  },
+  {
+    "sym": "RHT"
+  },
+  {
+    "sym": "REG"
+  },
+  {
+    "sym": "REGN"
+  },
+  {
+    "sym": "RF"
+  },
+  {
+    "sym": "RSG"
+  },
+  {
+    "sym": "RMD"
+  },
+  {
+    "sym": "RHI"
+  },
+  {
+    "sym": "ROK"
+  },
+  {
+    "sym": "COL"
+  },
+  {
+    "sym": "ROP"
+  },
+  {
+    "sym": "ROST"
+  },
+  {
+    "sym": "RCL"
+  },
+  {
+    "sym": "CRM"
+  },
+  {
+    "sym": "SBAC"
+  },
+  {
+    "sym": "SCG"
+  },
+  {
+    "sym": "SLB"
+  },
+  {
+    "sym": "SNI"
+  },
+  {
+    "sym": "STX"
+  },
+  {
+    "sym": "SEE"
+  },
+  {
+    "sym": "SRE"
+  },
+  {
+    "sym": "SHW"
+  },
+  {
+    "sym": "SIG"
+  },
+  {
+    "sym": "SPG"
+  },
+  {
+    "sym": "SWKS"
+  },
+  {
+    "sym": "SLG"
+  },
+  {
+    "sym": "SNA"
+  },
+  {
+    "sym": "SO"
+  },
+  {
+    "sym": "LUV"
+  },
+  {
+    "sym": "SPGI"
+  },
+  {
+    "sym": "SWK"
+  },
+  {
+    "sym": "SBUX"
+  },
+  {
+    "sym": "STT"
+  },
+  {
+    "sym": "SRCL"
+  },
+  {
+    "sym": "SYK"
+  },
+  {
+    "sym": "STI"
+  },
+  {
+    "sym": "SYMC"
+  },
+  {
+    "sym": "SYF"
+  },
+  {
+    "sym": "SNPS"
+  },
+  {
+    "sym": "SYY"
+  },
+  {
+    "sym": "TROW"
+  },
+  {
+    "sym": "TPR"
+  },
+  {
+    "sym": "TGT"
+  },
+  {
+    "sym": "TEL"
+  },
+  {
+    "sym": "FTI"
+  },
+  {
+    "sym": "TXN"
+  },
+  {
+    "sym": "TXT"
+  },
+  {
+    "sym": "TMO"
+  },
+  {
+    "sym": "TIF"
+  },
+  {
+    "sym": "TWX"
+  },
+  {
+    "sym": "TJX"
+  },
+  {
+    "sym": "TMK"
+  },
+  {
+    "sym": "TSS"
+  },
+  {
+    "sym": "TSCO"
+  },
+  {
+    "sym": "TDG"
+  },
+  {
+    "sym": "TRV"
+  },
+  {
+    "sym": "TRIP"
+  },
+  {
+    "sym": "FOXA"
+  },
+  {
+    "sym": "FOX"
+  },
+  {
+    "sym": "TSN"
+  },
+  {
+    "sym": "UDR"
+  },
+  {
+    "sym": "ULTA"
+  },
+  {
+    "sym": "USB"
+  },
+  {
+    "sym": "UA"
+  },
+  {
+    "sym": "UAA"
+  },
+  {
+    "sym": "UNP"
+  },
+  {
+    "sym": "UAL"
+  },
+  {
+    "sym": "UNH"
+  },
+  {
+    "sym": "UPS"
+  },
+  {
+    "sym": "URI"
+  },
+  {
+    "sym": "UTX"
+  },
+  {
+    "sym": "UHS"
+  },
+  {
+    "sym": "UNM"
+  },
+  {
+    "sym": "VFC"
+  },
+  {
+    "sym": "VLO"
+  },
+  {
+    "sym": "VAR"
+  },
+  {
+    "sym": "VTR"
+  },
+  {
+    "sym": "VRSN"
+  },
+  {
+    "sym": "VRSK"
+  },
+  {
+    "sym": "VZ"
+  },
+  {
+    "sym": "VRTX"
+  },
+  {
+    "sym": "VIAB"
+  },
+  {
+    "sym": "V"
+  },
+  {
+    "sym": "VNO"
+  },
+  {
+    "sym": "VMC"
+  },
+  {
+    "sym": "WMT"
+  },
+  {
+    "sym": "WBA"
+  },
+  {
+    "sym": "DIS"
+  },
+  {
+    "sym": "WM"
+  },
+  {
+    "sym": "WAT"
+  },
+  {
+    "sym": "WEC"
+  },
+  {
+    "sym": "WFC"
+  },
+  {
+    "sym": "HCN"
+  },
+  {
+    "sym": "WDC"
+  },
+  {
+    "sym": "WU"
+  },
+  {
+    "sym": "WRK"
+  },
+  {
+    "sym": "WY"
+  },
+  {
+    "sym": "WHR"
+  },
+  {
+    "sym": "WMB"
+  },
+  {
+    "sym": "WLTW"
+  },
+  {
+    "sym": "WYN"
+  },
+  {
+    "sym": "WYNN"
+  },
+  {
+    "sym": "XEL"
+  },
+  {
+    "sym": "XRX"
+  },
+  {
+    "sym": "XLNX"
+  },
+  {
+    "sym": "XL"
+  },
+  {
+    "sym": "XYL"
+  },
+  {
+    "sym": "YUM"
+  },
+  {
+    "sym": "ZBH"
+  },
+  {
+    "sym": "ZION"
+  },
+  {
+    "sym": "ZTS"
+  }
+]

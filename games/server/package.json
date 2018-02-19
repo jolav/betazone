@@ -1,0 +1,24 @@
+{
+  "name": "games",
+  "version": "0.0.1",
+  "description": "handytabs games tetris",
+  "main": "games.js",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolav/handytabs.git"
+  },
+  "author": "jolav",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jolav/handytabs/issues"
+  },
+  "homepage": "https://github.com/jolav/handytabs#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "express": "^4.16.2"
+  }
+}

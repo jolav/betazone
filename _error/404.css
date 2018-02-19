@@ -58,7 +58,7 @@ body {
   padding: 5px 10px;
 }
 
-.digit + .digit {
+.digit+.digit {
   border-left: none;
 }
 
@@ -85,18 +85,17 @@ a.link:hover {
   color: lightskyblue;
 }
 
-
 /* TITLE */
 
 .titleBox {
+  font-family: "Rambla", "arial", sans-serif;
   padding: 0px;
   font-size: 2.5em;
   text-align: center;
-  color: #008E61;
+  color: #5C5BAF;
 }
 
 .titleBox img {
   vertical-align: middle;
-  max-height: 48px;
   padding: 0px 15px 8px 0px;
 }

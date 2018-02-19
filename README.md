@@ -1,19 +1,26 @@
-# DATASILO
+# HANDYTABS
 
-## ![logo](https://github.com/jolav/datasilo/blob/master/_public/sp500/stock32.png?raw=true) **STOCK MARKET**
+## ![logo](https://github.com/jolav/handytabs/blob/master/_public/finance/stock32.png?raw=true)  **STANDARD & POORS 500**
 
 
-### STANDARD & POOR'S 500 Real Time
+version 0.1.10
 
-version 0.1.9
-
-### **[DEMO online](https://datasilo.org/sp500/sp500.html)**
+### **[DEMO online](https://handytabs.com/finance/sp500/sp500.html)**
 
 Stock values real time.
 
 Updates every 5 seg
 
-![Example](https://github.com/jolav/datasilo/blob/master/_public/sp500/sp500Ex.png?raw=true)
+![Example](https://github.com/jolav/handytabs/blob/master/_public/finance/sp500Ex.png?raw=true)
+
+<hr>
+
+## ![logo](https://github.com/jolav/handytabs/blob/master/_public/games/tetris32.png?raw=true)  **TETRIS**
+
+version 0.2.3
+
+### **[PLAY NOW](https://handytabs.com/games/tetris/tetris.html)** the great "classic" game
+
 
 <hr>
 
@@ -21,4 +28,3 @@ Updates every 5 seg
 
 * Data provided for free by [IEX Trading](https://iextrading.com/developer)
 
-* Dmitry Shevkoplyas by SP500 Components JSON list [https://dimon.ca/snp500/](https://dimon.ca/snp500/)

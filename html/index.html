@@ -3,14 +3,10 @@
 
 <head>
 
-  <title>datasilo</title>
+  <title>HandyTabs</title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Open Source data projects. Stock market data. SP500 Real Time stocks." />
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/x-icon" href="/_public/icons/datasilo24.png">
+  <!--Head -->
+  <!--#include file="/_public/templates/head.html" -->
 
 </head>
 
@@ -19,28 +15,26 @@
   <header class="header">
     <h1 class="small centerText">
       <div>
-        <img class="verticalImage" src="/_public/icons/datasilo48.png" alt="ds">
-        <span> datasilo</span>
+        <img class="verticalImage" src="/_public/ht/handytabs48.png" alt="ht">
+        <span> HandyTabs</span>
       </div>
     </h1>
     <h1 class="big centerText">
-      <div>
-        <img class="verticalImage" src="/_public/icons/datasilo64.png" alt="ds">
-        <span> datasilo</span>
-      </div>
+      <img class="verticalImage" src="/_public/ht/handytabs64.png" alt="ht">
+      <span> HandyTabs</span>
     </h1>
     <div class="headerText centerText">
-      <span>Welcome to datasilo, a website with open source projects to share all kinds of data everywhere for everyone.</span>
+      <span>Welcome to handytabs website. Here you will find all types of open source handy tools</span>
     </div>
   </header>
 
   <section class="tools">
 
     <div class="tool service">
-      <a href="./sp500/sp500.html">
+      <a href="/finance/sp500/sp500.html">
         <div class="toolTile">
           <div class="title centerText">
-            <img class="verticalImage" src="/_public/sp500/stock32.png" alt="stock">
+            <img class="verticalImage" src="/_public/finance/stock32.png" alt="stock">
             <strong>SP 500</strong>
           </div>
           <p>
@@ -50,26 +44,55 @@
       </a>
     </div>
 
+    <div class="tool service">
+      <a href="#">
+        <div class="toolTile">
+          <div class="title centerText">
+            <img class="verticalImage" src="/_public/finance/currency32.png">
+            <strong>Currency Converter</strong>
+          </div>
+          <p>
+            Coming soon ...
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="tool service">
+      <a href="/games/tetris/tetris.html">
+        <div class="toolTile">
+          <div class="title centerText">
+            <img class="verticalImage" src="/_public/games/tetris32.png">
+            <strong>Tetris</strong>
+          </div>
+          <p>
+            Coming soon ... The great classic game. Play now.
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="tool thirdParty">
+      <a href="https://codetabs.com">
+        <div class="toolTile">
+          <div class="title centerText">
+            <img class="verticalImage" src="/_public/icons/ct32r.png">
+            <strong>CodeTabs</strong>
+          </div>
+          <p>
+            Open source online tools about development. Graphical Github Star History, Online Count Lines of Code, CORS Proxy server,
+            Geolocation IP server, Alexa Ranking, snippets ...
+          </p>
+        </div>
+      </a>
+    </div>
+
   </section>
 
   <br>
 
-  <footer class="footer">
-    <hr>
-    <a href=mailto:web@datasilo.org>
-      <strong>Contact us</strong>
-    </a>
-    <br>
-    <small>
-      <span>You can submit your questions, feedbacks, and feature requests by email. We are looking forward to hearing from you!</span>
-      <br>
-      <img class="logo" style="max-height:24px; vertical-align:middle" alt="" src="/_public/icons/jolav32.png">
-      <strong> Jolav &copy; 2018 -
-        <a href="https://github.com/jolav/datasilo">View on GitHub</a>
-      </strong>
-    </small>
-  </footer>
-  <br>
+  <!-- Footer -->
+  <!--#include file="/_public/templates/footer.html" -->
 
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="./index.css">
@@ -78,6 +101,9 @@
   <!--#include file="/_public/templates/analyticstracking.html" -->
   <!-- cookie Law -->
   <!--#include file="/_public/templates/cookieLaw.html" -->
+
+  <!-- Rambla + Varela  -->
+  <link href="https://fonts.googleapis.com/css?family=Varela|Rambla:400,700" rel="stylesheet">
 
 </body>
 
