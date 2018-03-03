@@ -87,7 +87,7 @@ body {
   -ms-user-select: none;
   /* IE 10+ */
   user-select: none;
-  background: #eee url('/_public/images/back.png') no-repeat fixed center;
+  background: #eee url('assets/back.png') no-repeat fixed center;
   background-size: cover;
   /*height: 100vh;*/
 }
@@ -150,7 +150,7 @@ h1 span {
 }
 
 .tool:hover {
-  border: 3px solid orange;
+  border: 3px solid #2e87ab;
   /*transform: scale(1.05);*/
 }
 
@@ -197,10 +197,47 @@ a {
   text-align: center;
 }
 
-/* HR */
+/* FOOTER */
+
+.footer {
+  font-family: "arial", sans-serif;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+.contactUs {
+  line-height: 1.3em;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0 auto;
+  min-height: 98%;
+  padding-bottom: 6rem;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
 
 hr {
-  margin: 10px 10% 10px 10%;
+  margin: 5px auto;
+  width: 50%;
   border: 0;
   height: 1px;
   background: #333;

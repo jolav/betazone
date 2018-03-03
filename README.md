@@ -1,25 +1,28 @@
-# HANDYTABS
+![Maintained YES](https://img.shields.io/badge/Maintained%3F-yes-green.svg)  
+![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)  
 
-## ![logo](https://github.com/jolav/handytabs/blob/master/_public/finance/stock32.png?raw=true)  **STANDARD & POORS 500**
+# [BETAZONE](https://jolav.me/betazone)
+
+## ![logo](https://github.com/jolav/betazone/blob/master/finance/sp500/client/assets/stock32.png?raw=true)  **STANDARD & POORS 500**
 
 
-version 0.1.10
+version 0.1.11
 
-### **[DEMO online](https://handytabs.com/finance/sp500/sp500.html)**
+### **[SP500 demo online](https://jolav.me/betazone/finance/sp500/sp500.html)**
 
 Stock values real time.
 
 Updates every 5 seg
 
-![Example](https://github.com/jolav/handytabs/blob/master/_public/finance/sp500Ex.png?raw=true)
+![Example](https://github.com/jolav/betazone/blob/master/html/assets/sp500Ex.png?raw=true)
 
 <hr>
 
-## ![logo](https://github.com/jolav/handytabs/blob/master/_public/games/tetris32.png?raw=true)  **TETRIS**
+## ![logo](https://github.com/jolav/betazone/blob/master/games/tetris/client/assets/tetris32.png?raw=true)  **TETRIS**
 
-version 0.2.3
+version 0.2.4
 
-### **[PLAY NOW](https://handytabs.com/games/tetris/tetris.html)** the great "classic" game
+### **[TETRIS PLAY NOW](https://jolav.me/betazone/games/tetris/tetris.html)** the great "classic" game
 
 
 <hr>
