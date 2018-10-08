@@ -1,4 +1,4 @@
-![Maintained YES](https://img.shields.io/badge/Maintained%3F-yes-green.svg)  
+![Maintained YES](https://img.shields.io/badge/maintained-NO-red.svg)  
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)  
 
 # [BETAZONE](https://jolav.me/betazone)
