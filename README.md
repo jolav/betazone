@@ -1,4 +1,4 @@
-![Maintained YES](https://img.shields.io/badge/maintained-NO-red.svg)  
+![Maintained YES](https://img.shields.io/badge/maintained-YES-green.svg)  
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)  
 
 # [BETAZONE](https://jolav.me/betazone)
@@ -12,7 +12,7 @@ version 0.1.11
 
 Stock values real time.
 
-Updates every 5 seg
+Updates every 1 seg
 
 ![Example](https://github.com/jolav/betazone/blob/master/html/assets/sp500Ex.png?raw=true)
 

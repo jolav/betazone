@@ -1,8 +1,8 @@
 /* global bl */
 
 const tetris = (function () {
-  const urlBase = 'https://tetris-jolav.glitch.me/';
-  // const urlBase = 'http://localhost:3000/'
+  const urlBase = 'https://api.jolav.me/tetris';
+  //const urlBase = 'http://localhost:3000/tetris';
   let canvas = document.getElementById('lienzo');
   let ctx = canvas.getContext('2d');
   let canvas2 = document.getElementById('lienzo2');
@@ -32,7 +32,7 @@ const tetris = (function () {
   let highscore = [];
   let player = '___';
 
-  function init () {
+  function init() {
     console.log('Init Tetris', canvas.width, canvas.height);
     addActionEvents();
     document.getElementById('lienzo').style.backgroundColor = '#cfcfcf';
@@ -43,7 +43,7 @@ const tetris = (function () {
     getHighScores();
   }
 
-  function start () {
+  function start() {
     game = true;
     completed = 0;
     used = 0;
@@ -59,7 +59,7 @@ const tetris = (function () {
     gameLoop();
   }
 
-  function gameLoop () {
+  function gameLoop() {
     loop = setInterval(function () {
       if (running) {
         update('down');
@@ -68,7 +68,7 @@ const tetris = (function () {
     }, 1000 / fps);
   }
 
-  function update (dir) {
+  function update(dir) {
     if (canPieceMove(dir)) {
       erasePiece();
       movePiece(dir);
@@ -109,7 +109,7 @@ const tetris = (function () {
     }
   }
 
-  function checkHighScore () {
+  function checkHighScore() {
     var pos = 4;
     for (let i = highscore.length - 1; i >= 0; i--) {
       if (score > highscore[i].score) {
@@ -127,7 +127,7 @@ const tetris = (function () {
         highscore[i].text = player + ' ' + score;
       }
     }
-    let urlData = urlBase + `hs`; // ?player=${player}&score=${score}`
+    let urlData = urlBase + `/hs`; // ?player=${player}&score=${score}`
     let dataJSON = [];
     for (let i = 0; i < highscore.length; i++) {
       var aux = {};
@@ -136,15 +136,18 @@ const tetris = (function () {
       dataJSON.push(aux);
     }
     let param = JSON.stringify(dataJSON);
+    //console.log('REQUEST => ', urlData);
+    //console.log('POST PARAM =>', param);
     makeAjaxRequest(urlData, 'POST', getHighScores, param);
   }
 
-  function getHighScores () {
-    let urlData = urlBase + 'hs/';
+  function getHighScores() {
+    let urlData = urlBase + '/hs';
+    //console.log('REQUEST => ', urlData);
     makeAjaxRequest(urlData, 'GET', setHighScores, null);
   }
 
-  function setHighScores (data) {
+  function setHighScores(data) {
     for (let i = 0; i < data.length; i++) {
       let aux = {};
       aux.player = data[i].player;
@@ -155,7 +158,7 @@ const tetris = (function () {
     }
   }
 
-  function pause () {
+  function pause() {
     if (game) {
       if (running) {
         window.removeEventListener('keydown', actionKey);
@@ -166,7 +169,7 @@ const tetris = (function () {
     }
   }
 
-  function canPieceMove (dir) {
+  function canPieceMove(dir) {
     let down = 0;
     let side = 0;
     if (dir === 'down') { down = 1; }
@@ -199,7 +202,7 @@ const tetris = (function () {
     return true;
   }
 
-  function movePiece (dir) {
+  function movePiece(dir) {
     let down = 0;
     let side = 0;
     if (dir === 'down') { down = 1; }
@@ -222,7 +225,7 @@ const tetris = (function () {
     if (dir === 'right') { pos.x++; }
   }
 
-  function addPieceToBoard () {
+  function addPieceToBoard() {
     for (let y = pos.y; y < pos.y + 4; y++) {
       for (let x = pos.x; x < pos.x + 4; x++) {
         if (bl.figs[actual][pos.rot][y - pos.y][x - pos.x] !== 0) {
@@ -239,7 +242,7 @@ const tetris = (function () {
     }
   }
 
-  function rotatePiece () {
+  function rotatePiece() {
     erasePiece();
     let aux = pos.rot;
     if (pos.rot === 3) {
@@ -253,7 +256,7 @@ const tetris = (function () {
     drawPiece();
   }
 
-  function checkCompleteRows () {
+  function checkCompleteRows() {
     let rowsToDelete = [];
     let isComplete;
     for (let y = 0; y < rows; y++) {
@@ -275,14 +278,14 @@ const tetris = (function () {
     }
   }
 
-  function deleteRow (rowToDelete) {
+  function deleteRow(rowToDelete) {
     for (let y = rowToDelete; y > 0; y--) {
       board[y] = board[y - 1];
     }
     board[0] = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]; // this fix bug
   }
 
-  function render () {
+  function render() {
     document.getElementById('lienzo').style.backgroundColor = '#cfcfcf';
     score += fps;
     document.getElementById('score').innerText = score;
@@ -292,7 +295,7 @@ const tetris = (function () {
     drawPiece();
   }
 
-  function erasePiece () {
+  function erasePiece() {
     for (let y = pos.y; y < pos.y + 4; y++) {
       for (let x = pos.x; x < pos.x + 4; x++) {
         if (bl.figs[actual][pos.rot][y - pos.y][x - pos.x] !== 0) {
@@ -304,7 +307,7 @@ const tetris = (function () {
     }
   }
 
-  function drawPiece () {
+  function drawPiece() {
     for (let y = pos.y; y < pos.y + 4; y++) {
       for (let x = pos.x; x < pos.x + 4; x++) {
         if (bl.figs[actual][pos.rot][y - pos.y][x - pos.x] !== 0) {
@@ -316,7 +319,7 @@ const tetris = (function () {
     }
   }
 
-  function drawBoard () {
+  function drawBoard() {
     for (let y = 0; y < rows; y++) {
       for (let x = 0; x < cols; x++) {
         ctx.beginPath();
@@ -332,7 +335,7 @@ const tetris = (function () {
     ctx.stroke();
   }
 
-  function drawNextBoard () {
+  function drawNextBoard() {
     // board
     for (let y = 0; y < 4; y++) {
       for (let x = 0; x < 4; x++) {
@@ -353,14 +356,14 @@ const tetris = (function () {
     }
   }
 
-  function drawBorderMyCanvas () {
+  function drawBorderMyCanvas() {
     ctx.rect(0, 0, canvas.width, canvas.height);
     ctx.lineWidth = 1;
     ctx.strokeStyle = '#cfcfcf';
     ctx.stroke();
   }
 
-  function setControlsStatus () {
+  function setControlsStatus() {
     if (game) {
       if (running) {
         document.getElementById('0').style.backgroundColor = 'burlywood';
@@ -381,15 +384,15 @@ const tetris = (function () {
     }
   }
 
-  function addActionEvents () {
+  function addActionEvents() {
     const aux = document.getElementsByClassName('action');
     for (let i = 0; i < aux.length; i++) {
       aux[i].addEventListener('click', actionsMenu);
     }
-  // window.addEventListener('keydown', actionKey)
+    // window.addEventListener('keydown', actionKey)
   }
 
-  function actionKey (e) {
+  function actionKey(e) {
     let key = String.fromCharCode(e.keyCode);
     // console.log(key)
     switch (key) {
@@ -418,11 +421,11 @@ const tetris = (function () {
         // console.log('Left...')
         break;
       default:
-    // console.log(e.target.id, ' -- Not recognized event')
+      // console.log(e.target.id, ' -- Not recognized event')
     }
   }
 
-  function actionsMenu (e) {
+  function actionsMenu(e) {
     switch (parseInt(e.target.id)) {
       case 0:
         start();
@@ -431,26 +434,26 @@ const tetris = (function () {
         pause();
         break;
       default:
-    // console.log(e.target.id, ' -- Not recognized event')
+      // console.log(e.target.id, ' -- Not recognized event')
     }
     setControlsStatus();
   }
 
-  function initBoard () { // [22][10] 
+  function initBoard() { // [22][10] 
     for (let y = 0; y < rows; y++) {
       board[y] = [];
       for (let x = 0; x < cols; x++) {
         board[y][x] = 0; // getRandomNumber(1, bl.colors.length)
       }
     }
-  // console.log('create board...', board.length, board[0].length)
+    // console.log('create board...', board.length, board[0].length)
   }
 
-  function getRandomNumber (min, max) {
+  function getRandomNumber(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
-  function makeAjaxRequest (url, action, callback, params) {
+  function makeAjaxRequest(url, action, callback, params) {
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) { // 4 = "DONE"
@@ -469,7 +472,7 @@ const tetris = (function () {
     if (action === 'GET') {
       xhr.send();
     } else if (action !== 'GET') {
-      xhr.setRequestHeader('Content-Type', 'application/json');
+      //xhr.setRequestHeader('Content-Type', 'application/json');
       xhr.send(params);
     }
   }

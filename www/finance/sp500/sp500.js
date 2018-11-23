@@ -2,20 +2,20 @@
 const app = (function () {
   'use strict';
 
-  // const list = 'http://localhost:3000/tick/'
-  const list = 'https://sp500-real-time.glitch.me/tick/';
+  const urlBase = 'https://api.jolav.me/sp500/tick';
+  //const urlBase = 'http://localhost:3000/sp500/tick';
 
   let datas;
 
-  function init () {
+  function init() {
     console.log('Init sp500');
-    getAjaxData(list, showData);
+    getAjaxData(urlBase, showData);
     setInterval(function () {
-      getAjaxData(list, showData);
-    }, 5000);
+      getAjaxData(urlBase, showData);
+    }, 1000);
   }
 
-  function showData (data) {
+  function showData(data) {
     datas = Object.values(data);
     console.log(datas);
     let res = '';
@@ -42,7 +42,7 @@ const app = (function () {
     document.getElementById('data').innerHTML = res;
   }
 
-  function getAjaxData (urlData, callback) {
+  function getAjaxData(urlData, callback) {
     const xhr = new XMLHttpRequest();
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) { // 4 = "DONE"
