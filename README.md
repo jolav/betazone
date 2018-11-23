@@ -1,9 +1,11 @@
 ![Maintained YES](https://img.shields.io/badge/maintained-YES-green.svg)  
 ![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)  
 
-# [BETAZONE](https://jolav.me/betazone)
+# [BETAZONE](https://jolav.me/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  
 
-## ![logo](https://github.com/jolav/betazone/blob/master/finance/sp500/client/assets/stock32.png?raw=true)  **STANDARD & POORS 500**
+## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/stock32.png?raw=true)
+
+ **STANDARD & POORS 500**
 
 
 version 0.1.11
@@ -14,11 +16,11 @@ Stock values real time.
 
 Updates every 1 seg
 
-![Example](https://github.com/jolav/betazone/blob/master/html/assets/sp500Ex.png?raw=true)
+![Example](https://github.com/jolav/betazone/blob/master/www/assets/sp500Ex.png?raw=true)
 
 <hr>
 
-## ![logo](https://github.com/jolav/betazone/blob/master/games/tetris/client/assets/tetris32.png?raw=true)  **TETRIS**
+## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/tetris32.png?raw=true)  **TETRIS**
 
 version 0.2.4
 
