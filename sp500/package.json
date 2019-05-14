@@ -1,0 +1,23 @@
+{
+  "name": "sp500",
+  "version": "0.1.11",
+  "description": "betazone finance sp500 stock real time data",
+  "main": "sp.js",
+  "keywords": [],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jolav/betazone.git"
+  },
+  "author": "jolav",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jolav/betazone/issues"
+  },
+  "homepage": "https://github.com/jolav/betazone#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

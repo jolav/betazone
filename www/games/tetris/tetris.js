@@ -2,7 +2,7 @@
 
 const tetris = (function () {
   const urlBase = 'https://api.jolav.me/tetris';
-  //const urlBase = 'http://localhost:3000/tetris';
+  //const urlBase = 'http://localhost:3000/tetris/';
   let canvas = document.getElementById('lienzo');
   let ctx = canvas.getContext('2d');
   let canvas2 = document.getElementById('lienzo2');

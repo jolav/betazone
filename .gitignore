@@ -1,6 +1,7 @@
 #Ignore these directories
 _aux/
 logs/
+node_modules/
 tmp/
 
 #Ignore these files
@@ -8,8 +9,7 @@ tmp/
 .DS_Store
 _private.js
 _private.json
-a_private.go
 tetris.json
-error.log
+
 
 
