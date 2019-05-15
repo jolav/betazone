@@ -2,8 +2,8 @@
 const app = (function () {
   'use strict';
 
-  const urlBase = 'https://api.jolav.me/sp500/tick';
-  //const urlBase = 'http://localhost:3000/sp500/tick';
+  const urlBase = 'https://api.jolav.me/sp500/tick/';
+  //const urlBase = 'http://localhost:3000/sp500/tick/';
 
   let datas;
 
