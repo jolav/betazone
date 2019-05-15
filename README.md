@@ -17,7 +17,7 @@ Updates every 1 seg
 
 <hr>
 
-## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/gif48.png?raw=true)  
+## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/gif32.png?raw=true)  
 # **VIDEO2GIF**
 
 version 0.1.1

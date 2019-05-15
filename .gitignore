@@ -1,29 +1,19 @@
 #Ignore these directories
 _aux/
 logs/
+node_modules/
 tmp/
-video2gif/temp/
+video2gif/tmp/
 
 #Ignore these files
 .env
 .DS_Store
 _private.js
 _private.json
-a_private.go
 tetris.json
 
-# Ignore these files
-.env
-.DS_Store
-_private.js
-_private.json
-a_private.go
-errors.log
-hits.log
 
-# binaries
-betazone
-betazone-*
+
 
 
 

@@ -1,0 +1,39 @@
+/* */
+
+const express = require('express');
+const app = express();
+
+const path = require('path');
+
+const c = require(path.join(__dirname, '_config.js'));
+
+const sp500 = require(path.join(__dirname, './sp500/sp.js'));
+const tetris = require(path.join(__dirname, './tetris/tetris.js'));
+const video2gif = require(path.join(__dirname, './video2gif/video2gif.js'));
+
+if (c.app.mode === 'dev') {
+  c.app.port = 3000;
+}
+
+app.disable('x-powered-by');
+
+app.use(function (req, res, next) {
+  //console.log("REQUEST =>", req.path);
+  next();
+});
+
+app.use('/sp500', sp500);
+app.use('/tetris', tetris);
+app.use("/video2gif", video2gif);
+
+app.get('/*', function (req, res) {
+  c.error.Error = "404 Not found";
+  res.status(404).json(c.error);
+});
+
+app.listen(c.app.port, function () {
+  const time = new Date().toUTCString().split(',')[1];
+  console.log('Express server on port ' + c.app.port + ' - ' + time);
+});
+
+module.exports = app; 
