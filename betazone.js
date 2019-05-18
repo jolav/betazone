@@ -18,7 +18,10 @@ if (c.app.mode === 'dev') {
 app.disable('x-powered-by');
 
 app.use(function (req, res, next) {
-  //console.log("REQUEST =>", req.path);
+  // CORS better in nginx
+  //res.header('Access-Control-Allow-Origin', '*');//req.headers.origin);
+  //res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+  //res.header('Access-Control-Allow-Credentials', true);
   next();
 });
 
@@ -27,8 +30,7 @@ app.use('/tetris', tetris);
 app.use("/video2gif", video2gif);
 
 app.get('/*', function (req, res) {
-  c.error.Error = "404 Not found";
-  res.status(404).json(c.error);
+  res.status(404).json("404 Not found");
 });
 
 app.listen(c.app.port, function () {

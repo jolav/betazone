@@ -11,15 +11,10 @@ const bodyparser = require('body-parser');
 
 const c = require(path.join(__dirname, '_config.js'));
 
-app.disable('x-powered-by');
 app.use(bodyparser.json());
 app.use(bodyparser.urlencoded({
   extended: true
 }));
-
-app.use(function (req, res, next) {
-  next();
-});
 
 app.post('/*', function (req, res) {
   c.video2gif.counter++;
@@ -29,8 +24,7 @@ app.post('/*', function (req, res) {
 });
 
 app.get('/*', function (req, res) {
-  c.error.Error = "Bad request : " + req.path;
-  res.status(400).json(c.error);
+  res.status(400).json("Bad request : " + req.path);
 });
 
 async function doVideo2GifRequest(req, res, folder) {

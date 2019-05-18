@@ -2,12 +2,14 @@
 
 const path = require('path');
 
-const c = require(path.join(__dirname, '_config.js'));
+const c = require(path.join(__dirname, '../_config.js'));
+const d = require(path.join(__dirname, '_config.js'));
 const lib = require(path.join(__dirname, 'lib.js'));
 
 let stocks = {};
 let symbolList = [];
 let returnData = {};
+const updateInterval = 2000;
 
 async function initApp() {
   try {
@@ -28,7 +30,7 @@ async function initApp() {
 
 function loadstocks() {
   return new Promise((resolve, reject) => {
-    lib.loadJSONfile(c.app.templateFile, function (data) {
+    lib.loadJSONfile(d.sp.templateFile, function (data) {
       let result = {};
       for (let key in data) {
         result[key] = data[key];
@@ -40,7 +42,7 @@ function loadstocks() {
 
 function getSymbolList() {
   return new Promise((resolve, reject) => {
-    lib.loadJSONfile(c.app.sp500ListFile, function (sp500list) {
+    lib.loadJSONfile(d.sp.sp500ListFile, function (sp500list) {
       //console.log('SYMBOL LIST => ', sp500list);
       for (let i = 0; i < sp500list.length; i++) {
         symbolList.push(sp500list[i].symbol);
@@ -67,7 +69,7 @@ function createStocks() {
     for (let index = i; index < i + 100; index++) {
       if (symbolList[index]) list += ',' + symbolList[index];
     }
-    links.push(c.app.getInfo1 + list.substring(1) + c.app.getInfo2);
+    links.push(d.sp.getInfo1 + list.substring(1) + d.sp.getInfo2);
   }
   // do requests
   let requests = links.length;
@@ -93,7 +95,7 @@ function createStocks() {
             }
 
             if (cont === newDatas.length) {
-              lib.writeJSONtoFile(c.app.templateFile, stocks, function () {
+              lib.writeJSONtoFile(d.sp.templateFile, stocks, function () {
                 return;
               });
             }
@@ -108,9 +110,9 @@ function initUpdateIntervals() {
   //console.log('initUpdateIntervals')
   setInterval(function () {
     //console.log('UPDATE TICK');
-    //console.log(c.app.getLast + symbolList);
-    lib.makeHttpsRequest(c.app.getLast + symbolList, updateData);
-  }, 5000);
+    //console.log(d.sp.getLast + symbolList);
+    lib.makeHttpsRequest(d.sp.getLast + symbolList, updateData);
+  }, updateInterval);
 }
 
 function updateData(err, res, lastData) {
@@ -146,7 +148,8 @@ function onceADayTask() {
   const msToTask = target.getTime() - now.getTime();
 
   setTimeout(function () {
-    getSymbolList();
+    //getSymbolList();
+    createStocks();
     onceADayTask();
   }, msToTask);
 }

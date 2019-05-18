@@ -1,6 +1,6 @@
 /* */
 
-const app = {
+const sp = {
   "sp500ListFile": __dirname + '/data/symbolList.json',
   "templateFile": __dirname + '/data/symbolData.json',
   "getInfo1": 'https://api.iextrading.com/1.0/stock/market/batch?symbols=',
@@ -10,6 +10,5 @@ const app = {
 };
 
 module.exports = {
-  app: app
+  sp: sp
 };
-

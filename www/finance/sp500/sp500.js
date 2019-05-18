@@ -17,7 +17,7 @@ const app = (function () {
 
   function showData(data) {
     datas = Object.values(data);
-    console.log(datas);
+    //console.log(datas[0]);
     let res = '';
     for (let i = 0; i < datas.length; i++) {
       // let fecha = new Date(datas[i].time * 1e3).toISOString().slice(-13, -5)

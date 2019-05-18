@@ -1,6 +1,6 @@
 {
   "name": "betazone",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "betazone",
   "main": "betazone.js",
   "keywords": [],
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/jolav/betazone#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.0",
     "formidable": "^1.2.1"
   }
 }

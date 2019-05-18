@@ -3,9 +3,9 @@
 
 # [BETAZONE](https://jolav.me/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  
 
-## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/stock32.png?raw=true) **STANDARD & POORS 500 REAL TIME**
+version 0.3.1
 
-version 0.1.11
+## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/stock32.png?raw=true) **STANDARD & POORS 500 REAL TIME**
 
 ### **[SP500 demo online](https://jolav.me/betazone/finance/sp500/sp500.html)**
 
@@ -19,8 +19,6 @@ Updates every 1 seg
 
 ## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/gif32.png?raw=true)  
 # **VIDEO2GIF**
-
-version 0.1.1
 
 ### **[Video2Gif Converter online](https://jolav.me/betazone/media/video2gif/video-to-gif.html)**
 
@@ -49,8 +47,6 @@ Scale : Set width:height , if one parameter is -1 it will automatically determin
 
 
 ## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/tetris32.png?raw=true)  **TETRIS**
-
-version 0.2.4
 
 ### **[TETRIS PLAY NOW](https://jolav.me/betazone/games/tetris/tetris.html)** the great "classic" game
 
