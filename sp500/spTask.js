@@ -22,7 +22,7 @@ async function initApp() {
       stocks = await loadstocks();
     }
   } catch (error) {
-    console.log('FAIL', error);
+    console.error('FAIL', error);
   }
   onceADayTask();
   initUpdateIntervals();
@@ -117,7 +117,7 @@ function initUpdateIntervals() {
 
 function updateData(err, res, lastData) {
   if (err) {
-    console.log(err);
+    console.error(err);
     return;
   }
   //console.log(lastData);

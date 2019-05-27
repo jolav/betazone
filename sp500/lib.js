@@ -2,12 +2,12 @@
 const https = require('https');
 const fs = require('fs');
 
-function sendResult (req, res, data, status) {
+function sendResult(req, res, data, status) {
   res.setHeader('Content-Type', 'application/json');
   res.status(status).send(JSON.stringify(data, null, 3));
 }
 
-function makeHttpsRequest (path, callback) {
+function makeHttpsRequest(path, callback) {
   https.get(path, (res) => {
     res.setEncoding('utf8');
     var body = '';
@@ -31,22 +31,22 @@ function makeHttpsRequest (path, callback) {
   });
 }
 
-function loadJSONfile (filePath, callback) {
+function loadJSONfile(filePath, callback) {
   fs.readFile(filePath, 'utf8', (err, data) => {
     if (err) {
-      console.log(err);
+      console.error(err);
     } else {
       callback(JSON.parse(data));
     }
   });
 }
 
-function writeJSONtoFile (filePath, dataSet, callback) {
+function writeJSONtoFile(filePath, dataSet, callback) {
   const json = JSON.stringify(dataSet);
   fs.writeFile(filePath, json, 'utf8', callback);
 }
 
-function dynamicSort (property) {
+function dynamicSort(property) {
   var sortOrder = 1;
   if (property[0] === '-') {
     sortOrder = -1;
@@ -58,10 +58,10 @@ function dynamicSort (property) {
   };
 }
 
-function getIP (req) {
+function getIP(req) {
   return (req.headers['x-forwarded-for'] ||
-  req.connection.remoteAddress || req.socket.remoteAddress ||
-  req.connection.socket.remoteAddress).split(',')[0];
+    req.connection.remoteAddress || req.socket.remoteAddress ||
+    req.connection.socket.remoteAddress).split(',')[0];
 }
 
 module.exports = {

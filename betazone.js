@@ -35,7 +35,7 @@ app.get('/*', function (req, res) {
 
 app.listen(c.app.port, function () {
   const time = new Date().toUTCString().split(',')[1];
-  console.log('Express server on port ' + c.app.port + ' - ' + time);
+  console.error('Express server on port ' + c.app.port + ' - ' + time);
 });
 
 module.exports = app; 

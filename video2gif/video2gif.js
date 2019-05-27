@@ -34,7 +34,7 @@ async function doVideo2GifRequest(req, res, folder) {
   try {
     await doCommand(destroyTemporalFolder);
   } catch (err) {
-    //console.log('ERROR destroying folder ' + folder);
+    //console.error('ERROR destroying folder ' + folder);
   }
 
   try {
@@ -84,7 +84,7 @@ async function doVideo2GifRequest(req, res, folder) {
   try {
     await doCommand(destroyTemporalFolder);
   } catch (err) {
-    console.log('ERROR destroying folder ' + folder);
+    console.error('ERROR destroying folder ' + folder);
   }
 }
 
@@ -191,7 +191,7 @@ function uploadFile(req, folder) {
       const newpath = folder + "/" + filename;
       fs.rename(oldpath, newpath, function (err) {
         if (err) {
-          console.log('Error uploading file => ', err);
+          console.error('Error uploading file => ', err);
           resolve();
         }
         resolve(filename);
@@ -205,8 +205,8 @@ function doCommand(command) {
   return new Promise((resolve, reject) => {
     linuxCommand(command, function (err, res) {
       if (err) {
-        //console.log('Error doCommand => ', command);
-        //console.log(err);
+        //console.error('Error doCommand => ', command);
+        //console.error(err);
         //reject(res);
       }
       resolve(err);
@@ -225,7 +225,7 @@ function sendError(res, msg, status) {
 function linuxCommand(command, cb) {
   exec(command, function (err, stdout, stderr) {
     if (err) {
-      //console.log('Err => ', err);
+      //console.error('Err => ', err);
       cb(err, stderr);
     }
     if (stderr) {

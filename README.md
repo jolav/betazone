@@ -3,7 +3,7 @@
 
 # [BETAZONE](https://jolav.me/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  
 
-version 0.3.1
+version 0.3.2
 
 ## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/stock32.png?raw=true) **STANDARD & POORS 500 REAL TIME**
 
