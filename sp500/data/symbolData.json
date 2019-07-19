@@ -1,1 +1,4042 @@
-{"AAPL":{"symbol":"AAPL","companyName":"Apple Inc.","industry":"Computer Hardware","sector":"Technology","price":190.08,"last":190.08},"AMZN":{"symbol":"AMZN","companyName":"Amazon.com Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":1907.57,"last":1907.57},"MSFT":{"symbol":"MSFT","companyName":"Microsoft Corporation","industry":"Application Software","sector":"Technology","price":128.93,"last":128.93},"GOOGL":{"symbol":"GOOGL","companyName":"Alphabet Inc.","industry":"Online Media","sector":"Technology","price":1184.5,"last":1184.5},"GOOG":{"symbol":"GOOG","companyName":"Alphabet Inc.","industry":"Online Media","sector":"Technology","price":1178.98,"last":1178.98},"BRK.B":{"symbol":"BRK.B","companyName":"Berkshire Hathaway Inc.","industry":"Insurance","sector":"Financial Services","price":204.63,"last":204.63},"FB":{"symbol":"FB","companyName":"Facebook Inc.","industry":"Online Media","sector":"Technology","price":186.99,"last":186.99},"JPM":{"symbol":"JPM","companyName":"JP Morgan Chase & Co.","industry":"Banks","sector":"Financial Services","price":111.31,"last":111.31},"JNJ":{"symbol":"JNJ","companyName":"Johnson & Johnson","industry":"Drug Manufacturers","sector":"Healthcare","price":138.21,"last":138.21},"XOM":{"symbol":"XOM","companyName":"Exxon Mobil Corporation","industry":"Oil & Gas - Integrated","sector":"Energy","price":76.36,"last":76.36},"V":{"symbol":"V","companyName":"Visa Inc.","industry":"Credit Services","sector":"Financial Services","price":164.87,"last":164.87},"BAC":{"symbol":"BAC","companyName":"Bank of America Corporation","industry":"Banks","sector":"Financial Services","price":28.59,"last":28.59},"WMT":{"symbol":"WMT","companyName":"Walmart Inc.","industry":"Retail - Defensive","sector":"Consumer Defensive","price":101.31,"last":101.31},"PFE":{"symbol":"PFE","companyName":"Pfizer Inc.","industry":"Drug Manufacturers","sector":"Healthcare","price":41.64,"last":41.64},"UNH":{"symbol":"UNH","companyName":"UnitedHealth Group Incorporated (DE)","industry":"Health Care Plans","sector":"Healthcare","price":236.79,"last":236.79},"WFC":{"symbol":"WFC","companyName":"Wells Fargo & Company","industry":"Banks","sector":"Financial Services","price":45.9,"last":45.9},"T":{"symbol":"T","companyName":"AT&T Inc.","industry":"Communication Services","sector":"Communication Services","price":31.62,"last":31.62},"CVX":{"symbol":"CVX","companyName":"Chevron Corporation","industry":"Oil & Gas - Integrated","sector":"Energy","price":120.8,"last":120.8},"HD":{"symbol":"HD","companyName":"Home Depot Inc. (The)","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":192.38,"last":192.38},"MA":{"symbol":"MA","companyName":"Mastercard Incorporated","industry":"Credit Services","sector":"Financial Services","price":253.42,"last":253.42},"BA":{"symbol":"BA","companyName":"The Boeing Company","industry":"Aerospace & Defense","sector":"Industrials","price":353.81,"last":353.81},"INTC":{"symbol":"INTC","companyName":"Intel Corporation","industry":"Semiconductors","sector":"Technology","price":45.53,"last":45.53},"VZ":{"symbol":"VZ","companyName":"Verizon Communications Inc.","industry":"Communication Services","sector":"Communication Services","price":57.38,"last":57.38},"CSCO":{"symbol":"CSCO","companyName":"Cisco Systems Inc.","industry":"Communication Equipment","sector":"Technology","price":55.93,"last":55.93},"PG":{"symbol":"PG","companyName":"Procter & Gamble Company (The)","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":108.11,"last":108.11},"KO":{"symbol":"KO","companyName":"Coca-Cola Company (The)","industry":"Beverages - Non-Alcoholic","sector":"Consumer Defensive","price":49.58,"last":49.58},"MRK":{"symbol":"MRK","companyName":"Merck & Company Inc. (new)","industry":"Drug Manufacturers","sector":"Healthcare","price":79.13,"last":79.13},"ORCL":{"symbol":"ORCL","companyName":"Oracle Corporation","industry":"Application Software","sector":"Technology","price":54.64,"last":54.64},"C":{"symbol":"C","companyName":"Citigroup Inc.","industry":"Banks","sector":"Financial Services","price":65.98,"last":65.98},"DIS":{"symbol":"DIS","companyName":"The Walt Disney Company","industry":"Entertainment","sector":"Consumer Cyclical","price":135.5,"last":135.5},"NVDA":{"symbol":"NVDA","companyName":"NVIDIA Corporation","industry":"Semiconductors","sector":"Technology","price":160.19,"last":160.19},"NFLX":{"symbol":"NFLX","companyName":"Netflix Inc.","industry":"Entertainment","sector":"Consumer Cyclical","price":359.31,"last":359.31},"CMCSA":{"symbol":"CMCSA","companyName":"Comcast Corporation Class A Common Stock","industry":"Communication Services","sector":"Communication Services","price":43.19,"last":43.19},"PEP":{"symbol":"PEP","companyName":"PepsiCo Inc.","industry":"Beverages - Non-Alcoholic","sector":"Consumer Defensive","price":130.27,"last":130.27},"DWDP":{"symbol":"DWDP","companyName":"DowDuPont Inc.","industry":"Chemicals","sector":"Basic Materials","price":30.8,"last":30.8},"ABBV":{"symbol":"ABBV","companyName":"AbbVie Inc.","industry":"Drug Manufacturers","sector":"Healthcare","price":79.5,"last":79.5},"IBM":{"symbol":"IBM","companyName":"International Business Machines Corporation","industry":"Application Software","sector":"Technology","price":135.88,"last":135.88},"AMGN":{"symbol":"AMGN","companyName":"Amgen Inc.","industry":"Drug Manufacturers","sector":"Healthcare","price":169.92,"last":169.92},"NKE":{"symbol":"NKE","companyName":"Nike Inc.","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":84.28,"last":84.28},"MDT":{"symbol":"MDT","companyName":"Medtronic plc.","industry":"Medical Devices","sector":"Healthcare","price":88.11,"last":88.11},"ADBE":{"symbol":"ADBE","companyName":"Adobe Inc.","industry":"Application Software","sector":"Technology","price":283.55,"last":283.55},"PM":{"symbol":"PM","companyName":"Philip Morris International Inc","industry":"Tobacco Products","sector":"Consumer Defensive","price":85.51,"last":85.51},"MCD":{"symbol":"MCD","companyName":"McDonald's Corporation","industry":"Restaurants","sector":"Consumer Cyclical","price":199.99,"last":199.99},"MMM":{"symbol":"MMM","companyName":"3M Company","industry":"Industrial Products","sector":"Industrials","price":171.81,"last":171.81},"ABT":{"symbol":"ABT","companyName":"Abbott Laboratories","industry":"Medical Devices","sector":"Healthcare","price":76.6,"last":76.6},"HON":{"symbol":"HON","companyName":"Honeywell International Inc.","industry":"Industrial Products","sector":"Industrials","price":170.79,"last":170.79},"LLY":{"symbol":"LLY","companyName":"Eli Lilly and Company","industry":"Drug Manufacturers","sector":"Healthcare","price":116.73,"last":116.73},"UNP":{"symbol":"UNP","companyName":"Union Pacific Corporation","industry":"Transportation & Logistics","sector":"Industrials","price":175.63,"last":175.63},"CRM":{"symbol":"CRM","companyName":"Salesforce.com Inc","industry":"Application Software","sector":"Technology","price":158.48,"last":158.48},"MO":{"symbol":"MO","companyName":"Altria Group Inc.","industry":"Tobacco Products","sector":"Consumer Defensive","price":52.03,"last":52.03},"UTX":{"symbol":"UTX","companyName":"United Technologies Corporation","industry":"Aerospace & Defense","sector":"Industrials","price":135.25,"last":135.25},"ACN":{"symbol":"ACN","companyName":"Accenture plc Class A (Ireland)","industry":"","sector":"","price":178.17,"last":178.17},"GE":{"symbol":"GE","companyName":"General Electric Company","industry":"Industrial Products","sector":"Industrials","price":10.13,"last":10.13},"QCOM":{"symbol":"QCOM","companyName":"QUALCOMM Incorporated","industry":"Semiconductors","sector":"Technology","price":82.81,"last":82.81},"TXN":{"symbol":"TXN","companyName":"Texas Instruments Incorporated","industry":"Semiconductors","sector":"Technology","price":109.21,"last":109.21},"AVGO":{"symbol":"AVGO","companyName":"Broadcom Inc.","industry":"Semiconductors","sector":"Technology","price":297.29,"last":297.29},"PYPL":{"symbol":"PYPL","companyName":"PayPal Holdings Inc.","industry":"Credit Services","sector":"Financial Services","price":113.87,"last":113.87},"GILD":{"symbol":"GILD","companyName":"Gilead Sciences Inc.","industry":"Drug Manufacturers","sector":"Healthcare","price":65.78,"last":65.78},"BMY":{"symbol":"BMY","companyName":"Bristol-Myers Squibb Company","industry":"Drug Manufacturers","sector":"Healthcare","price":47.12,"last":47.12},"COST":{"symbol":"COST","companyName":"Costco Wholesale Corporation","industry":"Retail - Defensive","sector":"Consumer Defensive","price":247.44,"last":247.44},"UPS":{"symbol":"UPS","companyName":"United Parcel Service Inc.","industry":"Transportation & Logistics","sector":"Industrials","price":101.31,"last":101.31},"TMO":{"symbol":"TMO","companyName":"Thermo Fisher Scientific Inc","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":267.02,"last":267.02},"LMT":{"symbol":"LMT","companyName":"Lockheed Martin Corporation","industry":"Aerospace & Defense","sector":"Industrials","price":339.39,"last":339.39},"CAT":{"symbol":"CAT","companyName":"Caterpillar Inc.","industry":"Farm & Construction Machinery","sector":"Industrials","price":126.61,"last":126.61},"AXP":{"symbol":"AXP","companyName":"American Express Company","industry":"Credit Services","sector":"Financial Services","price":119.84,"last":119.84},"BKNG":{"symbol":"BKNG","companyName":"Booking Holdings Inc.","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":1803.31,"last":1803.31},"COP":{"symbol":"COP","companyName":"ConocoPhillips","industry":"Oil & Gas - E&P","sector":"Energy","price":62.57,"last":62.57},"LOW":{"symbol":"LOW","companyName":"Lowe's Companies Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":108.59,"last":108.59},"USB":{"symbol":"USB","companyName":"U.S. Bancorp","industry":"Banks","sector":"Financial Services","price":51.5,"last":51.5},"FOXA":{"symbol":"FOXA","companyName":"Fox Corporation","industry":"Entertainment","sector":"Consumer Cyclical","price":36.74,"last":36.74},"SLB":{"symbol":"SLB","companyName":"Schlumberger N.V.","industry":"Oil & Gas - Services","sector":"Energy","price":39.86,"last":39.86},"GS":{"symbol":"GS","companyName":"Goldman Sachs Group Inc. (The)","industry":"Brokers & Exchanges","sector":"Financial Services","price":199.14,"last":199.14},"FOX":{"symbol":"FOX","companyName":"Fox Corporation","industry":"Entertainment","sector":"Consumer Cyclical","price":36.32,"last":36.32},"MS":{"symbol":"MS","companyName":"Morgan Stanley","industry":"Brokers & Exchanges","sector":"Financial Services","price":44.28,"last":44.28},"CVS":{"symbol":"CVS","companyName":"CVS Health Corporation","industry":"Health Care Plans","sector":"Healthcare","price":52.3,"last":52.3},"NEE":{"symbol":"NEE","companyName":"NextEra Energy Inc.","industry":"Utilities - Regulated","sector":"Utilities","price":197.11,"last":197.11},"BLK":{"symbol":"BLK","companyName":"BlackRock Inc.","industry":"Asset Management","sector":"Financial Services","price":447.24,"last":447.24},"DHR":{"symbol":"DHR","companyName":"Danaher Corporation","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":132.27,"last":132.27},"EOG":{"symbol":"EOG","companyName":"EOG Resources Inc.","industry":"Oil & Gas - E&P","sector":"Energy","price":95.18,"last":95.18},"CHTR":{"symbol":"CHTR","companyName":"Charter Communications Inc.","industry":"Communication Services","sector":"Communication Services","price":382.19,"last":382.19},"SBUX":{"symbol":"SBUX","companyName":"Starbucks Corporation","industry":"Restaurants","sector":"Consumer Cyclical","price":78.9,"last":78.9},"WBA":{"symbol":"WBA","companyName":"Walgreens Boots Alliance Inc.","industry":"Retail - Defensive","sector":"Consumer Defensive","price":52.5,"last":52.5},"ANTM":{"symbol":"ANTM","companyName":"Anthem Inc.","industry":"Health Care Plans","sector":"Healthcare","price":263.82,"last":263.82},"BIIB":{"symbol":"BIIB","companyName":"Biogen Inc.","industry":"Drug Manufacturers","sector":"Healthcare","price":230.87,"last":230.87},"BDX":{"symbol":"BDX","companyName":"Becton Dickinson and Company","industry":"Medical Instruments & Equipment","sector":"Healthcare","price":225.93,"last":225.93},"SCHW":{"symbol":"SCHW","companyName":"Charles Schwab Corporation (The)","industry":"Brokers & Exchanges","sector":"Financial Services","price":43.74,"last":43.74},"TJX":{"symbol":"TJX","companyName":"TJX Companies Inc. (The)","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":52.69,"last":52.69},"KHC":{"symbol":"KHC","companyName":"The Kraft Heinz Company","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":32.46,"last":32.46},"AET":{"symbol":"AET","companyName":"Aetna Inc.","industry":"Health Care Plans","sector":"Healthcare","price":212.7,"last":212.7},"ADP":{"symbol":"ADP","companyName":"Automatic Data Processing Inc.","industry":"Business Services","sector":"Industrials","price":161.53,"last":161.53},"AGN":{"symbol":"AGN","companyName":"Allergan plc","industry":"","sector":"","price":140.04,"last":140.04},"SYK":{"symbol":"SYK","companyName":"Stryker Corporation","industry":"Medical Devices","sector":"Healthcare","price":185.63,"last":185.63},"CSX":{"symbol":"CSX","companyName":"CSX Corporation","industry":"Transportation & Logistics","sector":"Industrials","price":78.22,"last":78.22},"CELG":{"symbol":"CELG","companyName":"Celgene Corporation","industry":"Drug Manufacturers","sector":"Healthcare","price":95.51,"last":95.51},"PNC":{"symbol":"PNC","companyName":"PNC Financial Services Group Inc. (The)","industry":"Banks","sector":"Financial Services","price":131.1,"last":131.1},"ISRG":{"symbol":"ISRG","companyName":"Intuitive Surgical Inc.","industry":"Medical Instruments & Equipment","sector":"Healthcare","price":491.73,"last":491.73},"FDX":{"symbol":"FDX","companyName":"FedEx Corporation","industry":"Transportation & Logistics","sector":"Industrials","price":175.77,"last":175.77},"AMT":{"symbol":"AMT","companyName":"American Tower Corporation (REIT)","industry":"Communication Services","sector":"Communication Services","price":202.02,"last":202.02},"OXY":{"symbol":"OXY","companyName":"Occidental Petroleum Corporation","industry":"Oil & Gas - E&P","sector":"Energy","price":53.75,"last":53.75},"ATVI":{"symbol":"ATVI","companyName":"Activision Blizzard Inc","industry":"Application Software","sector":"Technology","price":47.29,"last":47.29},"MDLZ":{"symbol":"MDLZ","companyName":"Mondelez International Inc.","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":52.8,"last":52.8},"CB":{"symbol":"CB","companyName":"Chubb Limited","industry":"Insurance - Property & Casualty","sector":"Financial Services","price":145.62,"last":145.62},"GD":{"symbol":"GD","companyName":"General Dynamics Corporation","industry":"Aerospace & Defense","sector":"Industrials","price":169.85,"last":169.85},"CME":{"symbol":"CME","companyName":"CME Group Inc.","industry":"Brokers & Exchanges","sector":"Financial Services","price":182.79,"last":182.79},"INTU":{"symbol":"INTU","companyName":"Intuit Inc.","industry":"Application Software","sector":"Technology","price":247.55,"last":247.55},"RTN":{"symbol":"RTN","companyName":"Raytheon Company","industry":"Aerospace & Defense","sector":"Industrials","price":179.44,"last":179.44},"CL":{"symbol":"CL","companyName":"Colgate-Palmolive Company","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":72.5,"last":72.5},"DUK":{"symbol":"DUK","companyName":"Duke Energy Corporation (Holding Company)","industry":"Utilities - Regulated","sector":"Utilities","price":86.24,"last":86.24},"NOC":{"symbol":"NOC","companyName":"Northrop Grumman Corporation","industry":"Aerospace & Defense","sector":"Industrials","price":304.71,"last":304.71},"PSX":{"symbol":"PSX","companyName":"Phillips 66","industry":"Oil & Gas - Refining & Marketing","sector":"Energy","price":88.3,"last":88.3},"ESRX":{"symbol":"ESRX","companyName":"Express Scripts Holding Company","industry":"Health Care Plans","sector":"Healthcare","price":92.33,"last":92.33},"SPG":{"symbol":"SPG","companyName":"Simon Property Group Inc.","industry":"REITs","sector":"Real Estate","price":175.31,"last":175.31},"BSX":{"symbol":"BSX","companyName":"Boston Scientific Corporation","industry":"Medical Devices","sector":"Healthcare","price":37.62,"last":37.62},"ILMN":{"symbol":"ILMN","companyName":"Illumina Inc.","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":309.85,"last":309.85},"EL":{"symbol":"EL","companyName":"Estee Lauder Companies Inc. (The)","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":170.7,"last":170.7},"BK":{"symbol":"BK","companyName":"Bank of New York Mellon Corporation (The)","industry":"Asset Management","sector":"Financial Services","price":46.54,"last":46.54},"MU":{"symbol":"MU","companyName":"Micron Technology Inc.","industry":"Semiconductors","sector":"Technology","price":37.31,"last":37.31},"CI":{"symbol":"CI","companyName":"Cigna Corporation","industry":"Health Care Plans","sector":"Healthcare","price":153.79,"last":153.79},"VLO":{"symbol":"VLO","companyName":"Valero Energy Corporation","industry":"Oil & Gas - Refining & Marketing","sector":"Energy","price":85.47,"last":85.47},"NSC":{"symbol":"NSC","companyName":"Norfolk Southern Corporation","industry":"Transportation & Logistics","sector":"Industrials","price":205.22,"last":205.22},"DE":{"symbol":"DE","companyName":"Deere & Company","industry":"Farm & Construction Machinery","sector":"Industrials","price":145.99,"last":145.99},"EMR":{"symbol":"EMR","companyName":"Emerson Electric Company","industry":"Industrial Products","sector":"Industrials","price":65.66,"last":65.66},"SPGI":{"symbol":"SPGI","companyName":"S&P Global Inc.","industry":"Brokers & Exchanges","sector":"Financial Services","price":215.29,"last":215.29},"VRTX":{"symbol":"VRTX","companyName":"Vertex Pharmaceuticals Incorporated","industry":"Biotechnology","sector":"Healthcare","price":170.23,"last":170.23},"GM":{"symbol":"GM","companyName":"General Motors Company","industry":"Autos","sector":"Consumer Cyclical","price":37.38,"last":37.38},"ITW":{"symbol":"ITW","companyName":"Illinois Tool Works Inc.","industry":"Industrial Products","sector":"Industrials","price":152.47,"last":152.47},"PX":{"symbol":"PX","companyName":"Praxair Inc.","industry":"Chemicals","sector":"Basic Materials","price":164.5,"last":164.5},"HCA":{"symbol":"HCA","companyName":"HCA Healthcare Inc.","industry":"Health Care Providers","sector":"Healthcare","price":122.7,"last":122.7},"AIG":{"symbol":"AIG","companyName":"American International Group Inc.","industry":"Insurance","sector":"Financial Services","price":52.23,"last":52.23},"MET":{"symbol":"MET","companyName":"MetLife Inc.","industry":"Insurance - Life","sector":"Financial Services","price":47.64,"last":47.64},"COF":{"symbol":"COF","companyName":"Capital One Financial Corporation","industry":"Credit Services","sector":"Financial Services","price":90.98,"last":90.98},"D":{"symbol":"D","companyName":"Dominion Energy Inc.","industry":"Utilities - Regulated","sector":"Utilities","price":75.32,"last":75.32},"HUM":{"symbol":"HUM","companyName":"Humana Inc.","industry":"Health Care Plans","sector":"Healthcare","price":242.22,"last":242.22},"CCL":{"symbol":"CCL","companyName":"Carnival Corporation","industry":"","sector":"","price":53.93,"last":53.93},"CCI":{"symbol":"CCI","companyName":"Crown Castle International Corp. (REIT)","industry":"REITs","sector":"Real Estate","price":127.53,"last":127.53},"TGT":{"symbol":"TGT","companyName":"Target Corporation","industry":"Retail - Defensive","sector":"Consumer Defensive","price":70.78,"last":70.78},"ECL":{"symbol":"ECL","companyName":"Ecolab Inc.","industry":"Chemicals","sector":"Basic Materials","price":182.18,"last":182.18},"ZTS":{"symbol":"ZTS","companyName":"Zoetis Inc. Class A","industry":"Drug Manufacturers","sector":"Healthcare","price":102.93,"last":102.93},"CTSH":{"symbol":"CTSH","companyName":"Cognizant Technology Solutions Corporation","industry":"Application Software","sector":"Technology","price":58.64,"last":58.64},"REGN":{"symbol":"REGN","companyName":"Regeneron Pharmaceuticals Inc.","industry":"Biotechnology","sector":"Healthcare","price":308.04,"last":308.04},"MAR":{"symbol":"MAR","companyName":"Marriott International","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":132.51,"last":132.51},"SO":{"symbol":"SO","companyName":"Southern Company (The)","industry":"Utilities - Regulated","sector":"Utilities","price":54.06,"last":54.06},"ICE":{"symbol":"ICE","companyName":"Intercontinental Exchange Inc.","industry":"Brokers & Exchanges","sector":"Financial Services","price":81.34,"last":81.34},"PRU":{"symbol":"PRU","companyName":"Prudential Financial Inc.","industry":"Insurance - Life","sector":"Financial Services","price":99.41,"last":99.41},"MMC":{"symbol":"MMC","companyName":"Marsh & McLennan Companies Inc.","industry":"Brokers & Exchanges","sector":"Financial Services","price":95.71,"last":95.71},"STZ":{"symbol":"STZ","companyName":"Constellation Brands Inc.","industry":"Beverages - Alcoholic","sector":"Consumer Defensive","price":206.8,"last":206.8},"HPQ":{"symbol":"HPQ","companyName":"HP Inc.","industry":"Computer Hardware","sector":"Technology","price":18.94,"last":18.94},"EXC":{"symbol":"EXC","companyName":"Exelon Corporation","industry":"Utilities - Regulated","sector":"Utilities","price":48.91,"last":48.91},"PLD":{"symbol":"PLD","companyName":"Prologis Inc.","industry":"REITs","sector":"Real Estate","price":76.87,"last":76.87},"PGR":{"symbol":"PGR","companyName":"Progressive Corporation (The)","industry":"Insurance - Property & Casualty","sector":"Financial Services","price":77.85,"last":77.85},"SHW":{"symbol":"SHW","companyName":"Sherwin-Williams Company (The)","industry":"Chemicals","sector":"Basic Materials","price":433.28,"last":433.28},"LYB":{"symbol":"LYB","companyName":"LyondellBasell Industries NV Class A (Netherlands)","industry":"","sector":"","price":81.8,"last":81.8},"BAX":{"symbol":"BAX","companyName":"Baxter International Inc.","industry":"Medical Instruments & Equipment","sector":"Healthcare","price":76.9,"last":76.9},"KMI":{"symbol":"KMI","companyName":"Kinder Morgan Inc.","industry":"Oil & Gas - Midstream","sector":"Energy","price":20.42,"last":20.42},"KMB":{"symbol":"KMB","companyName":"Kimberly-Clark Corporation","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":128.72,"last":128.72},"MPC":{"symbol":"MPC","companyName":"Marathon Petroleum Corporation","industry":"Oil & Gas - Refining & Marketing","sector":"Energy","price":52.86,"last":52.86},"WM":{"symbol":"WM","companyName":"Waste Management Inc.","industry":"Waste Management","sector":"Industrials","price":108,"last":108},"AON":{"symbol":"AON","companyName":"Aon plc Class A (UK)","industry":"","sector":"","price":181.7,"last":181.7},"ETN":{"symbol":"ETN","companyName":"Eaton Corporation PLC","industry":"Industrial Products","sector":"Industrials","price":80.01,"last":80.01},"AMAT":{"symbol":"AMAT","companyName":"Applied Materials Inc.","industry":"Semiconductors","sector":"Technology","price":41.66,"last":41.66},"BBT":{"symbol":"BBT","companyName":"BB&T Corporation","industry":"Banks","sector":"Financial Services","price":48.19,"last":48.19},"SYY":{"symbol":"SYY","companyName":"Sysco Corporation","industry":"Retail - Defensive","sector":"Consumer Defensive","price":74.64,"last":74.64},"DAL":{"symbol":"DAL","companyName":"Delta Air Lines Inc.","industry":"Airlines","sector":"Industrials","price":55.38,"last":55.38},"APD":{"symbol":"APD","companyName":"Air Products and Chemicals Inc.","industry":"Chemicals","sector":"Basic Materials","price":209.43,"last":209.43},"VFC":{"symbol":"VFC","companyName":"V.F. Corporation","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":91.3,"last":91.3},"FTNT":{"symbol":"FTNT","companyName":"Fortinet Inc.","industry":"Application Software","sector":"Technology","price":83.24,"last":83.24},"KEYS":{"symbol":"KEYS","companyName":"Keysight Technologies Inc.","industry":"Computer Hardware","sector":"Technology","price":85.19,"last":85.19},"JKHY":{"symbol":"JKHY","companyName":"Jack Henry & Associates Inc.","industry":"Business Services","sector":"Industrials","price":136.1,"last":136.1},"HAL":{"symbol":"HAL","companyName":"Halliburton Company","industry":"Oil & Gas - Services","sector":"Energy","price":25.88,"last":25.88},"F":{"symbol":"F","companyName":"Ford Motor Company","industry":"Autos","sector":"Consumer Cyclical","price":10.4,"last":10.4},"ROST":{"symbol":"ROST","companyName":"Ross Stores Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":95.88,"last":95.88},"AFL":{"symbol":"AFL","companyName":"AFLAC Incorporated","industry":"Insurance - Life","sector":"Financial Services","price":51.93,"last":51.93},"FIS":{"symbol":"FIS","companyName":"Fidelity National Information Services Inc.","industry":"Business Services","sector":"Industrials","price":119.1,"last":119.1},"APC":{"symbol":"APC","companyName":"Anadarko Petroleum Corporation","industry":"Oil & Gas - E&P","sector":"Energy","price":72.73,"last":72.73},"EA":{"symbol":"EA","companyName":"Electronic Arts Inc.","industry":"Application Software","sector":"Technology","price":99,"last":99},"LUV":{"symbol":"LUV","companyName":"Southwest Airlines Company","industry":"Airlines","sector":"Industrials","price":52.59,"last":52.59},"BHGE":{"symbol":"BHGE","companyName":"Baker Hughes a GE company Class A","industry":"Oil & Gas - Services","sector":"Energy","price":22.98,"last":22.98},"TRV":{"symbol":"TRV","companyName":"The Travelers Companies Inc.","industry":"Insurance - Property & Casualty","sector":"Financial Services","price":147.41,"last":147.41},"AEP":{"symbol":"AEP","companyName":"American Electric Power Company Inc.","industry":"Utilities - Regulated","sector":"Utilities","price":85.4,"last":85.4},"PSA":{"symbol":"PSA","companyName":"Public Storage","industry":"REITs","sector":"Real Estate","price":229.12,"last":229.12},"ALL":{"symbol":"ALL","companyName":"Allstate Corporation (The)","industry":"Insurance - Property & Casualty","sector":"Financial Services","price":95.87,"last":95.87},"ADI":{"symbol":"ADI","companyName":"Analog Devices Inc.","industry":"Semiconductors","sector":"Technology","price":104.7,"last":104.7},"ADSK":{"symbol":"ADSK","companyName":"Autodesk Inc.","industry":"Application Software","sector":"Technology","price":176.68,"last":176.68},"WMB":{"symbol":"WMB","companyName":"Williams Companies Inc. (The)","industry":"Oil & Gas - Midstream","sector":"Energy","price":27.63,"last":27.63},"EQIX":{"symbol":"EQIX","companyName":"Equinix Inc.","industry":"REITs","sector":"Real Estate","price":491.76,"last":491.76},"JCI":{"symbol":"JCI","companyName":"Johnson Controls International plc","industry":"Engineering & Construction","sector":"Industrials","price":39.18,"last":39.18},"FISV":{"symbol":"FISV","companyName":"Fiserv Inc.","industry":"Business Services","sector":"Industrials","price":87.78,"last":87.78},"STT":{"symbol":"STT","companyName":"State Street Corporation","industry":"Asset Management","sector":"Financial Services","price":61.62,"last":61.62},"EW":{"symbol":"EW","companyName":"Edwards Lifesciences Corporation","industry":"Medical Devices","sector":"Healthcare","price":177.14,"last":177.14},"EBAY":{"symbol":"EBAY","companyName":"eBay Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":37.27,"last":37.27},"MCO":{"symbol":"MCO","companyName":"Moody's Corporation","industry":"Brokers & Exchanges","sector":"Financial Services","price":189.27,"last":189.27},"CXO":{"symbol":"CXO","companyName":"Concho Resources Inc.","industry":"Oil & Gas - E&P","sector":"Energy","price":114.03,"last":114.03},"SRE":{"symbol":"SRE","companyName":"Sempra Energy","industry":"Utilities - Regulated","sector":"Utilities","price":130.72,"last":130.72},"PXD":{"symbol":"PXD","companyName":"Pioneer Natural Resources Company","industry":"Oil & Gas - E&P","sector":"Energy","price":155.09,"last":155.09},"MNST":{"symbol":"MNST","companyName":"Monster Beverage Corporation","industry":"Beverages - Non-Alcoholic","sector":"Consumer Defensive","price":63.93,"last":63.93},"STI":{"symbol":"STI","companyName":"SunTrust Banks Inc.","industry":"Banks","sector":"Financial Services","price":62.18,"last":62.18},"ROP":{"symbol":"ROP","companyName":"Roper Technologies Inc.","industry":"Industrial Products","sector":"Industrials","price":359.99,"last":359.99},"ALXN":{"symbol":"ALXN","companyName":"Alexion Pharmaceuticals Inc.","industry":"Biotechnology","sector":"Healthcare","price":131.4,"last":131.4},"TEL":{"symbol":"TEL","companyName":"TE Connectivity Ltd. New Switzerland Registered Shares","industry":"Computer Hardware","sector":"Technology","price":90.32,"last":90.32},"ALGN":{"symbol":"ALGN","companyName":"Align Technology Inc.","industry":"Medical Devices","sector":"Healthcare","price":330.87,"last":330.87},"CNC":{"symbol":"CNC","companyName":"Centene Corporation","industry":"Health Care Plans","sector":"Healthcare","price":55.57,"last":55.57},"FTV":{"symbol":"FTV","companyName":"Fortive Corporation","industry":"Computer Hardware","sector":"Technology","price":81.35,"last":81.35},"GLW":{"symbol":"GLW","companyName":"Corning Incorporated","industry":"Computer Hardware","sector":"Technology","price":30.5,"last":30.5},"YUM":{"symbol":"YUM","companyName":"Yum! Brands Inc.","industry":"Restaurants","sector":"Consumer Cyclical","price":100.87,"last":100.87},"ADM":{"symbol":"ADM","companyName":"Archer-Daniels-Midland Company","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":41.26,"last":41.26},"OKE":{"symbol":"OKE","companyName":"ONEOK Inc.","industry":"Oil & Gas - Midstream","sector":"Energy","price":68.1,"last":68.1},"APH":{"symbol":"APH","companyName":"Amphenol Corporation","industry":"Computer Hardware","sector":"Technology","price":93.08,"last":93.08},"DG":{"symbol":"DG","companyName":"Dollar General Corporation","industry":"Retail - Defensive","sector":"Consumer Defensive","price":119.72,"last":119.72},"ORLY":{"symbol":"ORLY","companyName":"O'Reilly Automotive Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":352.57,"last":352.57},"AMD":{"symbol":"AMD","companyName":"Advanced Micro Devices Inc.","industry":"Semiconductors","sector":"Technology","price":28.01,"last":28.01},"TROW":{"symbol":"TROW","companyName":"T. Rowe Price Group Inc.","industry":"Asset Management","sector":"Financial Services","price":105.31,"last":105.31},"RCL":{"symbol":"RCL","companyName":"Royal Caribbean Cruises Ltd.","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":125.72,"last":125.72},"DFS":{"symbol":"DFS","companyName":"Discover Financial Services","industry":"Credit Services","sector":"Financial Services","price":78.12,"last":78.12},"IQV":{"symbol":"IQV","companyName":"IQVIA Holdings Inc.","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":135.24,"last":135.24},"DXC":{"symbol":"DXC","companyName":"DXC Technology Company","industry":"Application Software","sector":"Technology","price":57.66,"last":57.66},"ZBH":{"symbol":"ZBH","companyName":"Zimmer Biomet Holdings Inc.","industry":"Medical Devices","sector":"Healthcare","price":118.08,"last":118.08},"PAYX":{"symbol":"PAYX","companyName":"Paychex Inc.","industry":"Business Services","sector":"Industrials","price":86.64,"last":86.64},"PPG":{"symbol":"PPG","companyName":"PPG Industries Inc.","industry":"Chemicals","sector":"Basic Materials","price":112.92,"last":112.92},"PEG":{"symbol":"PEG","companyName":"Public Service Enterprise Group Incorporated","industry":"Utilities - Regulated","sector":"Utilities","price":60.05,"last":60.05},"MCK":{"symbol":"MCK","companyName":"McKesson Corporation","industry":"Medical Distribution","sector":"Healthcare","price":125.58,"last":125.58},"IR":{"symbol":"IR","companyName":"Ingersoll-Rand plc (Ireland)","industry":"Industrial Products","sector":"Industrials","price":121.9,"last":121.9},"GIS":{"symbol":"GIS","companyName":"General Mills Inc.","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":52.1,"last":52.1},"CMI":{"symbol":"CMI","companyName":"Cummins Inc.","industry":"Industrial Products","sector":"Industrials","price":162.51,"last":162.51},"AVB":{"symbol":"AVB","companyName":"AvalonBay Communities Inc.","industry":"REITs","sector":"Real Estate","price":202.76,"last":202.76},"HPE":{"symbol":"HPE","companyName":"Hewlett Packard Enterprise Company","industry":"Communication Equipment","sector":"Technology","price":14.53,"last":14.53},"PCAR":{"symbol":"PCAR","companyName":"PACCAR Inc.","industry":"Truck Manufacturing","sector":"Industrials","price":69.89,"last":69.89},"PH":{"symbol":"PH","companyName":"Parker-Hannifin Corporation","industry":"Industrial Products","sector":"Industrials","price":169.48,"last":169.48},"PCG":{"symbol":"PCG","companyName":"Pacific Gas & Electric Co.","industry":"Utilities - Regulated","sector":"Utilities","price":18.17,"last":18.17},"BF.B":{"symbol":"BF.B","companyName":"Brown Forman Inc Class B","industry":"Beverages - Alcoholic","sector":"Consumer Defensive","price":52.31,"last":52.31},"EQR":{"symbol":"EQR","companyName":"Equity Residential of Beneficial Interest","industry":"REITs","sector":"Real Estate","price":76.81,"last":76.81},"MTB":{"symbol":"MTB","companyName":"M&T Bank Corporation","industry":"Banks","sector":"Financial Services","price":163.9,"last":163.9},"XEL":{"symbol":"XEL","companyName":"Xcel Energy Inc.","industry":"Utilities - Regulated","sector":"Utilities","price":57.73,"last":57.73},"LRCX":{"symbol":"LRCX","companyName":"Lam Research Corporation","industry":"Semiconductors","sector":"Technology","price":194.46,"last":194.46},"UAL":{"symbol":"UAL","companyName":"United Continental Holdings Inc.","industry":"Airlines","sector":"Industrials","price":82.58,"last":82.58},"K":{"symbol":"K","companyName":"Kellogg Company","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":57.4,"last":57.4},"ED":{"symbol":"ED","companyName":"Consolidated Edison Inc.","industry":"Utilities - Regulated","sector":"Utilities","price":86.37,"last":86.37},"CTL":{"symbol":"CTL","companyName":"CenturyLink Inc.","industry":"Communication Services","sector":"Communication Services","price":10.65,"last":10.65},"SYF":{"symbol":"SYF","companyName":"Synchrony Financial","industry":"Credit Services","sector":"Financial Services","price":35.24,"last":35.24},"KR":{"symbol":"KR","companyName":"Kroger Company (The)","industry":"Retail - Defensive","sector":"Consumer Defensive","price":24.66,"last":24.66},"RSG":{"symbol":"RSG","companyName":"Republic Services Inc.","industry":"Waste Management","sector":"Industrials","price":85.09,"last":85.09},"WY":{"symbol":"WY","companyName":"Weyerhaeuser Company","industry":"Forest Products","sector":"Basic Materials","price":25.06,"last":25.06},"NTRS":{"symbol":"NTRS","companyName":"Northern Trust Corporation","industry":"Asset Management","sector":"Financial Services","price":94.78,"last":94.78},"ROK":{"symbol":"ROK","companyName":"Rockwell Automation Inc.","industry":"Industrial Products","sector":"Industrials","price":162.98,"last":162.98},"COL":{"symbol":"COL","companyName":"Rockwell Collins Inc.","industry":"Aerospace & Defense","sector":"Industrials","price":141.04,"last":141.04},"RHT":{"symbol":"RHT","companyName":"Red Hat Inc.","industry":"Application Software","sector":"Technology","price":185.55,"last":185.55},"WELL":{"symbol":"WELL","companyName":"Welltower Inc.","industry":"REITs","sector":"Real Estate","price":79.48,"last":79.48},"A":{"symbol":"A","companyName":"Agilent Technologies Inc.","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":69.3,"last":69.3},"HLT":{"symbol":"HLT","companyName":"Hilton Worldwide Holdings Inc.","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":94.05,"last":94.05},"DLR":{"symbol":"DLR","companyName":"Digital Realty Trust Inc.","industry":"REITs","sector":"Real Estate","price":118.35,"last":118.35},"APTV":{"symbol":"APTV","companyName":"Aptiv PLC","industry":"","sector":"","price":73.71,"last":73.71},"SWK":{"symbol":"SWK","companyName":"Stanley Black & Decker Inc.","industry":"Industrial Products","sector":"Industrials","price":138.36,"last":138.36},"EIX":{"symbol":"EIX","companyName":"Edison International","industry":"Utilities - Regulated","sector":"Utilities","price":59.95,"last":59.95},"NTAP":{"symbol":"NTAP","companyName":"NetApp Inc.","industry":"Computer Hardware","sector":"Technology","price":69.69,"last":69.69},"HES":{"symbol":"HES","companyName":"Hess Corporation","industry":"Oil & Gas - E&P","sector":"Energy","price":66.35,"last":66.35},"TWTR":{"symbol":"TWTR","companyName":"Twitter Inc.","industry":"Online Media","sector":"Technology","price":38.3,"last":38.3},"TSN":{"symbol":"TSN","companyName":"Tyson Foods Inc.","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":82.6,"last":82.6},"INFO":{"symbol":"INFO","companyName":"IHS Markit Ltd.","industry":"Business Services","sector":"Industrials","price":57.69,"last":57.69},"HSY":{"symbol":"HSY","companyName":"The Hershey Company","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":128.49,"last":128.49},"AMP":{"symbol":"AMP","companyName":"Ameriprise Financial Inc.","industry":"Asset Management","sector":"Financial Services","price":144.97,"last":144.97},"CERN":{"symbol":"CERN","companyName":"Cerner Corporation","industry":"Application Software","sector":"Technology","price":68.91,"last":68.91},"KEY":{"symbol":"KEY","companyName":"KeyCorp","industry":"Banks","sector":"Financial Services","price":16.77,"last":16.77},"HRL":{"symbol":"HRL","companyName":"Hormel Foods Corporation","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":39.82,"last":39.82},"WEC":{"symbol":"WEC","companyName":"WEC Energy Group Inc.","industry":"Utilities - Regulated","sector":"Utilities","price":80.25,"last":80.25},"CBS":{"symbol":"CBS","companyName":"CBS Corporation Class B","industry":"Entertainment","sector":"Consumer Cyclical","price":48.36,"last":48.36},"CTAS":{"symbol":"CTAS","companyName":"Cintas Corporation","industry":"Business Services","sector":"Industrials","price":223.72,"last":223.72},"IDXX":{"symbol":"IDXX","companyName":"IDEXX Laboratories Inc.","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":251.97,"last":251.97},"NUE":{"symbol":"NUE","companyName":"Nucor Corporation","industry":"Steel","sector":"Basic Materials","price":54.98,"last":54.98},"DVN":{"symbol":"DVN","companyName":"Devon Energy Corporation","industry":"Oil & Gas - E&P","sector":"Energy","price":31.3,"last":31.3},"XLNX":{"symbol":"XLNX","companyName":"Xilinx Inc.","industry":"Semiconductors","sector":"Technology","price":106.13,"last":106.13},"PPL":{"symbol":"PPL","companyName":"PPL Corporation","industry":"Utilities - Regulated","sector":"Utilities","price":29.93,"last":29.93},"MSI":{"symbol":"MSI","companyName":"Motorola Solutions Inc.","industry":"Communication Equipment","sector":"Technology","price":148.39,"last":148.39},"BBY":{"symbol":"BBY","companyName":"Best Buy Co. Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":68.74,"last":68.74},"MRO":{"symbol":"MRO","companyName":"Marathon Oil Corporation","industry":"Oil & Gas - E&P","sector":"Energy","price":15.71,"last":15.71},"FCX":{"symbol":"FCX","companyName":"Freeport-McMoRan Inc.","industry":"Metals & Mining","sector":"Basic Materials","price":10.66,"last":10.66},"GWW":{"symbol":"GWW","companyName":"W.W. Grainger Inc.","industry":"Industrial Distribution","sector":"Industrials","price":263.86,"last":263.86},"FLT":{"symbol":"FLT","companyName":"FleetCor Technologies Inc.","industry":"Business Services","sector":"Industrials","price":271.13,"last":271.13},"VRSK":{"symbol":"VRSK","companyName":"Verisk Analytics Inc.","industry":"Business Services","sector":"Industrials","price":142.13,"last":142.13},"GPN":{"symbol":"GPN","companyName":"Global Payments Inc.","industry":"Business Services","sector":"Industrials","price":151.4,"last":151.4},"HRS":{"symbol":"HRS","companyName":"Harris Corporation","industry":"Communication Equipment","sector":"Technology","price":184.38,"last":184.38},"DTE":{"symbol":"DTE","companyName":"DTE Energy Company","industry":"Utilities - Regulated","sector":"Utilities","price":126.76,"last":126.76},"ABC":{"symbol":"ABC","companyName":"AmerisourceBergen Corporation","industry":"Medical Distribution","sector":"Healthcare","price":77.59,"last":77.59},"IP":{"symbol":"IP","companyName":"International Paper Company","industry":"Packaging & Containers","sector":"Consumer Cyclical","price":45.36,"last":45.36},"AZO":{"symbol":"AZO","companyName":"AutoZone Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":981.34,"last":981.34},"RF":{"symbol":"RF","companyName":"Regions Financial Corporation","industry":"Banks","sector":"Financial Services","price":14.52,"last":14.52},"TDG":{"symbol":"TDG","companyName":"Transdigm Group Incorporated Inc.","industry":"Aerospace & Defense","sector":"Industrials","price":465.14,"last":465.14},"DLTR":{"symbol":"DLTR","companyName":"Dollar Tree Inc.","industry":"Retail - Defensive","sector":"Consumer Defensive","price":100.89,"last":100.89},"ES":{"symbol":"ES","companyName":"Eversource Energy (D/B/A)","industry":"Utilities - Regulated","sector":"Utilities","price":73.13,"last":73.13},"EXPE":{"symbol":"EXPE","companyName":"Expedia Group Inc.","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":118.17,"last":118.17},"ABMD":{"symbol":"ABMD","companyName":"ABIOMED Inc.","industry":"Medical Devices","sector":"Healthcare","price":262.14,"last":262.14},"ANET":{"symbol":"ANET","companyName":"Arista Networks Inc.","industry":"Computer Hardware","sector":"Technology","price":253.62,"last":253.62},"VRSN":{"symbol":"VRSN","companyName":"VeriSign Inc.","industry":"Online Media","sector":"Technology","price":196.83,"last":196.83},"FITB":{"symbol":"FITB","companyName":"Fifth Third Bancorp","industry":"Banks","sector":"Financial Services","price":27.24,"last":27.24},"MYL":{"symbol":"MYL","companyName":"Mylan N.V.","industry":"Drug Manufacturers","sector":"Healthcare","price":20.21,"last":20.21},"VTR":{"symbol":"VTR","companyName":"Ventas Inc.","industry":"REITs","sector":"Real Estate","price":64.67,"last":64.67},"CLX":{"symbol":"CLX","companyName":"Clorox Company (The)","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":148.72,"last":148.72},"APA":{"symbol":"APA","companyName":"Apache Corporation","industry":"Oil & Gas - E&P","sector":"Energy","price":31.23,"last":31.23},"WLTW":{"symbol":"WLTW","companyName":"Willis Towers Watson Public Limited Company","industry":"","sector":"","price":178.06,"last":178.06},"CFG":{"symbol":"CFG","companyName":"Citizens Financial Group Inc.","industry":"Banks","sector":"Financial Services","price":34.76,"last":34.76},"BXP":{"symbol":"BXP","companyName":"Boston Properties Inc.","industry":"REITs","sector":"Real Estate","price":134.71,"last":134.71},"AME":{"symbol":"AME","companyName":"AMETEK Inc.","industry":"Industrial Products","sector":"Industrials","price":86.59,"last":86.59},"TSS":{"symbol":"TSS","companyName":"Total System Services Inc.","industry":"Credit Services","sector":"Financial Services","price":100.5,"last":100.5},"AAL":{"symbol":"AAL","companyName":"American Airlines Group Inc.","industry":"Airlines","sector":"Industrials","price":32.32,"last":32.32},"TXT":{"symbol":"TXT","companyName":"Textron Inc.","industry":"Aerospace & Defense","sector":"Industrials","price":50.98,"last":50.98},"SBAC":{"symbol":"SBAC","companyName":"SBA Communications Corporation","industry":"Communication Services","sector":"Communication Services","price":212.31,"last":212.31},"FE":{"symbol":"FE","companyName":"FirstEnergy Corp.","industry":"Utilities - Regulated","sector":"Utilities","price":42.16,"last":42.16},"MKC":{"symbol":"MKC","companyName":"McCormick & Company Incorporated","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":155.84,"last":155.84},"HIG":{"symbol":"HIG","companyName":"Hartford Financial Services Group Inc. (The)","industry":"Insurance","sector":"Financial Services","price":53.6,"last":53.6},"MCHP":{"symbol":"MCHP","companyName":"Microchip Technology Incorporated","industry":"Semiconductors","sector":"Technology","price":85.08,"last":85.08},"LH":{"symbol":"LH","companyName":"Laboratory Corporation of America Holdings","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":164.99,"last":164.99},"DISCA":{"symbol":"DISCA","companyName":"Discovery Inc. Series A Common Stock","industry":"Entertainment","sector":"Consumer Cyclical","price":27.88,"last":27.88},"SIVB":{"symbol":"SIVB","companyName":"SVB Financial Group","industry":"Banks","sector":"Financial Services","price":232.3,"last":232.3},"NOV":{"symbol":"NOV","companyName":"National Oilwell Varco Inc.","industry":"Oil & Gas - Services","sector":"Energy","price":24.75,"last":24.75},"PFG":{"symbol":"PFG","companyName":"Principal Financial Group Inc","industry":"Insurance - Life","sector":"Financial Services","price":55.52,"last":55.52},"DISH":{"symbol":"DISH","companyName":"DISH Network Corporation","industry":"Communication Services","sector":"Communication Services","price":35.07,"last":35.07},"HBAN":{"symbol":"HBAN","companyName":"Huntington Bancshares Incorporated","industry":"Banks","sector":"Financial Services","price":13.17,"last":13.17},"WDC":{"symbol":"WDC","companyName":"Western Digital Corporation","industry":"Computer Hardware","sector":"Technology","price":45.09,"last":45.09},"LLL":{"symbol":"LLL","companyName":"L3 Technologies Inc.","industry":"Aerospace & Defense","sector":"Industrials","price":238.31,"last":238.31},"CAH":{"symbol":"CAH","companyName":"Cardinal Health Inc.","industry":"Medical Distribution","sector":"Healthcare","price":45.23,"last":45.23},"FAST":{"symbol":"FAST","companyName":"Fastenal Company","industry":"Industrial Distribution","sector":"Industrials","price":64.61,"last":64.61},"SWKS":{"symbol":"SWKS","companyName":"Skyworks Solutions Inc.","industry":"Semiconductors","sector":"Technology","price":73.99,"last":73.99},"O":{"symbol":"O","companyName":"Realty Income Corporation","industry":"REITs","sector":"Real Estate","price":69.31,"last":69.31},"ULTA":{"symbol":"ULTA","companyName":"Ulta Beauty Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":343.24,"last":343.24},"NEM":{"symbol":"NEM","companyName":"Newmont Goldcorp Corporation","industry":"Metals & Mining","sector":"Basic Materials","price":30.55,"last":30.55},"ESS":{"symbol":"ESS","companyName":"Essex Property Trust Inc.","industry":"REITs","sector":"Real Estate","price":285.94,"last":285.94},"DISCK":{"symbol":"DISCK","companyName":"Discovery Inc.","industry":"Entertainment","sector":"Consumer Cyclical","price":26.25,"last":26.25},"BEN":{"symbol":"BEN","companyName":"Franklin Resources Inc.","industry":"Asset Management","sector":"Financial Services","price":33.58,"last":33.58},"RMD":{"symbol":"RMD","companyName":"ResMed Inc.","industry":"Medical Instruments & Equipment","sector":"Healthcare","price":113.43,"last":113.43},"KLAC":{"symbol":"KLAC","companyName":"KLA-Tencor Corporation","industry":"Semiconductors","sector":"Technology","price":108.78,"last":108.78},"EFX":{"symbol":"EFX","companyName":"Equifax Inc.","industry":"Business Services","sector":"Industrials","price":121.55,"last":121.55},"L":{"symbol":"L","companyName":"Loews Corporation","industry":"Insurance - Property & Casualty","sector":"Financial Services","price":51.92,"last":51.92},"AWK":{"symbol":"AWK","companyName":"American Water Works Company Inc.","industry":"Utilities - Regulated","sector":"Utilities","price":111.17,"last":111.17},"CMA":{"symbol":"CMA","companyName":"Comerica Incorporated","industry":"Banks","sector":"Financial Services","price":74.09,"last":74.09},"WCG":{"symbol":"WCG","companyName":"Wellcare Health Plans Inc.","industry":"Health Care Plans","sector":"Healthcare","price":274.42,"last":274.42},"MSCI":{"symbol":"MSCI","companyName":"MSCI Inc","industry":"Brokers & Exchanges","sector":"Financial Services","price":226.07,"last":226.07},"OMC":{"symbol":"OMC","companyName":"Omnicom Group Inc.","industry":"Advertising & Marketing Services","sector":"Consumer Cyclical","price":79.04,"last":79.04},"DHI":{"symbol":"DHI","companyName":"D.R. Horton Inc.","industry":"Homebuilding & Construction","sector":"Consumer Cyclical","price":44.96,"last":44.96},"BLL":{"symbol":"BLL","companyName":"Ball Corporation","industry":"Packaging & Containers","sector":"Consumer Cyclical","price":62.57,"last":62.57},"AEE":{"symbol":"AEE","companyName":"Ameren Corporation","industry":"Utilities - Regulated","sector":"Utilities","price":74.24,"last":74.24},"MTD":{"symbol":"MTD","companyName":"Mettler-Toledo International Inc.","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":744.98,"last":744.98},"TTWO":{"symbol":"TTWO","companyName":"Take-Two Interactive Software Inc.","industry":"Application Software","sector":"Technology","price":107.55,"last":107.55},"HST":{"symbol":"HST","companyName":"Host Hotels & Resorts Inc.","industry":"REITs","sector":"Real Estate","price":19.34,"last":19.34},"ANSS":{"symbol":"ANSS","companyName":"ANSYS Inc.","industry":"Application Software","sector":"Technology","price":191.44,"last":191.44},"NBL":{"symbol":"NBL","companyName":"Noble Energy Inc.","industry":"Oil & Gas - E&P","sector":"Energy","price":24.5,"last":24.5},"LEN":{"symbol":"LEN","companyName":"Lennar Corporation Class A","industry":"Homebuilding & Construction","sector":"Consumer Cyclical","price":53.66,"last":53.66},"TIF":{"symbol":"TIF","companyName":"Tiffany & Co.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":99.44,"last":99.44},"BR":{"symbol":"BR","companyName":"Broadridge Financial Solutions Inc.Common Stock","industry":"Business Services","sector":"Industrials","price":122.43,"last":122.43},"CBRE":{"symbol":"CBRE","companyName":"CBRE Group Inc Class A","industry":"Real Estate Services","sector":"Real Estate","price":47.69,"last":47.69},"LNC":{"symbol":"LNC","companyName":"Lincoln National Corporation","industry":"Insurance - Life","sector":"Financial Services","price":64.84,"last":64.84},"CTXS":{"symbol":"CTXS","companyName":"Citrix Systems Inc.","industry":"Application Software","sector":"Technology","price":96.58,"last":96.58},"VMC":{"symbol":"VMC","companyName":"Vulcan Materials Company (Holding Company)","industry":"Building Materials","sector":"Basic Materials","price":130.52,"last":130.52},"EVRG":{"symbol":"EVRG","companyName":"Evergy Inc.","industry":"Utilities - Regulated","sector":"Utilities","price":58.37,"last":58.37},"WAT":{"symbol":"WAT","companyName":"Waters Corporation","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":210.12,"last":210.12},"INCY":{"symbol":"INCY","companyName":"Incyte Corporation","industry":"Biotechnology","sector":"Healthcare","price":77.64,"last":77.64},"MGM":{"symbol":"MGM","companyName":"MGM Resorts International","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":26.53,"last":26.53},"ETR":{"symbol":"ETR","companyName":"Entergy Corporation","industry":"Utilities - Regulated","sector":"Utilities","price":96.91,"last":96.91},"TPR":{"symbol":"TPR","companyName":"Tapestry Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":31.34,"last":31.34},"DGX":{"symbol":"DGX","companyName":"Quest Diagnostics Incorporated","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":96.39,"last":96.39},"CHD":{"symbol":"CHD","companyName":"Church & Dwight Company Inc.","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":74.1,"last":74.1},"XYL":{"symbol":"XYL","companyName":"Xylem Inc. New","industry":"Industrial Products","sector":"Industrials","price":76.26,"last":76.26},"SNPS":{"symbol":"SNPS","companyName":"Synopsys Inc.","industry":"Application Software","sector":"Technology","price":123.17,"last":123.17},"IT":{"symbol":"IT","companyName":"Gartner Inc.","industry":"Application Software","sector":"Technology","price":154.97,"last":154.97},"GPC":{"symbol":"GPC","companyName":"Genuine Parts Company","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":97.55,"last":97.55},"FTI":{"symbol":"FTI","companyName":"TechnipFMC plc","industry":"Oil & Gas - Services","sector":"Energy","price":22.97,"last":22.97},"NDAQ":{"symbol":"NDAQ","companyName":"Nasdaq Inc.","industry":"Brokers & Exchanges","sector":"Financial Services","price":90.93,"last":90.93},"CMS":{"symbol":"CMS","companyName":"CMS Energy Corporation","industry":"Utilities - Regulated","sector":"Utilities","price":56.22,"last":56.22},"WYNN":{"symbol":"WYNN","companyName":"Wynn Resorts Limited","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":127.31,"last":127.31},"EMN":{"symbol":"EMN","companyName":"Eastman Chemical Company","industry":"Chemicals","sector":"Basic Materials","price":72.16,"last":72.16},"AJG":{"symbol":"AJG","companyName":"Arthur J. Gallagher & Co.","industry":"Brokers & Exchanges","sector":"Financial Services","price":83.79,"last":83.79},"RJF":{"symbol":"RJF","companyName":"Raymond James Financial Inc.","industry":"Brokers & Exchanges","sector":"Financial Services","price":84.15,"last":84.15},"URI":{"symbol":"URI","companyName":"United Rentals Inc.","industry":"Consulting & Outsourcing","sector":"Industrials","price":128.46,"last":128.46},"CNP":{"symbol":"CNP","companyName":"CenterPoint Energy Inc (Holding Co)","industry":"Utilities - Regulated","sector":"Utilities","price":29.6,"last":29.6},"ETFC":{"symbol":"ETFC","companyName":"E*TRADE Financial Corporation","industry":"Brokers & Exchanges","sector":"Financial Services","price":48.4,"last":48.4},"VNO":{"symbol":"VNO","companyName":"Vornado Realty Trust","industry":"REITs","sector":"Real Estate","price":67.06,"last":67.06},"CHRW":{"symbol":"CHRW","companyName":"C.H. Robinson Worldwide Inc.","industry":"Transportation & Logistics","sector":"Industrials","price":82.91,"last":82.91},"COO":{"symbol":"COO","companyName":"The Cooper Companies Inc.","industry":"Medical Instruments & Equipment","sector":"Healthcare","price":291.66,"last":291.66},"STX":{"symbol":"STX","companyName":"Seagate Technology PLC","industry":"","sector":"","price":45.68,"last":45.68},"VIAB":{"symbol":"VIAB","companyName":"Viacom Inc.","industry":"Entertainment","sector":"Consumer Cyclical","price":28.54,"last":28.54},"DRI":{"symbol":"DRI","companyName":"Darden Restaurants Inc.","industry":"Restaurants","sector":"Consumer Cyclical","price":118.95,"last":118.95},"HSIC":{"symbol":"HSIC","companyName":"Henry Schein Inc.","industry":"Medical Distribution","sector":"Healthcare","price":67.09,"last":67.09},"TAP":{"symbol":"TAP","companyName":"Molson Coors Brewing Company Class B","industry":"Beverages - Alcoholic","sector":"Consumer Defensive","price":58.54,"last":58.54},"WRK":{"symbol":"WRK","companyName":"Westrock Company","industry":"Packaging & Containers","sector":"Consumer Cyclical","price":37.42,"last":37.42},"JBHT":{"symbol":"JBHT","companyName":"J.B. Hunt Transport Services Inc.","industry":"Transportation & Logistics","sector":"Industrials","price":96.55,"last":96.55},"HAS":{"symbol":"HAS","companyName":"Hasbro Inc.","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":98.28,"last":98.28},"GRMN":{"symbol":"GRMN","companyName":"Garmin Ltd.","industry":"Computer Hardware","sector":"Technology","price":79.41,"last":79.41},"CAG":{"symbol":"CAG","companyName":"ConAgra Brands Inc.","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":29.1,"last":29.1},"ADS":{"symbol":"ADS","companyName":"Alliance Data Systems Corporation","industry":"Credit Services","sector":"Financial Services","price":147.73,"last":147.73},"DOV":{"symbol":"DOV","companyName":"Dover Corporation","industry":"Industrial Products","sector":"Industrials","price":96.43,"last":96.43},"ARE":{"symbol":"ARE","companyName":"Alexandria Real Estate Equities Inc.","industry":"REITs","sector":"Real Estate","price":146.48,"last":146.48},"CF":{"symbol":"CF","companyName":"CF Industries Holdings Inc.","industry":"Agriculture","sector":"Basic Materials","price":42.75,"last":42.75},"MOS":{"symbol":"MOS","companyName":"Mosaic Company (The)","industry":"Agriculture","sector":"Basic Materials","price":23.16,"last":23.16},"KMX":{"symbol":"KMX","companyName":"CarMax Inc","industry":"Autos","sector":"Consumer Cyclical","price":75.94,"last":75.94},"ROL":{"symbol":"ROL","companyName":"Rollins Inc.","industry":"Business Services","sector":"Industrials","price":36.9,"last":36.9},"EXPD":{"symbol":"EXPD","companyName":"Expeditors International of Washington Inc.","industry":"Transportation & Logistics","sector":"Industrials","price":74.37,"last":74.37},"MHK":{"symbol":"MHK","companyName":"Mohawk Industries Inc.","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":140.31,"last":140.31},"SYMC":{"symbol":"SYMC","companyName":"Symantec Corporation","industry":"Application Software","sector":"Technology","price":19.71,"last":19.71},"CDNS":{"symbol":"CDNS","companyName":"Cadence Design Systems Inc.","industry":"Application Software","sector":"Technology","price":69.85,"last":69.85},"HFC":{"symbol":"HFC","companyName":"HollyFrontier Corporation","industry":"Oil & Gas - Refining & Marketing","sector":"Energy","price":44.69,"last":44.69},"IFF":{"symbol":"IFF","companyName":"Internationa Flavors & Fragrances Inc.","industry":"Chemicals","sector":"Basic Materials","price":136.96,"last":136.96},"AAP":{"symbol":"AAP","companyName":"Advance Auto Parts Inc W/I","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":157.28,"last":157.28},"NCLH":{"symbol":"NCLH","companyName":"Norwegian Cruise Line Holdings Ltd.","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":57.55,"last":57.55},"FMC":{"symbol":"FMC","companyName":"FMC Corporation","industry":"Agriculture","sector":"Basic Materials","price":75.77,"last":75.77},"CPRT":{"symbol":"CPRT","companyName":"Copart Inc.","industry":"Autos","sector":"Consumer Cyclical","price":67.07,"last":67.07},"CINF":{"symbol":"CINF","companyName":"Cincinnati Financial Corporation","industry":"Insurance - Property & Casualty","sector":"Financial Services","price":97.15,"last":97.15},"KSS":{"symbol":"KSS","companyName":"Kohl's Corporation","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":63.77,"last":63.77},"CMG":{"symbol":"CMG","companyName":"Chipotle Mexican Grill Inc.","industry":"Restaurants","sector":"Consumer Cyclical","price":708.93,"last":708.93},"DVA":{"symbol":"DVA","companyName":"DaVita Inc.","industry":"Health Care Providers","sector":"Healthcare","price":50,"last":50},"HCP":{"symbol":"HCP","companyName":"HCP Inc.","industry":"REITs","sector":"Real Estate","price":31.55,"last":31.55},"AKAM":{"symbol":"AKAM","companyName":"Akamai Technologies Inc.","industry":"Application Software","sector":"Technology","price":77.92,"last":77.92},"MLM":{"symbol":"MLM","companyName":"Martin Marietta Materials Inc.","industry":"Building Materials","sector":"Basic Materials","price":219.61,"last":219.61},"UHS":{"symbol":"UHS","companyName":"Universal Health Services Inc.","industry":"Health Care Providers","sector":"Healthcare","price":121.7,"last":121.7},"KSU":{"symbol":"KSU","companyName":"Kansas City Southern","industry":"Transportation & Logistics","sector":"Industrials","price":121.37,"last":121.37},"SJM":{"symbol":"SJM","companyName":"J.M. Smucker Company (The)","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":125.74,"last":125.74},"FFIV":{"symbol":"FFIV","companyName":"F5 Networks Inc.","industry":"Application Software","sector":"Technology","price":142.61,"last":142.61},"ALB":{"symbol":"ALB","companyName":"Albemarle Corporation","industry":"Chemicals","sector":"Basic Materials","price":69.41,"last":69.41},"NRG":{"symbol":"NRG","companyName":"NRG Energy Inc.","industry":"Utilities - Independent Power Producers","sector":"Utilities","price":35.8,"last":35.8},"MAA":{"symbol":"MAA","companyName":"Mid-America Apartment Communities Inc.","industry":"REITs","sector":"Real Estate","price":113.5,"last":113.5},"MAS":{"symbol":"MAS","companyName":"Masco Corporation","industry":"Building Materials","sector":"Basic Materials","price":38.16,"last":38.16},"HII":{"symbol":"HII","companyName":"Huntington Ingalls Industries Inc.","industry":"Aerospace & Defense","sector":"Industrials","price":208.73,"last":208.73},"HOLX":{"symbol":"HOLX","companyName":"Hologic Inc.","industry":"Medical Instruments & Equipment","sector":"Healthcare","price":45.07,"last":45.07},"JEC":{"symbol":"JEC","companyName":"Jacobs Engineering Group Inc.","industry":"Engineering & Construction","sector":"Industrials","price":77.5,"last":77.5},"CPB":{"symbol":"CPB","companyName":"Campbell Soup Company","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":38.93,"last":38.93},"TSCO":{"symbol":"TSCO","companyName":"Tractor Supply Company","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":101.04,"last":101.04},"RL":{"symbol":"RL","companyName":"Ralph Lauren Corporation","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":114.75,"last":114.75},"ARNC":{"symbol":"ARNC","companyName":"Arconic Inc.","industry":"Industrial Products","sector":"Industrials","price":22.12,"last":22.12},"EXR":{"symbol":"EXR","companyName":"Extra Space Storage Inc","industry":"REITs","sector":"Real Estate","price":106.25,"last":106.25},"REG":{"symbol":"REG","companyName":"Regency Centers Corporation","industry":"REITs","sector":"Real Estate","price":67.25,"last":67.25},"CBOE":{"symbol":"CBOE","companyName":"Cboe Global Markets Inc.","industry":"Brokers & Exchanges","sector":"Financial Services","price":105.25,"last":105.25},"PKI":{"symbol":"PKI","companyName":"PerkinElmer Inc.","industry":"Medical Diagnostics & Research","sector":"Healthcare","price":87.99,"last":87.99},"PVH":{"symbol":"PVH","companyName":"PVH Corp.","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":110.4,"last":110.4},"UDR":{"symbol":"UDR","companyName":"UDR Inc.","industry":"REITs","sector":"Real Estate","price":44.85,"last":44.85},"SNA":{"symbol":"SNA","companyName":"Snap-On Incorporated","industry":"Industrial Products","sector":"Industrials","price":165.42,"last":165.42},"GPS":{"symbol":"GPS","companyName":"Gap Inc. (The)","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":22.27,"last":22.27},"JNPR":{"symbol":"JNPR","companyName":"Juniper Networks Inc.","industry":"Communication Equipment","sector":"Technology","price":25.86,"last":25.86},"M":{"symbol":"M","companyName":"Macy's Inc","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":21.5,"last":21.5},"VAR":{"symbol":"VAR","companyName":"Varian Medical Systems Inc.","industry":"Medical Instruments & Equipment","sector":"Healthcare","price":130.9,"last":130.9},"COG":{"symbol":"COG","companyName":"Cabot Oil & Gas Corporation","industry":"Oil & Gas - E&P","sector":"Energy","price":26.27,"last":26.27},"KORS":{"symbol":"KORS","companyName":"Michael Kors Holdings Limited","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":37.92,"last":37.92},"PKG":{"symbol":"PKG","companyName":"Packaging Corporation of America","industry":"Packaging & Containers","sector":"Consumer Cyclical","price":97.3,"last":97.3},"JWN":{"symbol":"JWN","companyName":"Nordstrom Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":36.93,"last":36.93},"LNT":{"symbol":"LNT","companyName":"Alliant Energy Corporation","industry":"Utilities - Regulated","sector":"Utilities","price":47.77,"last":47.77},"DRE":{"symbol":"DRE","companyName":"Duke Realty Corporation","industry":"REITs","sector":"Real Estate","price":30.74,"last":30.74},"ZION":{"symbol":"ZION","companyName":"Zions Bancorporation N.A.","industry":"Banks","sector":"Financial Services","price":45.57,"last":45.57},"LKQ":{"symbol":"LKQ","companyName":"LKQ Corporation","industry":"Autos","sector":"Consumer Cyclical","price":27.44,"last":27.44},"TMK":{"symbol":"TMK","companyName":"Torchmark Corporation","industry":"Insurance - Life","sector":"Financial Services","price":87.39,"last":87.39},"PRGO":{"symbol":"PRGO","companyName":"Perrigo Company plc","industry":"Drug Manufacturers","sector":"Healthcare","price":49.9,"last":49.9},"NLSN":{"symbol":"NLSN","companyName":"Nielsen N.V.","industry":"","sector":"","price":23.68,"last":23.68},"NWL":{"symbol":"NWL","companyName":"Newell Brands Inc.","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":15.54,"last":15.54},"IRM":{"symbol":"IRM","companyName":"Iron Mountain Incorporated (Delaware)Common Stock REIT","industry":"REITs","sector":"Real Estate","price":32.36,"last":32.36},"AES":{"symbol":"AES","companyName":"The AES Corporation","industry":"Utilities - Regulated","sector":"Utilities","price":16.35,"last":16.35},"QRVO":{"symbol":"QRVO","companyName":"Qorvo Inc.","industry":"Semiconductors","sector":"Technology","price":68.11,"last":68.11},"IVZ":{"symbol":"IVZ","companyName":"Invesco Ltd","industry":"Asset Management","sector":"Financial Services","price":20.68,"last":20.68},"AVY":{"symbol":"AVY","companyName":"Avery Dennison Corporation","industry":"Industrial Products","sector":"Industrials","price":102.79,"last":102.79},"XEC":{"symbol":"XEC","companyName":"Cimarex Energy Co","industry":"Oil & Gas - E&P","sector":"Energy","price":69.25,"last":69.25},"COTY":{"symbol":"COTY","companyName":"Coty Inc. Class A","industry":"Consumer Packaged Goods","sector":"Consumer Defensive","price":13.24,"last":13.24},"NKTR":{"symbol":"NKTR","companyName":"Nektar Therapeutics","industry":"Biotechnology","sector":"Healthcare","price":31.34,"last":31.34},"RE":{"symbol":"RE","companyName":"Everest Re Group Ltd.","industry":"Insurance - Specialty","sector":"Financial Services","price":249.42,"last":249.42},"UAA":{"symbol":"UAA","companyName":"Under Armour Inc. Class A","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":21.88,"last":21.88},"BWA":{"symbol":"BWA","companyName":"BorgWarner Inc.","industry":"Autos","sector":"Consumer Cyclical","price":36.65,"last":36.65},"AOS":{"symbol":"AOS","companyName":"A.O. Smith Corporation","industry":"Industrial Products","sector":"Industrials","price":45.12,"last":45.12},"FRT":{"symbol":"FRT","companyName":"Federal Realty Investment Trust","industry":"REITs","sector":"Real Estate","price":130.48,"last":130.48},"NI":{"symbol":"NI","companyName":"NiSource Inc","industry":"Utilities - Regulated","sector":"Utilities","price":28.19,"last":28.19},"IPG":{"symbol":"IPG","companyName":"Interpublic Group of Companies Inc. (The)","industry":"Advertising & Marketing Services","sector":"Consumer Cyclical","price":22.47,"last":22.47},"PNW":{"symbol":"PNW","companyName":"Pinnacle West Capital Corporation","industry":"Utilities - Regulated","sector":"Utilities","price":95.82,"last":95.82},"ALLE":{"symbol":"ALLE","companyName":"Allegion plc","industry":"","sector":"","price":101.87,"last":101.87},"UNM":{"symbol":"UNM","companyName":"Unum Group","industry":"Insurance - Life","sector":"Financial Services","price":35.17,"last":35.17},"IPGP":{"symbol":"IPGP","companyName":"IPG Photonics Corporation","industry":"Semiconductors","sector":"Technology","price":138.01,"last":138.01},"WU":{"symbol":"WU","companyName":"Western Union Company (The)","industry":"Credit Services","sector":"Financial Services","price":19.6,"last":19.6},"FLIR":{"symbol":"FLIR","companyName":"FLIR Systems Inc.","industry":"Computer Hardware","sector":"Technology","price":50.21,"last":50.21},"RHI":{"symbol":"RHI","companyName":"Robert Half International Inc.","industry":"Employment Services","sector":"Industrials","price":56.18,"last":56.18},"UA":{"symbol":"UA","companyName":"Under Armour Inc. Class C","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":19.36,"last":19.36},"FLR":{"symbol":"FLR","companyName":"Fluor Corporation","industry":"Engineering & Construction","sector":"Industrials","price":29.5,"last":29.5},"SLG":{"symbol":"SLG","companyName":"SL Green Realty Corp","industry":"REITs","sector":"Real Estate","price":86.57,"last":86.57},"XRAY":{"symbol":"XRAY","companyName":"DENTSPLY SIRONA Inc.","industry":"Medical Instruments & Equipment","sector":"Healthcare","price":54.89,"last":54.89},"ALK":{"symbol":"ALK","companyName":"Alaska Air Group Inc.","industry":"Airlines","sector":"Industrials","price":62.64,"last":62.64},"LB":{"symbol":"LB","companyName":"L Brands Inc.","industry":"Retail - Apparel & Specialty","sector":"Consumer Cyclical","price":22.35,"last":22.35},"NWS":{"symbol":"NWS","companyName":"News Corporation","industry":"Entertainment","sector":"Consumer Cyclical","price":11.68,"last":11.68},"HP":{"symbol":"HP","companyName":"Helmerich & Payne Inc.","industry":"Oil & Gas - Drilling","sector":"Energy","price":58.08,"last":58.08},"NWSA":{"symbol":"NWSA","companyName":"News Corporation","industry":"Entertainment","sector":"Consumer Cyclical","price":11.53,"last":11.53},"PNR":{"symbol":"PNR","companyName":"Pentair plc.","industry":"","sector":"","price":36.61,"last":36.61},"FBHS":{"symbol":"FBHS","companyName":"Fortune Brands Home & Security Inc.","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":53.21,"last":53.21},"MAC":{"symbol":"MAC","companyName":"Macerich Company (The)","industry":"REITs","sector":"Real Estate","price":41.96,"last":41.96},"HOG":{"symbol":"HOG","companyName":"Harley-Davidson Inc.","industry":"Autos","sector":"Consumer Cyclical","price":35.1,"last":35.1},"JEF":{"symbol":"JEF","companyName":"Jefferies Financial Group Inc.","industry":"Asset Management","sector":"Financial Services","price":18.88,"last":18.88},"WHR":{"symbol":"WHR","companyName":"Whirlpool Corporation","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":129.92,"last":129.92},"AMG":{"symbol":"AMG","companyName":"Affiliated Managers Group Inc.","industry":"Asset Management","sector":"Financial Services","price":90.76,"last":90.76},"FLS":{"symbol":"FLS","companyName":"Flowserve Corporation","industry":"Industrial Products","sector":"Industrials","price":51.15,"last":51.15},"TRIP":{"symbol":"TRIP","companyName":"TripAdvisor Inc.","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":46.75,"last":46.75},"XRX":{"symbol":"XRX","companyName":"Xerox Corporation","industry":"Application Software","sector":"Technology","price":32.47,"last":32.47},"AIV":{"symbol":"AIV","companyName":"Apartment Investment and Management Company","industry":"REITs","sector":"Real Estate","price":50.27,"last":50.27},"PHM":{"symbol":"PHM","companyName":"PulteGroup Inc.","industry":"Homebuilding & Construction","sector":"Consumer Cyclical","price":32.33,"last":32.33},"AIZ":{"symbol":"AIZ","companyName":"Assurant Inc.","industry":"Insurance","sector":"Financial Services","price":96.21,"last":96.21},"KIM":{"symbol":"KIM","companyName":"Kimco Realty Corporation","industry":"REITs","sector":"Real Estate","price":18.14,"last":18.14},"HBI":{"symbol":"HBI","companyName":"Hanesbrands Inc.","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":16.82,"last":16.82},"SEE":{"symbol":"SEE","companyName":"Sealed Air Corporation","industry":"Packaging & Containers","sector":"Consumer Cyclical","price":42.1,"last":42.1},"NFX":{"symbol":"NFX","companyName":"Newfield Exploration Company","industry":"Oil & Gas - E&P","sector":"Energy","price":17.07,"last":17.07},"PBCT":{"symbol":"PBCT","companyName":"People's United Financial Inc.","industry":"Banks","sector":"Financial Services","price":16.27,"last":16.27},"LEG":{"symbol":"LEG","companyName":"Leggett & Platt Incorporated","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":37.99,"last":37.99},"GT":{"symbol":"GT","companyName":"The Goodyear Tire & Rubber Company","industry":"Autos","sector":"Consumer Cyclical","price":16.08,"last":16.08},"FL":{"symbol":"FL","companyName":"Foot Locker Inc.","industry":"Manufacturing - Apparel & Furniture","sector":"Consumer Cyclical","price":55.47,"last":55.47},"SCG":{"symbol":"SCG","companyName":"SCANA Corporation","industry":"Utilities - Regulated","sector":"Utilities","price":47.78,"last":47.78},"BHF":{"symbol":"BHF","companyName":"Brighthouse Financial Inc.","industry":"Insurance - Life","sector":"Financial Services","price":38.37,"last":38.37},"MAT":{"symbol":"MAT","companyName":"Mattel Inc.","industry":"Travel & Leisure","sector":"Consumer Cyclical","price":11.14,"last":11.14},"HRB":{"symbol":"HRB","companyName":"H&R Block Inc.","industry":"Personal Services","sector":"Consumer Cyclical","price":27.44,"last":27.44},"PWR":{"symbol":"PWR","companyName":"Quanta Services Inc.","industry":"Engineering & Construction","sector":"Industrials","price":35.8,"last":35.8},"SRCL":{"symbol":"SRCL","companyName":"Stericycle Inc.","industry":"Waste Management","sector":"Industrials","price":48.79,"last":48.79}}
+{
+  "AAPL": {
+    "symbol": "AAPL",
+    "companyName": "Apple Inc.",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 190.08,
+    "last": 190.08
+  },
+  "AMZN": {
+    "symbol": "AMZN",
+    "companyName": "Amazon.com Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 1907.57,
+    "last": 1907.57
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "companyName": "Microsoft Corporation",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 128.93,
+    "last": 128.93
+  },
+  "GOOGL": {
+    "symbol": "GOOGL",
+    "companyName": "Alphabet Inc.",
+    "industry": "Online Media",
+    "sector": "Technology",
+    "price": 1184.5,
+    "last": 1184.5
+  },
+  "GOOG": {
+    "symbol": "GOOG",
+    "companyName": "Alphabet Inc.",
+    "industry": "Online Media",
+    "sector": "Technology",
+    "price": 1178.98,
+    "last": 1178.98
+  },
+  "BRK.B": {
+    "symbol": "BRK.B",
+    "companyName": "Berkshire Hathaway Inc.",
+    "industry": "Insurance",
+    "sector": "Financial Services",
+    "price": 204.63,
+    "last": 204.63
+  },
+  "FB": {
+    "symbol": "FB",
+    "companyName": "Facebook Inc.",
+    "industry": "Online Media",
+    "sector": "Technology",
+    "price": 186.99,
+    "last": 186.99
+  },
+  "JPM": {
+    "symbol": "JPM",
+    "companyName": "JP Morgan Chase & Co.",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 111.31,
+    "last": 111.31
+  },
+  "JNJ": {
+    "symbol": "JNJ",
+    "companyName": "Johnson & Johnson",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 138.21,
+    "last": 138.21
+  },
+  "XOM": {
+    "symbol": "XOM",
+    "companyName": "Exxon Mobil Corporation",
+    "industry": "Oil & Gas - Integrated",
+    "sector": "Energy",
+    "price": 76.36,
+    "last": 76.36
+  },
+  "V": {
+    "symbol": "V",
+    "companyName": "Visa Inc.",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 164.87,
+    "last": 164.87
+  },
+  "BAC": {
+    "symbol": "BAC",
+    "companyName": "Bank of America Corporation",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 28.59,
+    "last": 28.59
+  },
+  "WMT": {
+    "symbol": "WMT",
+    "companyName": "Walmart Inc.",
+    "industry": "Retail - Defensive",
+    "sector": "Consumer Defensive",
+    "price": 101.31,
+    "last": 101.31
+  },
+  "PFE": {
+    "symbol": "PFE",
+    "companyName": "Pfizer Inc.",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 41.64,
+    "last": 41.64
+  },
+  "UNH": {
+    "symbol": "UNH",
+    "companyName": "UnitedHealth Group Incorporated (DE)",
+    "industry": "Health Care Plans",
+    "sector": "Healthcare",
+    "price": 236.79,
+    "last": 236.79
+  },
+  "WFC": {
+    "symbol": "WFC",
+    "companyName": "Wells Fargo & Company",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 45.9,
+    "last": 45.9
+  },
+  "T": {
+    "symbol": "T",
+    "companyName": "AT&T Inc.",
+    "industry": "Communication Services",
+    "sector": "Communication Services",
+    "price": 31.62,
+    "last": 31.62
+  },
+  "CVX": {
+    "symbol": "CVX",
+    "companyName": "Chevron Corporation",
+    "industry": "Oil & Gas - Integrated",
+    "sector": "Energy",
+    "price": 120.8,
+    "last": 120.8
+  },
+  "HD": {
+    "symbol": "HD",
+    "companyName": "Home Depot Inc. (The)",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 192.38,
+    "last": 192.38
+  },
+  "MA": {
+    "symbol": "MA",
+    "companyName": "Mastercard Incorporated",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 253.42,
+    "last": 253.42
+  },
+  "BA": {
+    "symbol": "BA",
+    "companyName": "The Boeing Company",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 353.81,
+    "last": 353.81
+  },
+  "INTC": {
+    "symbol": "INTC",
+    "companyName": "Intel Corporation",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 45.53,
+    "last": 45.53
+  },
+  "VZ": {
+    "symbol": "VZ",
+    "companyName": "Verizon Communications Inc.",
+    "industry": "Communication Services",
+    "sector": "Communication Services",
+    "price": 57.38,
+    "last": 57.38
+  },
+  "CSCO": {
+    "symbol": "CSCO",
+    "companyName": "Cisco Systems Inc.",
+    "industry": "Communication Equipment",
+    "sector": "Technology",
+    "price": 55.93,
+    "last": 55.93
+  },
+  "PG": {
+    "symbol": "PG",
+    "companyName": "Procter & Gamble Company (The)",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 108.11,
+    "last": 108.11
+  },
+  "KO": {
+    "symbol": "KO",
+    "companyName": "Coca-Cola Company (The)",
+    "industry": "Beverages - Non-Alcoholic",
+    "sector": "Consumer Defensive",
+    "price": 49.58,
+    "last": 49.58
+  },
+  "MRK": {
+    "symbol": "MRK",
+    "companyName": "Merck & Company Inc. (new)",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 79.13,
+    "last": 79.13
+  },
+  "ORCL": {
+    "symbol": "ORCL",
+    "companyName": "Oracle Corporation",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 54.64,
+    "last": 54.64
+  },
+  "C": {
+    "symbol": "C",
+    "companyName": "Citigroup Inc.",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 65.98,
+    "last": 65.98
+  },
+  "DIS": {
+    "symbol": "DIS",
+    "companyName": "The Walt Disney Company",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 135.5,
+    "last": 135.5
+  },
+  "NVDA": {
+    "symbol": "NVDA",
+    "companyName": "NVIDIA Corporation",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 160.19,
+    "last": 160.19
+  },
+  "NFLX": {
+    "symbol": "NFLX",
+    "companyName": "Netflix Inc.",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 359.31,
+    "last": 359.31
+  },
+  "CMCSA": {
+    "symbol": "CMCSA",
+    "companyName": "Comcast Corporation Class A Common Stock",
+    "industry": "Communication Services",
+    "sector": "Communication Services",
+    "price": 43.19,
+    "last": 43.19
+  },
+  "PEP": {
+    "symbol": "PEP",
+    "companyName": "PepsiCo Inc.",
+    "industry": "Beverages - Non-Alcoholic",
+    "sector": "Consumer Defensive",
+    "price": 130.27,
+    "last": 130.27
+  },
+  "DWDP": {
+    "symbol": "DWDP",
+    "companyName": "DowDuPont Inc.",
+    "industry": "Chemicals",
+    "sector": "Basic Materials",
+    "price": 30.8,
+    "last": 30.8
+  },
+  "ABBV": {
+    "symbol": "ABBV",
+    "companyName": "AbbVie Inc.",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 79.5,
+    "last": 79.5
+  },
+  "IBM": {
+    "symbol": "IBM",
+    "companyName": "International Business Machines Corporation",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 135.88,
+    "last": 135.88
+  },
+  "AMGN": {
+    "symbol": "AMGN",
+    "companyName": "Amgen Inc.",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 169.92,
+    "last": 169.92
+  },
+  "NKE": {
+    "symbol": "NKE",
+    "companyName": "Nike Inc.",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 84.28,
+    "last": 84.28
+  },
+  "MDT": {
+    "symbol": "MDT",
+    "companyName": "Medtronic plc.",
+    "industry": "Medical Devices",
+    "sector": "Healthcare",
+    "price": 88.11,
+    "last": 88.11
+  },
+  "ADBE": {
+    "symbol": "ADBE",
+    "companyName": "Adobe Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 283.55,
+    "last": 283.55
+  },
+  "PM": {
+    "symbol": "PM",
+    "companyName": "Philip Morris International Inc",
+    "industry": "Tobacco Products",
+    "sector": "Consumer Defensive",
+    "price": 85.51,
+    "last": 85.51
+  },
+  "MCD": {
+    "symbol": "MCD",
+    "companyName": "McDonald's Corporation",
+    "industry": "Restaurants",
+    "sector": "Consumer Cyclical",
+    "price": 199.99,
+    "last": 199.99
+  },
+  "MMM": {
+    "symbol": "MMM",
+    "companyName": "3M Company",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 171.81,
+    "last": 171.81
+  },
+  "ABT": {
+    "symbol": "ABT",
+    "companyName": "Abbott Laboratories",
+    "industry": "Medical Devices",
+    "sector": "Healthcare",
+    "price": 76.6,
+    "last": 76.6
+  },
+  "HON": {
+    "symbol": "HON",
+    "companyName": "Honeywell International Inc.",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 170.79,
+    "last": 170.79
+  },
+  "LLY": {
+    "symbol": "LLY",
+    "companyName": "Eli Lilly and Company",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 116.73,
+    "last": 116.73
+  },
+  "UNP": {
+    "symbol": "UNP",
+    "companyName": "Union Pacific Corporation",
+    "industry": "Transportation & Logistics",
+    "sector": "Industrials",
+    "price": 175.63,
+    "last": 175.63
+  },
+  "CRM": {
+    "symbol": "CRM",
+    "companyName": "Salesforce.com Inc",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 158.48,
+    "last": 158.48
+  },
+  "MO": {
+    "symbol": "MO",
+    "companyName": "Altria Group Inc.",
+    "industry": "Tobacco Products",
+    "sector": "Consumer Defensive",
+    "price": 52.03,
+    "last": 52.03
+  },
+  "UTX": {
+    "symbol": "UTX",
+    "companyName": "United Technologies Corporation",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 135.25,
+    "last": 135.25
+  },
+  "ACN": {
+    "symbol": "ACN",
+    "companyName": "Accenture plc Class A (Ireland)",
+    "industry": "",
+    "sector": "",
+    "price": 178.17,
+    "last": 178.17
+  },
+  "GE": {
+    "symbol": "GE",
+    "companyName": "General Electric Company",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 10.13,
+    "last": 10.13
+  },
+  "QCOM": {
+    "symbol": "QCOM",
+    "companyName": "QUALCOMM Incorporated",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 82.81,
+    "last": 82.81
+  },
+  "TXN": {
+    "symbol": "TXN",
+    "companyName": "Texas Instruments Incorporated",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 109.21,
+    "last": 109.21
+  },
+  "AVGO": {
+    "symbol": "AVGO",
+    "companyName": "Broadcom Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 297.29,
+    "last": 297.29
+  },
+  "PYPL": {
+    "symbol": "PYPL",
+    "companyName": "PayPal Holdings Inc.",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 113.87,
+    "last": 113.87
+  },
+  "GILD": {
+    "symbol": "GILD",
+    "companyName": "Gilead Sciences Inc.",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 65.78,
+    "last": 65.78
+  },
+  "BMY": {
+    "symbol": "BMY",
+    "companyName": "Bristol-Myers Squibb Company",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 47.12,
+    "last": 47.12
+  },
+  "COST": {
+    "symbol": "COST",
+    "companyName": "Costco Wholesale Corporation",
+    "industry": "Retail - Defensive",
+    "sector": "Consumer Defensive",
+    "price": 247.44,
+    "last": 247.44
+  },
+  "UPS": {
+    "symbol": "UPS",
+    "companyName": "United Parcel Service Inc.",
+    "industry": "Transportation & Logistics",
+    "sector": "Industrials",
+    "price": 101.31,
+    "last": 101.31
+  },
+  "TMO": {
+    "symbol": "TMO",
+    "companyName": "Thermo Fisher Scientific Inc",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 267.02,
+    "last": 267.02
+  },
+  "LMT": {
+    "symbol": "LMT",
+    "companyName": "Lockheed Martin Corporation",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 339.39,
+    "last": 339.39
+  },
+  "CAT": {
+    "symbol": "CAT",
+    "companyName": "Caterpillar Inc.",
+    "industry": "Farm & Construction Machinery",
+    "sector": "Industrials",
+    "price": 126.61,
+    "last": 126.61
+  },
+  "AXP": {
+    "symbol": "AXP",
+    "companyName": "American Express Company",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 119.84,
+    "last": 119.84
+  },
+  "BKNG": {
+    "symbol": "BKNG",
+    "companyName": "Booking Holdings Inc.",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 1803.31,
+    "last": 1803.31
+  },
+  "COP": {
+    "symbol": "COP",
+    "companyName": "ConocoPhillips",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 62.57,
+    "last": 62.57
+  },
+  "LOW": {
+    "symbol": "LOW",
+    "companyName": "Lowe's Companies Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 108.59,
+    "last": 108.59
+  },
+  "USB": {
+    "symbol": "USB",
+    "companyName": "U.S. Bancorp",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 51.5,
+    "last": 51.5
+  },
+  "FOXA": {
+    "symbol": "FOXA",
+    "companyName": "Fox Corporation",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 36.74,
+    "last": 36.74
+  },
+  "SLB": {
+    "symbol": "SLB",
+    "companyName": "Schlumberger N.V.",
+    "industry": "Oil & Gas - Services",
+    "sector": "Energy",
+    "price": 39.86,
+    "last": 39.86
+  },
+  "GS": {
+    "symbol": "GS",
+    "companyName": "Goldman Sachs Group Inc. (The)",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 199.14,
+    "last": 199.14
+  },
+  "FOX": {
+    "symbol": "FOX",
+    "companyName": "Fox Corporation",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 36.32,
+    "last": 36.32
+  },
+  "MS": {
+    "symbol": "MS",
+    "companyName": "Morgan Stanley",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 44.28,
+    "last": 44.28
+  },
+  "CVS": {
+    "symbol": "CVS",
+    "companyName": "CVS Health Corporation",
+    "industry": "Health Care Plans",
+    "sector": "Healthcare",
+    "price": 52.3,
+    "last": 52.3
+  },
+  "NEE": {
+    "symbol": "NEE",
+    "companyName": "NextEra Energy Inc.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 197.11,
+    "last": 197.11
+  },
+  "BLK": {
+    "symbol": "BLK",
+    "companyName": "BlackRock Inc.",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 447.24,
+    "last": 447.24
+  },
+  "DHR": {
+    "symbol": "DHR",
+    "companyName": "Danaher Corporation",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 132.27,
+    "last": 132.27
+  },
+  "EOG": {
+    "symbol": "EOG",
+    "companyName": "EOG Resources Inc.",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 95.18,
+    "last": 95.18
+  },
+  "CHTR": {
+    "symbol": "CHTR",
+    "companyName": "Charter Communications Inc.",
+    "industry": "Communication Services",
+    "sector": "Communication Services",
+    "price": 382.19,
+    "last": 382.19
+  },
+  "SBUX": {
+    "symbol": "SBUX",
+    "companyName": "Starbucks Corporation",
+    "industry": "Restaurants",
+    "sector": "Consumer Cyclical",
+    "price": 78.9,
+    "last": 78.9
+  },
+  "WBA": {
+    "symbol": "WBA",
+    "companyName": "Walgreens Boots Alliance Inc.",
+    "industry": "Retail - Defensive",
+    "sector": "Consumer Defensive",
+    "price": 52.5,
+    "last": 52.5
+  },
+  "ANTM": {
+    "symbol": "ANTM",
+    "companyName": "Anthem Inc.",
+    "industry": "Health Care Plans",
+    "sector": "Healthcare",
+    "price": 263.82,
+    "last": 263.82
+  },
+  "BIIB": {
+    "symbol": "BIIB",
+    "companyName": "Biogen Inc.",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 230.87,
+    "last": 230.87
+  },
+  "BDX": {
+    "symbol": "BDX",
+    "companyName": "Becton Dickinson and Company",
+    "industry": "Medical Instruments & Equipment",
+    "sector": "Healthcare",
+    "price": 225.93,
+    "last": 225.93
+  },
+  "SCHW": {
+    "symbol": "SCHW",
+    "companyName": "Charles Schwab Corporation (The)",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 43.74,
+    "last": 43.74
+  },
+  "TJX": {
+    "symbol": "TJX",
+    "companyName": "TJX Companies Inc. (The)",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 52.69,
+    "last": 52.69
+  },
+  "KHC": {
+    "symbol": "KHC",
+    "companyName": "The Kraft Heinz Company",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 32.46,
+    "last": 32.46
+  },
+  "AET": {
+    "symbol": "AET",
+    "companyName": "Aetna Inc.",
+    "industry": "Health Care Plans",
+    "sector": "Healthcare",
+    "price": 212.7,
+    "last": 212.7
+  },
+  "ADP": {
+    "symbol": "ADP",
+    "companyName": "Automatic Data Processing Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 161.53,
+    "last": 161.53
+  },
+  "AGN": {
+    "symbol": "AGN",
+    "companyName": "Allergan plc",
+    "industry": "",
+    "sector": "",
+    "price": 140.04,
+    "last": 140.04
+  },
+  "SYK": {
+    "symbol": "SYK",
+    "companyName": "Stryker Corporation",
+    "industry": "Medical Devices",
+    "sector": "Healthcare",
+    "price": 185.63,
+    "last": 185.63
+  },
+  "CSX": {
+    "symbol": "CSX",
+    "companyName": "CSX Corporation",
+    "industry": "Transportation & Logistics",
+    "sector": "Industrials",
+    "price": 78.22,
+    "last": 78.22
+  },
+  "CELG": {
+    "symbol": "CELG",
+    "companyName": "Celgene Corporation",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 95.51,
+    "last": 95.51
+  },
+  "PNC": {
+    "symbol": "PNC",
+    "companyName": "PNC Financial Services Group Inc. (The)",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 131.1,
+    "last": 131.1
+  },
+  "ISRG": {
+    "symbol": "ISRG",
+    "companyName": "Intuitive Surgical Inc.",
+    "industry": "Medical Instruments & Equipment",
+    "sector": "Healthcare",
+    "price": 491.73,
+    "last": 491.73
+  },
+  "FDX": {
+    "symbol": "FDX",
+    "companyName": "FedEx Corporation",
+    "industry": "Transportation & Logistics",
+    "sector": "Industrials",
+    "price": 175.77,
+    "last": 175.77
+  },
+  "AMT": {
+    "symbol": "AMT",
+    "companyName": "American Tower Corporation (REIT)",
+    "industry": "Communication Services",
+    "sector": "Communication Services",
+    "price": 202.02,
+    "last": 202.02
+  },
+  "OXY": {
+    "symbol": "OXY",
+    "companyName": "Occidental Petroleum Corporation",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 53.75,
+    "last": 53.75
+  },
+  "ATVI": {
+    "symbol": "ATVI",
+    "companyName": "Activision Blizzard Inc",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 47.29,
+    "last": 47.29
+  },
+  "MDLZ": {
+    "symbol": "MDLZ",
+    "companyName": "Mondelez International Inc.",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 52.8,
+    "last": 52.8
+  },
+  "CB": {
+    "symbol": "CB",
+    "companyName": "Chubb Limited",
+    "industry": "Insurance - Property & Casualty",
+    "sector": "Financial Services",
+    "price": 145.62,
+    "last": 145.62
+  },
+  "GD": {
+    "symbol": "GD",
+    "companyName": "General Dynamics Corporation",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 169.85,
+    "last": 169.85
+  },
+  "CME": {
+    "symbol": "CME",
+    "companyName": "CME Group Inc.",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 182.79,
+    "last": 182.79
+  },
+  "INTU": {
+    "symbol": "INTU",
+    "companyName": "Intuit Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 247.55,
+    "last": 247.55
+  },
+  "RTN": {
+    "symbol": "RTN",
+    "companyName": "Raytheon Company",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 179.44,
+    "last": 179.44
+  },
+  "CL": {
+    "symbol": "CL",
+    "companyName": "Colgate-Palmolive Company",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 72.5,
+    "last": 72.5
+  },
+  "DUK": {
+    "symbol": "DUK",
+    "companyName": "Duke Energy Corporation (Holding Company)",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 86.24,
+    "last": 86.24
+  },
+  "NOC": {
+    "symbol": "NOC",
+    "companyName": "Northrop Grumman Corporation",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 304.71,
+    "last": 304.71
+  },
+  "PSX": {
+    "symbol": "PSX",
+    "companyName": "Phillips 66",
+    "industry": "Oil & Gas - Refining & Marketing",
+    "sector": "Energy",
+    "price": 88.3,
+    "last": 88.3
+  },
+  "ESRX": {
+    "symbol": "ESRX",
+    "companyName": "Express Scripts Holding Company",
+    "industry": "Health Care Plans",
+    "sector": "Healthcare",
+    "price": 92.33,
+    "last": 92.33
+  },
+  "SPG": {
+    "symbol": "SPG",
+    "companyName": "Simon Property Group Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 175.31,
+    "last": 175.31
+  },
+  "BSX": {
+    "symbol": "BSX",
+    "companyName": "Boston Scientific Corporation",
+    "industry": "Medical Devices",
+    "sector": "Healthcare",
+    "price": 37.62,
+    "last": 37.62
+  },
+  "ILMN": {
+    "symbol": "ILMN",
+    "companyName": "Illumina Inc.",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 309.85,
+    "last": 309.85
+  },
+  "EL": {
+    "symbol": "EL",
+    "companyName": "Estee Lauder Companies Inc. (The)",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 170.7,
+    "last": 170.7
+  },
+  "BK": {
+    "symbol": "BK",
+    "companyName": "Bank of New York Mellon Corporation (The)",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 46.54,
+    "last": 46.54
+  },
+  "MU": {
+    "symbol": "MU",
+    "companyName": "Micron Technology Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 37.31,
+    "last": 37.31
+  },
+  "CI": {
+    "symbol": "CI",
+    "companyName": "Cigna Corporation",
+    "industry": "Health Care Plans",
+    "sector": "Healthcare",
+    "price": 153.79,
+    "last": 153.79
+  },
+  "VLO": {
+    "symbol": "VLO",
+    "companyName": "Valero Energy Corporation",
+    "industry": "Oil & Gas - Refining & Marketing",
+    "sector": "Energy",
+    "price": 85.47,
+    "last": 85.47
+  },
+  "NSC": {
+    "symbol": "NSC",
+    "companyName": "Norfolk Southern Corporation",
+    "industry": "Transportation & Logistics",
+    "sector": "Industrials",
+    "price": 205.22,
+    "last": 205.22
+  },
+  "DE": {
+    "symbol": "DE",
+    "companyName": "Deere & Company",
+    "industry": "Farm & Construction Machinery",
+    "sector": "Industrials",
+    "price": 145.99,
+    "last": 145.99
+  },
+  "EMR": {
+    "symbol": "EMR",
+    "companyName": "Emerson Electric Company",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 65.66,
+    "last": 65.66
+  },
+  "SPGI": {
+    "symbol": "SPGI",
+    "companyName": "S&P Global Inc.",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 215.29,
+    "last": 215.29
+  },
+  "VRTX": {
+    "symbol": "VRTX",
+    "companyName": "Vertex Pharmaceuticals Incorporated",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "price": 170.23,
+    "last": 170.23
+  },
+  "GM": {
+    "symbol": "GM",
+    "companyName": "General Motors Company",
+    "industry": "Autos",
+    "sector": "Consumer Cyclical",
+    "price": 37.38,
+    "last": 37.38
+  },
+  "ITW": {
+    "symbol": "ITW",
+    "companyName": "Illinois Tool Works Inc.",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 152.47,
+    "last": 152.47
+  },
+  "PX": {
+    "symbol": "PX",
+    "companyName": "Praxair Inc.",
+    "industry": "Chemicals",
+    "sector": "Basic Materials",
+    "price": 164.5,
+    "last": 164.5
+  },
+  "HCA": {
+    "symbol": "HCA",
+    "companyName": "HCA Healthcare Inc.",
+    "industry": "Health Care Providers",
+    "sector": "Healthcare",
+    "price": 122.7,
+    "last": 122.7
+  },
+  "AIG": {
+    "symbol": "AIG",
+    "companyName": "American International Group Inc.",
+    "industry": "Insurance",
+    "sector": "Financial Services",
+    "price": 52.23,
+    "last": 52.23
+  },
+  "MET": {
+    "symbol": "MET",
+    "companyName": "MetLife Inc.",
+    "industry": "Insurance - Life",
+    "sector": "Financial Services",
+    "price": 47.64,
+    "last": 47.64
+  },
+  "COF": {
+    "symbol": "COF",
+    "companyName": "Capital One Financial Corporation",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 90.98,
+    "last": 90.98
+  },
+  "D": {
+    "symbol": "D",
+    "companyName": "Dominion Energy Inc.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 75.32,
+    "last": 75.32
+  },
+  "HUM": {
+    "symbol": "HUM",
+    "companyName": "Humana Inc.",
+    "industry": "Health Care Plans",
+    "sector": "Healthcare",
+    "price": 242.22,
+    "last": 242.22
+  },
+  "CCL": {
+    "symbol": "CCL",
+    "companyName": "Carnival Corporation",
+    "industry": "",
+    "sector": "",
+    "price": 53.93,
+    "last": 53.93
+  },
+  "CCI": {
+    "symbol": "CCI",
+    "companyName": "Crown Castle International Corp. (REIT)",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 127.53,
+    "last": 127.53
+  },
+  "TGT": {
+    "symbol": "TGT",
+    "companyName": "Target Corporation",
+    "industry": "Retail - Defensive",
+    "sector": "Consumer Defensive",
+    "price": 70.78,
+    "last": 70.78
+  },
+  "ECL": {
+    "symbol": "ECL",
+    "companyName": "Ecolab Inc.",
+    "industry": "Chemicals",
+    "sector": "Basic Materials",
+    "price": 182.18,
+    "last": 182.18
+  },
+  "ZTS": {
+    "symbol": "ZTS",
+    "companyName": "Zoetis Inc. Class A",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 102.93,
+    "last": 102.93
+  },
+  "CTSH": {
+    "symbol": "CTSH",
+    "companyName": "Cognizant Technology Solutions Corporation",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 58.64,
+    "last": 58.64
+  },
+  "REGN": {
+    "symbol": "REGN",
+    "companyName": "Regeneron Pharmaceuticals Inc.",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "price": 308.04,
+    "last": 308.04
+  },
+  "MAR": {
+    "symbol": "MAR",
+    "companyName": "Marriott International",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 132.51,
+    "last": 132.51
+  },
+  "SO": {
+    "symbol": "SO",
+    "companyName": "Southern Company (The)",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 54.06,
+    "last": 54.06
+  },
+  "ICE": {
+    "symbol": "ICE",
+    "companyName": "Intercontinental Exchange Inc.",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 81.34,
+    "last": 81.34
+  },
+  "PRU": {
+    "symbol": "PRU",
+    "companyName": "Prudential Financial Inc.",
+    "industry": "Insurance - Life",
+    "sector": "Financial Services",
+    "price": 99.41,
+    "last": 99.41
+  },
+  "MMC": {
+    "symbol": "MMC",
+    "companyName": "Marsh & McLennan Companies Inc.",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 95.71,
+    "last": 95.71
+  },
+  "STZ": {
+    "symbol": "STZ",
+    "companyName": "Constellation Brands Inc.",
+    "industry": "Beverages - Alcoholic",
+    "sector": "Consumer Defensive",
+    "price": 206.8,
+    "last": 206.8
+  },
+  "HPQ": {
+    "symbol": "HPQ",
+    "companyName": "HP Inc.",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 18.94,
+    "last": 18.94
+  },
+  "EXC": {
+    "symbol": "EXC",
+    "companyName": "Exelon Corporation",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 48.91,
+    "last": 48.91
+  },
+  "PLD": {
+    "symbol": "PLD",
+    "companyName": "Prologis Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 76.87,
+    "last": 76.87
+  },
+  "PGR": {
+    "symbol": "PGR",
+    "companyName": "Progressive Corporation (The)",
+    "industry": "Insurance - Property & Casualty",
+    "sector": "Financial Services",
+    "price": 77.85,
+    "last": 77.85
+  },
+  "SHW": {
+    "symbol": "SHW",
+    "companyName": "Sherwin-Williams Company (The)",
+    "industry": "Chemicals",
+    "sector": "Basic Materials",
+    "price": 433.28,
+    "last": 433.28
+  },
+  "LYB": {
+    "symbol": "LYB",
+    "companyName": "LyondellBasell Industries NV Class A (Netherlands)",
+    "industry": "",
+    "sector": "",
+    "price": 81.8,
+    "last": 81.8
+  },
+  "BAX": {
+    "symbol": "BAX",
+    "companyName": "Baxter International Inc.",
+    "industry": "Medical Instruments & Equipment",
+    "sector": "Healthcare",
+    "price": 76.9,
+    "last": 76.9
+  },
+  "KMI": {
+    "symbol": "KMI",
+    "companyName": "Kinder Morgan Inc.",
+    "industry": "Oil & Gas - Midstream",
+    "sector": "Energy",
+    "price": 20.42,
+    "last": 20.42
+  },
+  "KMB": {
+    "symbol": "KMB",
+    "companyName": "Kimberly-Clark Corporation",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 128.72,
+    "last": 128.72
+  },
+  "MPC": {
+    "symbol": "MPC",
+    "companyName": "Marathon Petroleum Corporation",
+    "industry": "Oil & Gas - Refining & Marketing",
+    "sector": "Energy",
+    "price": 52.86,
+    "last": 52.86
+  },
+  "WM": {
+    "symbol": "WM",
+    "companyName": "Waste Management Inc.",
+    "industry": "Waste Management",
+    "sector": "Industrials",
+    "price": 108,
+    "last": 108
+  },
+  "AON": {
+    "symbol": "AON",
+    "companyName": "Aon plc Class A (UK)",
+    "industry": "",
+    "sector": "",
+    "price": 181.7,
+    "last": 181.7
+  },
+  "ETN": {
+    "symbol": "ETN",
+    "companyName": "Eaton Corporation PLC",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 80.01,
+    "last": 80.01
+  },
+  "AMAT": {
+    "symbol": "AMAT",
+    "companyName": "Applied Materials Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 41.66,
+    "last": 41.66
+  },
+  "BBT": {
+    "symbol": "BBT",
+    "companyName": "BB&T Corporation",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 48.19,
+    "last": 48.19
+  },
+  "SYY": {
+    "symbol": "SYY",
+    "companyName": "Sysco Corporation",
+    "industry": "Retail - Defensive",
+    "sector": "Consumer Defensive",
+    "price": 74.64,
+    "last": 74.64
+  },
+  "DAL": {
+    "symbol": "DAL",
+    "companyName": "Delta Air Lines Inc.",
+    "industry": "Airlines",
+    "sector": "Industrials",
+    "price": 55.38,
+    "last": 55.38
+  },
+  "APD": {
+    "symbol": "APD",
+    "companyName": "Air Products and Chemicals Inc.",
+    "industry": "Chemicals",
+    "sector": "Basic Materials",
+    "price": 209.43,
+    "last": 209.43
+  },
+  "VFC": {
+    "symbol": "VFC",
+    "companyName": "V.F. Corporation",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 91.3,
+    "last": 91.3
+  },
+  "FTNT": {
+    "symbol": "FTNT",
+    "companyName": "Fortinet Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 83.24,
+    "last": 83.24
+  },
+  "KEYS": {
+    "symbol": "KEYS",
+    "companyName": "Keysight Technologies Inc.",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 85.19,
+    "last": 85.19
+  },
+  "JKHY": {
+    "symbol": "JKHY",
+    "companyName": "Jack Henry & Associates Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 136.1,
+    "last": 136.1
+  },
+  "HAL": {
+    "symbol": "HAL",
+    "companyName": "Halliburton Company",
+    "industry": "Oil & Gas - Services",
+    "sector": "Energy",
+    "price": 25.88,
+    "last": 25.88
+  },
+  "F": {
+    "symbol": "F",
+    "companyName": "Ford Motor Company",
+    "industry": "Autos",
+    "sector": "Consumer Cyclical",
+    "price": 10.4,
+    "last": 10.4
+  },
+  "ROST": {
+    "symbol": "ROST",
+    "companyName": "Ross Stores Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 95.88,
+    "last": 95.88
+  },
+  "AFL": {
+    "symbol": "AFL",
+    "companyName": "AFLAC Incorporated",
+    "industry": "Insurance - Life",
+    "sector": "Financial Services",
+    "price": 51.93,
+    "last": 51.93
+  },
+  "FIS": {
+    "symbol": "FIS",
+    "companyName": "Fidelity National Information Services Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 119.1,
+    "last": 119.1
+  },
+  "APC": {
+    "symbol": "APC",
+    "companyName": "Anadarko Petroleum Corporation",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 72.73,
+    "last": 72.73
+  },
+  "EA": {
+    "symbol": "EA",
+    "companyName": "Electronic Arts Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 99,
+    "last": 99
+  },
+  "LUV": {
+    "symbol": "LUV",
+    "companyName": "Southwest Airlines Company",
+    "industry": "Airlines",
+    "sector": "Industrials",
+    "price": 52.59,
+    "last": 52.59
+  },
+  "BHGE": {
+    "symbol": "BHGE",
+    "companyName": "Baker Hughes a GE company Class A",
+    "industry": "Oil & Gas - Services",
+    "sector": "Energy",
+    "price": 22.98,
+    "last": 22.98
+  },
+  "TRV": {
+    "symbol": "TRV",
+    "companyName": "The Travelers Companies Inc.",
+    "industry": "Insurance - Property & Casualty",
+    "sector": "Financial Services",
+    "price": 147.41,
+    "last": 147.41
+  },
+  "AEP": {
+    "symbol": "AEP",
+    "companyName": "American Electric Power Company Inc.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 85.4,
+    "last": 85.4
+  },
+  "PSA": {
+    "symbol": "PSA",
+    "companyName": "Public Storage",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 229.12,
+    "last": 229.12
+  },
+  "ALL": {
+    "symbol": "ALL",
+    "companyName": "Allstate Corporation (The)",
+    "industry": "Insurance - Property & Casualty",
+    "sector": "Financial Services",
+    "price": 95.87,
+    "last": 95.87
+  },
+  "ADI": {
+    "symbol": "ADI",
+    "companyName": "Analog Devices Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 104.7,
+    "last": 104.7
+  },
+  "ADSK": {
+    "symbol": "ADSK",
+    "companyName": "Autodesk Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 176.68,
+    "last": 176.68
+  },
+  "WMB": {
+    "symbol": "WMB",
+    "companyName": "Williams Companies Inc. (The)",
+    "industry": "Oil & Gas - Midstream",
+    "sector": "Energy",
+    "price": 27.63,
+    "last": 27.63
+  },
+  "EQIX": {
+    "symbol": "EQIX",
+    "companyName": "Equinix Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 491.76,
+    "last": 491.76
+  },
+  "JCI": {
+    "symbol": "JCI",
+    "companyName": "Johnson Controls International plc",
+    "industry": "Engineering & Construction",
+    "sector": "Industrials",
+    "price": 39.18,
+    "last": 39.18
+  },
+  "FISV": {
+    "symbol": "FISV",
+    "companyName": "Fiserv Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 87.78,
+    "last": 87.78
+  },
+  "STT": {
+    "symbol": "STT",
+    "companyName": "State Street Corporation",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 61.62,
+    "last": 61.62
+  },
+  "EW": {
+    "symbol": "EW",
+    "companyName": "Edwards Lifesciences Corporation",
+    "industry": "Medical Devices",
+    "sector": "Healthcare",
+    "price": 177.14,
+    "last": 177.14
+  },
+  "EBAY": {
+    "symbol": "EBAY",
+    "companyName": "eBay Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 37.27,
+    "last": 37.27
+  },
+  "MCO": {
+    "symbol": "MCO",
+    "companyName": "Moody's Corporation",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 189.27,
+    "last": 189.27
+  },
+  "CXO": {
+    "symbol": "CXO",
+    "companyName": "Concho Resources Inc.",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 114.03,
+    "last": 114.03
+  },
+  "SRE": {
+    "symbol": "SRE",
+    "companyName": "Sempra Energy",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 130.72,
+    "last": 130.72
+  },
+  "PXD": {
+    "symbol": "PXD",
+    "companyName": "Pioneer Natural Resources Company",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 155.09,
+    "last": 155.09
+  },
+  "MNST": {
+    "symbol": "MNST",
+    "companyName": "Monster Beverage Corporation",
+    "industry": "Beverages - Non-Alcoholic",
+    "sector": "Consumer Defensive",
+    "price": 63.93,
+    "last": 63.93
+  },
+  "STI": {
+    "symbol": "STI",
+    "companyName": "SunTrust Banks Inc.",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 62.18,
+    "last": 62.18
+  },
+  "ROP": {
+    "symbol": "ROP",
+    "companyName": "Roper Technologies Inc.",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 359.99,
+    "last": 359.99
+  },
+  "ALXN": {
+    "symbol": "ALXN",
+    "companyName": "Alexion Pharmaceuticals Inc.",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "price": 131.4,
+    "last": 131.4
+  },
+  "TEL": {
+    "symbol": "TEL",
+    "companyName": "TE Connectivity Ltd. New Switzerland Registered Shares",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 90.32,
+    "last": 90.32
+  },
+  "ALGN": {
+    "symbol": "ALGN",
+    "companyName": "Align Technology Inc.",
+    "industry": "Medical Devices",
+    "sector": "Healthcare",
+    "price": 330.87,
+    "last": 330.87
+  },
+  "CNC": {
+    "symbol": "CNC",
+    "companyName": "Centene Corporation",
+    "industry": "Health Care Plans",
+    "sector": "Healthcare",
+    "price": 55.57,
+    "last": 55.57
+  },
+  "FTV": {
+    "symbol": "FTV",
+    "companyName": "Fortive Corporation",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 81.35,
+    "last": 81.35
+  },
+  "GLW": {
+    "symbol": "GLW",
+    "companyName": "Corning Incorporated",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 30.5,
+    "last": 30.5
+  },
+  "YUM": {
+    "symbol": "YUM",
+    "companyName": "Yum! Brands Inc.",
+    "industry": "Restaurants",
+    "sector": "Consumer Cyclical",
+    "price": 100.87,
+    "last": 100.87
+  },
+  "ADM": {
+    "symbol": "ADM",
+    "companyName": "Archer-Daniels-Midland Company",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 41.26,
+    "last": 41.26
+  },
+  "OKE": {
+    "symbol": "OKE",
+    "companyName": "ONEOK Inc.",
+    "industry": "Oil & Gas - Midstream",
+    "sector": "Energy",
+    "price": 68.1,
+    "last": 68.1
+  },
+  "APH": {
+    "symbol": "APH",
+    "companyName": "Amphenol Corporation",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 93.08,
+    "last": 93.08
+  },
+  "DG": {
+    "symbol": "DG",
+    "companyName": "Dollar General Corporation",
+    "industry": "Retail - Defensive",
+    "sector": "Consumer Defensive",
+    "price": 119.72,
+    "last": 119.72
+  },
+  "ORLY": {
+    "symbol": "ORLY",
+    "companyName": "O'Reilly Automotive Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 352.57,
+    "last": 352.57
+  },
+  "AMD": {
+    "symbol": "AMD",
+    "companyName": "Advanced Micro Devices Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 28.01,
+    "last": 28.01
+  },
+  "TROW": {
+    "symbol": "TROW",
+    "companyName": "T. Rowe Price Group Inc.",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 105.31,
+    "last": 105.31
+  },
+  "RCL": {
+    "symbol": "RCL",
+    "companyName": "Royal Caribbean Cruises Ltd.",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 125.72,
+    "last": 125.72
+  },
+  "DFS": {
+    "symbol": "DFS",
+    "companyName": "Discover Financial Services",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 78.12,
+    "last": 78.12
+  },
+  "IQV": {
+    "symbol": "IQV",
+    "companyName": "IQVIA Holdings Inc.",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 135.24,
+    "last": 135.24
+  },
+  "DXC": {
+    "symbol": "DXC",
+    "companyName": "DXC Technology Company",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 57.66,
+    "last": 57.66
+  },
+  "ZBH": {
+    "symbol": "ZBH",
+    "companyName": "Zimmer Biomet Holdings Inc.",
+    "industry": "Medical Devices",
+    "sector": "Healthcare",
+    "price": 118.08,
+    "last": 118.08
+  },
+  "PAYX": {
+    "symbol": "PAYX",
+    "companyName": "Paychex Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 86.64,
+    "last": 86.64
+  },
+  "PPG": {
+    "symbol": "PPG",
+    "companyName": "PPG Industries Inc.",
+    "industry": "Chemicals",
+    "sector": "Basic Materials",
+    "price": 112.92,
+    "last": 112.92
+  },
+  "PEG": {
+    "symbol": "PEG",
+    "companyName": "Public Service Enterprise Group Incorporated",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 60.05,
+    "last": 60.05
+  },
+  "MCK": {
+    "symbol": "MCK",
+    "companyName": "McKesson Corporation",
+    "industry": "Medical Distribution",
+    "sector": "Healthcare",
+    "price": 125.58,
+    "last": 125.58
+  },
+  "IR": {
+    "symbol": "IR",
+    "companyName": "Ingersoll-Rand plc (Ireland)",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 121.9,
+    "last": 121.9
+  },
+  "GIS": {
+    "symbol": "GIS",
+    "companyName": "General Mills Inc.",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 52.1,
+    "last": 52.1
+  },
+  "CMI": {
+    "symbol": "CMI",
+    "companyName": "Cummins Inc.",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 162.51,
+    "last": 162.51
+  },
+  "AVB": {
+    "symbol": "AVB",
+    "companyName": "AvalonBay Communities Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 202.76,
+    "last": 202.76
+  },
+  "HPE": {
+    "symbol": "HPE",
+    "companyName": "Hewlett Packard Enterprise Company",
+    "industry": "Communication Equipment",
+    "sector": "Technology",
+    "price": 14.53,
+    "last": 14.53
+  },
+  "PCAR": {
+    "symbol": "PCAR",
+    "companyName": "PACCAR Inc.",
+    "industry": "Truck Manufacturing",
+    "sector": "Industrials",
+    "price": 69.89,
+    "last": 69.89
+  },
+  "PH": {
+    "symbol": "PH",
+    "companyName": "Parker-Hannifin Corporation",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 169.48,
+    "last": 169.48
+  },
+  "PCG": {
+    "symbol": "PCG",
+    "companyName": "Pacific Gas & Electric Co.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 18.17,
+    "last": 18.17
+  },
+  "BF.B": {
+    "symbol": "BF.B",
+    "companyName": "Brown Forman Inc Class B",
+    "industry": "Beverages - Alcoholic",
+    "sector": "Consumer Defensive",
+    "price": 52.31,
+    "last": 52.31
+  },
+  "EQR": {
+    "symbol": "EQR",
+    "companyName": "Equity Residential of Beneficial Interest",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 76.81,
+    "last": 76.81
+  },
+  "MTB": {
+    "symbol": "MTB",
+    "companyName": "M&T Bank Corporation",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 163.9,
+    "last": 163.9
+  },
+  "XEL": {
+    "symbol": "XEL",
+    "companyName": "Xcel Energy Inc.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 57.73,
+    "last": 57.73
+  },
+  "LRCX": {
+    "symbol": "LRCX",
+    "companyName": "Lam Research Corporation",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 194.46,
+    "last": 194.46
+  },
+  "UAL": {
+    "symbol": "UAL",
+    "companyName": "United Continental Holdings Inc.",
+    "industry": "Airlines",
+    "sector": "Industrials",
+    "price": 82.58,
+    "last": 82.58
+  },
+  "K": {
+    "symbol": "K",
+    "companyName": "Kellogg Company",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 57.4,
+    "last": 57.4
+  },
+  "ED": {
+    "symbol": "ED",
+    "companyName": "Consolidated Edison Inc.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 86.37,
+    "last": 86.37
+  },
+  "CTL": {
+    "symbol": "CTL",
+    "companyName": "CenturyLink Inc.",
+    "industry": "Communication Services",
+    "sector": "Communication Services",
+    "price": 10.65,
+    "last": 10.65
+  },
+  "SYF": {
+    "symbol": "SYF",
+    "companyName": "Synchrony Financial",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 35.24,
+    "last": 35.24
+  },
+  "KR": {
+    "symbol": "KR",
+    "companyName": "Kroger Company (The)",
+    "industry": "Retail - Defensive",
+    "sector": "Consumer Defensive",
+    "price": 24.66,
+    "last": 24.66
+  },
+  "RSG": {
+    "symbol": "RSG",
+    "companyName": "Republic Services Inc.",
+    "industry": "Waste Management",
+    "sector": "Industrials",
+    "price": 85.09,
+    "last": 85.09
+  },
+  "WY": {
+    "symbol": "WY",
+    "companyName": "Weyerhaeuser Company",
+    "industry": "Forest Products",
+    "sector": "Basic Materials",
+    "price": 25.06,
+    "last": 25.06
+  },
+  "NTRS": {
+    "symbol": "NTRS",
+    "companyName": "Northern Trust Corporation",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 94.78,
+    "last": 94.78
+  },
+  "ROK": {
+    "symbol": "ROK",
+    "companyName": "Rockwell Automation Inc.",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 162.98,
+    "last": 162.98
+  },
+  "COL": {
+    "symbol": "COL",
+    "companyName": "Rockwell Collins Inc.",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 141.04,
+    "last": 141.04
+  },
+  "RHT": {
+    "symbol": "RHT",
+    "companyName": "Red Hat Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 185.55,
+    "last": 185.55
+  },
+  "WELL": {
+    "symbol": "WELL",
+    "companyName": "Welltower Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 79.48,
+    "last": 79.48
+  },
+  "A": {
+    "symbol": "A",
+    "companyName": "Agilent Technologies Inc.",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 69.3,
+    "last": 69.3
+  },
+  "HLT": {
+    "symbol": "HLT",
+    "companyName": "Hilton Worldwide Holdings Inc.",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 94.05,
+    "last": 94.05
+  },
+  "DLR": {
+    "symbol": "DLR",
+    "companyName": "Digital Realty Trust Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 118.35,
+    "last": 118.35
+  },
+  "APTV": {
+    "symbol": "APTV",
+    "companyName": "Aptiv PLC",
+    "industry": "",
+    "sector": "",
+    "price": 73.71,
+    "last": 73.71
+  },
+  "SWK": {
+    "symbol": "SWK",
+    "companyName": "Stanley Black & Decker Inc.",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 138.36,
+    "last": 138.36
+  },
+  "EIX": {
+    "symbol": "EIX",
+    "companyName": "Edison International",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 59.95,
+    "last": 59.95
+  },
+  "NTAP": {
+    "symbol": "NTAP",
+    "companyName": "NetApp Inc.",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 69.69,
+    "last": 69.69
+  },
+  "HES": {
+    "symbol": "HES",
+    "companyName": "Hess Corporation",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 66.35,
+    "last": 66.35
+  },
+  "TWTR": {
+    "symbol": "TWTR",
+    "companyName": "Twitter Inc.",
+    "industry": "Online Media",
+    "sector": "Technology",
+    "price": 38.3,
+    "last": 38.3
+  },
+  "TSN": {
+    "symbol": "TSN",
+    "companyName": "Tyson Foods Inc.",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 82.6,
+    "last": 82.6
+  },
+  "INFO": {
+    "symbol": "INFO",
+    "companyName": "IHS Markit Ltd.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 57.69,
+    "last": 57.69
+  },
+  "HSY": {
+    "symbol": "HSY",
+    "companyName": "The Hershey Company",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 128.49,
+    "last": 128.49
+  },
+  "AMP": {
+    "symbol": "AMP",
+    "companyName": "Ameriprise Financial Inc.",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 144.97,
+    "last": 144.97
+  },
+  "CERN": {
+    "symbol": "CERN",
+    "companyName": "Cerner Corporation",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 68.91,
+    "last": 68.91
+  },
+  "KEY": {
+    "symbol": "KEY",
+    "companyName": "KeyCorp",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 16.77,
+    "last": 16.77
+  },
+  "HRL": {
+    "symbol": "HRL",
+    "companyName": "Hormel Foods Corporation",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 39.82,
+    "last": 39.82
+  },
+  "WEC": {
+    "symbol": "WEC",
+    "companyName": "WEC Energy Group Inc.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 80.25,
+    "last": 80.25
+  },
+  "CBS": {
+    "symbol": "CBS",
+    "companyName": "CBS Corporation Class B",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 48.36,
+    "last": 48.36
+  },
+  "CTAS": {
+    "symbol": "CTAS",
+    "companyName": "Cintas Corporation",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 223.72,
+    "last": 223.72
+  },
+  "IDXX": {
+    "symbol": "IDXX",
+    "companyName": "IDEXX Laboratories Inc.",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 251.97,
+    "last": 251.97
+  },
+  "NUE": {
+    "symbol": "NUE",
+    "companyName": "Nucor Corporation",
+    "industry": "Steel",
+    "sector": "Basic Materials",
+    "price": 54.98,
+    "last": 54.98
+  },
+  "DVN": {
+    "symbol": "DVN",
+    "companyName": "Devon Energy Corporation",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 31.3,
+    "last": 31.3
+  },
+  "XLNX": {
+    "symbol": "XLNX",
+    "companyName": "Xilinx Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 106.13,
+    "last": 106.13
+  },
+  "PPL": {
+    "symbol": "PPL",
+    "companyName": "PPL Corporation",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 29.93,
+    "last": 29.93
+  },
+  "MSI": {
+    "symbol": "MSI",
+    "companyName": "Motorola Solutions Inc.",
+    "industry": "Communication Equipment",
+    "sector": "Technology",
+    "price": 148.39,
+    "last": 148.39
+  },
+  "BBY": {
+    "symbol": "BBY",
+    "companyName": "Best Buy Co. Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 68.74,
+    "last": 68.74
+  },
+  "MRO": {
+    "symbol": "MRO",
+    "companyName": "Marathon Oil Corporation",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 15.71,
+    "last": 15.71
+  },
+  "FCX": {
+    "symbol": "FCX",
+    "companyName": "Freeport-McMoRan Inc.",
+    "industry": "Metals & Mining",
+    "sector": "Basic Materials",
+    "price": 10.66,
+    "last": 10.66
+  },
+  "GWW": {
+    "symbol": "GWW",
+    "companyName": "W.W. Grainger Inc.",
+    "industry": "Industrial Distribution",
+    "sector": "Industrials",
+    "price": 263.86,
+    "last": 263.86
+  },
+  "FLT": {
+    "symbol": "FLT",
+    "companyName": "FleetCor Technologies Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 271.13,
+    "last": 271.13
+  },
+  "VRSK": {
+    "symbol": "VRSK",
+    "companyName": "Verisk Analytics Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 142.13,
+    "last": 142.13
+  },
+  "GPN": {
+    "symbol": "GPN",
+    "companyName": "Global Payments Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 151.4,
+    "last": 151.4
+  },
+  "HRS": {
+    "symbol": "HRS",
+    "companyName": "Harris Corporation",
+    "industry": "Communication Equipment",
+    "sector": "Technology",
+    "price": 184.38,
+    "last": 184.38
+  },
+  "DTE": {
+    "symbol": "DTE",
+    "companyName": "DTE Energy Company",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 126.76,
+    "last": 126.76
+  },
+  "ABC": {
+    "symbol": "ABC",
+    "companyName": "AmerisourceBergen Corporation",
+    "industry": "Medical Distribution",
+    "sector": "Healthcare",
+    "price": 77.59,
+    "last": 77.59
+  },
+  "IP": {
+    "symbol": "IP",
+    "companyName": "International Paper Company",
+    "industry": "Packaging & Containers",
+    "sector": "Consumer Cyclical",
+    "price": 45.36,
+    "last": 45.36
+  },
+  "AZO": {
+    "symbol": "AZO",
+    "companyName": "AutoZone Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 981.34,
+    "last": 981.34
+  },
+  "RF": {
+    "symbol": "RF",
+    "companyName": "Regions Financial Corporation",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 14.52,
+    "last": 14.52
+  },
+  "TDG": {
+    "symbol": "TDG",
+    "companyName": "Transdigm Group Incorporated Inc.",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 465.14,
+    "last": 465.14
+  },
+  "DLTR": {
+    "symbol": "DLTR",
+    "companyName": "Dollar Tree Inc.",
+    "industry": "Retail - Defensive",
+    "sector": "Consumer Defensive",
+    "price": 100.89,
+    "last": 100.89
+  },
+  "ES": {
+    "symbol": "ES",
+    "companyName": "Eversource Energy (D/B/A)",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 73.13,
+    "last": 73.13
+  },
+  "EXPE": {
+    "symbol": "EXPE",
+    "companyName": "Expedia Group Inc.",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 118.17,
+    "last": 118.17
+  },
+  "ABMD": {
+    "symbol": "ABMD",
+    "companyName": "ABIOMED Inc.",
+    "industry": "Medical Devices",
+    "sector": "Healthcare",
+    "price": 262.14,
+    "last": 262.14
+  },
+  "ANET": {
+    "symbol": "ANET",
+    "companyName": "Arista Networks Inc.",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 253.62,
+    "last": 253.62
+  },
+  "VRSN": {
+    "symbol": "VRSN",
+    "companyName": "VeriSign Inc.",
+    "industry": "Online Media",
+    "sector": "Technology",
+    "price": 196.83,
+    "last": 196.83
+  },
+  "FITB": {
+    "symbol": "FITB",
+    "companyName": "Fifth Third Bancorp",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 27.24,
+    "last": 27.24
+  },
+  "MYL": {
+    "symbol": "MYL",
+    "companyName": "Mylan N.V.",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 20.21,
+    "last": 20.21
+  },
+  "VTR": {
+    "symbol": "VTR",
+    "companyName": "Ventas Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 64.67,
+    "last": 64.67
+  },
+  "CLX": {
+    "symbol": "CLX",
+    "companyName": "Clorox Company (The)",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 148.72,
+    "last": 148.72
+  },
+  "APA": {
+    "symbol": "APA",
+    "companyName": "Apache Corporation",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 31.23,
+    "last": 31.23
+  },
+  "WLTW": {
+    "symbol": "WLTW",
+    "companyName": "Willis Towers Watson Public Limited Company",
+    "industry": "",
+    "sector": "",
+    "price": 178.06,
+    "last": 178.06
+  },
+  "CFG": {
+    "symbol": "CFG",
+    "companyName": "Citizens Financial Group Inc.",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 34.76,
+    "last": 34.76
+  },
+  "BXP": {
+    "symbol": "BXP",
+    "companyName": "Boston Properties Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 134.71,
+    "last": 134.71
+  },
+  "AME": {
+    "symbol": "AME",
+    "companyName": "AMETEK Inc.",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 86.59,
+    "last": 86.59
+  },
+  "TSS": {
+    "symbol": "TSS",
+    "companyName": "Total System Services Inc.",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 100.5,
+    "last": 100.5
+  },
+  "AAL": {
+    "symbol": "AAL",
+    "companyName": "American Airlines Group Inc.",
+    "industry": "Airlines",
+    "sector": "Industrials",
+    "price": 32.32,
+    "last": 32.32
+  },
+  "TXT": {
+    "symbol": "TXT",
+    "companyName": "Textron Inc.",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 50.98,
+    "last": 50.98
+  },
+  "SBAC": {
+    "symbol": "SBAC",
+    "companyName": "SBA Communications Corporation",
+    "industry": "Communication Services",
+    "sector": "Communication Services",
+    "price": 212.31,
+    "last": 212.31
+  },
+  "FE": {
+    "symbol": "FE",
+    "companyName": "FirstEnergy Corp.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 42.16,
+    "last": 42.16
+  },
+  "MKC": {
+    "symbol": "MKC",
+    "companyName": "McCormick & Company Incorporated",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 155.84,
+    "last": 155.84
+  },
+  "HIG": {
+    "symbol": "HIG",
+    "companyName": "Hartford Financial Services Group Inc. (The)",
+    "industry": "Insurance",
+    "sector": "Financial Services",
+    "price": 53.6,
+    "last": 53.6
+  },
+  "MCHP": {
+    "symbol": "MCHP",
+    "companyName": "Microchip Technology Incorporated",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 85.08,
+    "last": 85.08
+  },
+  "LH": {
+    "symbol": "LH",
+    "companyName": "Laboratory Corporation of America Holdings",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 164.99,
+    "last": 164.99
+  },
+  "DISCA": {
+    "symbol": "DISCA",
+    "companyName": "Discovery Inc. Series A Common Stock",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 27.88,
+    "last": 27.88
+  },
+  "SIVB": {
+    "symbol": "SIVB",
+    "companyName": "SVB Financial Group",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 232.3,
+    "last": 232.3
+  },
+  "NOV": {
+    "symbol": "NOV",
+    "companyName": "National Oilwell Varco Inc.",
+    "industry": "Oil & Gas - Services",
+    "sector": "Energy",
+    "price": 24.75,
+    "last": 24.75
+  },
+  "PFG": {
+    "symbol": "PFG",
+    "companyName": "Principal Financial Group Inc",
+    "industry": "Insurance - Life",
+    "sector": "Financial Services",
+    "price": 55.52,
+    "last": 55.52
+  },
+  "DISH": {
+    "symbol": "DISH",
+    "companyName": "DISH Network Corporation",
+    "industry": "Communication Services",
+    "sector": "Communication Services",
+    "price": 35.07,
+    "last": 35.07
+  },
+  "HBAN": {
+    "symbol": "HBAN",
+    "companyName": "Huntington Bancshares Incorporated",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 13.17,
+    "last": 13.17
+  },
+  "WDC": {
+    "symbol": "WDC",
+    "companyName": "Western Digital Corporation",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 45.09,
+    "last": 45.09
+  },
+  "LLL": {
+    "symbol": "LLL",
+    "companyName": "L3 Technologies Inc.",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 238.31,
+    "last": 238.31
+  },
+  "CAH": {
+    "symbol": "CAH",
+    "companyName": "Cardinal Health Inc.",
+    "industry": "Medical Distribution",
+    "sector": "Healthcare",
+    "price": 45.23,
+    "last": 45.23
+  },
+  "FAST": {
+    "symbol": "FAST",
+    "companyName": "Fastenal Company",
+    "industry": "Industrial Distribution",
+    "sector": "Industrials",
+    "price": 64.61,
+    "last": 64.61
+  },
+  "SWKS": {
+    "symbol": "SWKS",
+    "companyName": "Skyworks Solutions Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 73.99,
+    "last": 73.99
+  },
+  "O": {
+    "symbol": "O",
+    "companyName": "Realty Income Corporation",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 69.31,
+    "last": 69.31
+  },
+  "ULTA": {
+    "symbol": "ULTA",
+    "companyName": "Ulta Beauty Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 343.24,
+    "last": 343.24
+  },
+  "NEM": {
+    "symbol": "NEM",
+    "companyName": "Newmont Goldcorp Corporation",
+    "industry": "Metals & Mining",
+    "sector": "Basic Materials",
+    "price": 30.55,
+    "last": 30.55
+  },
+  "ESS": {
+    "symbol": "ESS",
+    "companyName": "Essex Property Trust Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 285.94,
+    "last": 285.94
+  },
+  "DISCK": {
+    "symbol": "DISCK",
+    "companyName": "Discovery Inc.",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 26.25,
+    "last": 26.25
+  },
+  "BEN": {
+    "symbol": "BEN",
+    "companyName": "Franklin Resources Inc.",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 33.58,
+    "last": 33.58
+  },
+  "RMD": {
+    "symbol": "RMD",
+    "companyName": "ResMed Inc.",
+    "industry": "Medical Instruments & Equipment",
+    "sector": "Healthcare",
+    "price": 113.43,
+    "last": 113.43
+  },
+  "KLAC": {
+    "symbol": "KLAC",
+    "companyName": "KLA-Tencor Corporation",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 108.78,
+    "last": 108.78
+  },
+  "EFX": {
+    "symbol": "EFX",
+    "companyName": "Equifax Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 121.55,
+    "last": 121.55
+  },
+  "L": {
+    "symbol": "L",
+    "companyName": "Loews Corporation",
+    "industry": "Insurance - Property & Casualty",
+    "sector": "Financial Services",
+    "price": 51.92,
+    "last": 51.92
+  },
+  "AWK": {
+    "symbol": "AWK",
+    "companyName": "American Water Works Company Inc.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 111.17,
+    "last": 111.17
+  },
+  "CMA": {
+    "symbol": "CMA",
+    "companyName": "Comerica Incorporated",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 74.09,
+    "last": 74.09
+  },
+  "WCG": {
+    "symbol": "WCG",
+    "companyName": "Wellcare Health Plans Inc.",
+    "industry": "Health Care Plans",
+    "sector": "Healthcare",
+    "price": 274.42,
+    "last": 274.42
+  },
+  "MSCI": {
+    "symbol": "MSCI",
+    "companyName": "MSCI Inc",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 226.07,
+    "last": 226.07
+  },
+  "OMC": {
+    "symbol": "OMC",
+    "companyName": "Omnicom Group Inc.",
+    "industry": "Advertising & Marketing Services",
+    "sector": "Consumer Cyclical",
+    "price": 79.04,
+    "last": 79.04
+  },
+  "DHI": {
+    "symbol": "DHI",
+    "companyName": "D.R. Horton Inc.",
+    "industry": "Homebuilding & Construction",
+    "sector": "Consumer Cyclical",
+    "price": 44.96,
+    "last": 44.96
+  },
+  "BLL": {
+    "symbol": "BLL",
+    "companyName": "Ball Corporation",
+    "industry": "Packaging & Containers",
+    "sector": "Consumer Cyclical",
+    "price": 62.57,
+    "last": 62.57
+  },
+  "AEE": {
+    "symbol": "AEE",
+    "companyName": "Ameren Corporation",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 74.24,
+    "last": 74.24
+  },
+  "MTD": {
+    "symbol": "MTD",
+    "companyName": "Mettler-Toledo International Inc.",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 744.98,
+    "last": 744.98
+  },
+  "TTWO": {
+    "symbol": "TTWO",
+    "companyName": "Take-Two Interactive Software Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 107.55,
+    "last": 107.55
+  },
+  "HST": {
+    "symbol": "HST",
+    "companyName": "Host Hotels & Resorts Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 19.34,
+    "last": 19.34
+  },
+  "ANSS": {
+    "symbol": "ANSS",
+    "companyName": "ANSYS Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 191.44,
+    "last": 191.44
+  },
+  "NBL": {
+    "symbol": "NBL",
+    "companyName": "Noble Energy Inc.",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 24.5,
+    "last": 24.5
+  },
+  "LEN": {
+    "symbol": "LEN",
+    "companyName": "Lennar Corporation Class A",
+    "industry": "Homebuilding & Construction",
+    "sector": "Consumer Cyclical",
+    "price": 53.66,
+    "last": 53.66
+  },
+  "TIF": {
+    "symbol": "TIF",
+    "companyName": "Tiffany & Co.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 99.44,
+    "last": 99.44
+  },
+  "BR": {
+    "symbol": "BR",
+    "companyName": "Broadridge Financial Solutions Inc.Common Stock",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 122.43,
+    "last": 122.43
+  },
+  "CBRE": {
+    "symbol": "CBRE",
+    "companyName": "CBRE Group Inc Class A",
+    "industry": "Real Estate Services",
+    "sector": "Real Estate",
+    "price": 47.69,
+    "last": 47.69
+  },
+  "LNC": {
+    "symbol": "LNC",
+    "companyName": "Lincoln National Corporation",
+    "industry": "Insurance - Life",
+    "sector": "Financial Services",
+    "price": 64.84,
+    "last": 64.84
+  },
+  "CTXS": {
+    "symbol": "CTXS",
+    "companyName": "Citrix Systems Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 96.58,
+    "last": 96.58
+  },
+  "VMC": {
+    "symbol": "VMC",
+    "companyName": "Vulcan Materials Company (Holding Company)",
+    "industry": "Building Materials",
+    "sector": "Basic Materials",
+    "price": 130.52,
+    "last": 130.52
+  },
+  "EVRG": {
+    "symbol": "EVRG",
+    "companyName": "Evergy Inc.",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 58.37,
+    "last": 58.37
+  },
+  "WAT": {
+    "symbol": "WAT",
+    "companyName": "Waters Corporation",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 210.12,
+    "last": 210.12
+  },
+  "INCY": {
+    "symbol": "INCY",
+    "companyName": "Incyte Corporation",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "price": 77.64,
+    "last": 77.64
+  },
+  "MGM": {
+    "symbol": "MGM",
+    "companyName": "MGM Resorts International",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 26.53,
+    "last": 26.53
+  },
+  "ETR": {
+    "symbol": "ETR",
+    "companyName": "Entergy Corporation",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 96.91,
+    "last": 96.91
+  },
+  "TPR": {
+    "symbol": "TPR",
+    "companyName": "Tapestry Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 31.34,
+    "last": 31.34
+  },
+  "DGX": {
+    "symbol": "DGX",
+    "companyName": "Quest Diagnostics Incorporated",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 96.39,
+    "last": 96.39
+  },
+  "CHD": {
+    "symbol": "CHD",
+    "companyName": "Church & Dwight Company Inc.",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 74.1,
+    "last": 74.1
+  },
+  "XYL": {
+    "symbol": "XYL",
+    "companyName": "Xylem Inc. New",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 76.26,
+    "last": 76.26
+  },
+  "SNPS": {
+    "symbol": "SNPS",
+    "companyName": "Synopsys Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 123.17,
+    "last": 123.17
+  },
+  "IT": {
+    "symbol": "IT",
+    "companyName": "Gartner Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 154.97,
+    "last": 154.97
+  },
+  "GPC": {
+    "symbol": "GPC",
+    "companyName": "Genuine Parts Company",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 97.55,
+    "last": 97.55
+  },
+  "FTI": {
+    "symbol": "FTI",
+    "companyName": "TechnipFMC plc",
+    "industry": "Oil & Gas - Services",
+    "sector": "Energy",
+    "price": 22.97,
+    "last": 22.97
+  },
+  "NDAQ": {
+    "symbol": "NDAQ",
+    "companyName": "Nasdaq Inc.",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 90.93,
+    "last": 90.93
+  },
+  "CMS": {
+    "symbol": "CMS",
+    "companyName": "CMS Energy Corporation",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 56.22,
+    "last": 56.22
+  },
+  "WYNN": {
+    "symbol": "WYNN",
+    "companyName": "Wynn Resorts Limited",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 127.31,
+    "last": 127.31
+  },
+  "EMN": {
+    "symbol": "EMN",
+    "companyName": "Eastman Chemical Company",
+    "industry": "Chemicals",
+    "sector": "Basic Materials",
+    "price": 72.16,
+    "last": 72.16
+  },
+  "AJG": {
+    "symbol": "AJG",
+    "companyName": "Arthur J. Gallagher & Co.",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 83.79,
+    "last": 83.79
+  },
+  "RJF": {
+    "symbol": "RJF",
+    "companyName": "Raymond James Financial Inc.",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 84.15,
+    "last": 84.15
+  },
+  "URI": {
+    "symbol": "URI",
+    "companyName": "United Rentals Inc.",
+    "industry": "Consulting & Outsourcing",
+    "sector": "Industrials",
+    "price": 128.46,
+    "last": 128.46
+  },
+  "CNP": {
+    "symbol": "CNP",
+    "companyName": "CenterPoint Energy Inc (Holding Co)",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 29.6,
+    "last": 29.6
+  },
+  "ETFC": {
+    "symbol": "ETFC",
+    "companyName": "E*TRADE Financial Corporation",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 48.4,
+    "last": 48.4
+  },
+  "VNO": {
+    "symbol": "VNO",
+    "companyName": "Vornado Realty Trust",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 67.06,
+    "last": 67.06
+  },
+  "CHRW": {
+    "symbol": "CHRW",
+    "companyName": "C.H. Robinson Worldwide Inc.",
+    "industry": "Transportation & Logistics",
+    "sector": "Industrials",
+    "price": 82.91,
+    "last": 82.91
+  },
+  "COO": {
+    "symbol": "COO",
+    "companyName": "The Cooper Companies Inc.",
+    "industry": "Medical Instruments & Equipment",
+    "sector": "Healthcare",
+    "price": 291.66,
+    "last": 291.66
+  },
+  "STX": {
+    "symbol": "STX",
+    "companyName": "Seagate Technology PLC",
+    "industry": "",
+    "sector": "",
+    "price": 45.68,
+    "last": 45.68
+  },
+  "VIAB": {
+    "symbol": "VIAB",
+    "companyName": "Viacom Inc.",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 28.54,
+    "last": 28.54
+  },
+  "DRI": {
+    "symbol": "DRI",
+    "companyName": "Darden Restaurants Inc.",
+    "industry": "Restaurants",
+    "sector": "Consumer Cyclical",
+    "price": 118.95,
+    "last": 118.95
+  },
+  "HSIC": {
+    "symbol": "HSIC",
+    "companyName": "Henry Schein Inc.",
+    "industry": "Medical Distribution",
+    "sector": "Healthcare",
+    "price": 67.09,
+    "last": 67.09
+  },
+  "TAP": {
+    "symbol": "TAP",
+    "companyName": "Molson Coors Brewing Company Class B",
+    "industry": "Beverages - Alcoholic",
+    "sector": "Consumer Defensive",
+    "price": 58.54,
+    "last": 58.54
+  },
+  "WRK": {
+    "symbol": "WRK",
+    "companyName": "Westrock Company",
+    "industry": "Packaging & Containers",
+    "sector": "Consumer Cyclical",
+    "price": 37.42,
+    "last": 37.42
+  },
+  "JBHT": {
+    "symbol": "JBHT",
+    "companyName": "J.B. Hunt Transport Services Inc.",
+    "industry": "Transportation & Logistics",
+    "sector": "Industrials",
+    "price": 96.55,
+    "last": 96.55
+  },
+  "HAS": {
+    "symbol": "HAS",
+    "companyName": "Hasbro Inc.",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 98.28,
+    "last": 98.28
+  },
+  "GRMN": {
+    "symbol": "GRMN",
+    "companyName": "Garmin Ltd.",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 79.41,
+    "last": 79.41
+  },
+  "CAG": {
+    "symbol": "CAG",
+    "companyName": "ConAgra Brands Inc.",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 29.1,
+    "last": 29.1
+  },
+  "ADS": {
+    "symbol": "ADS",
+    "companyName": "Alliance Data Systems Corporation",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 147.73,
+    "last": 147.73
+  },
+  "DOV": {
+    "symbol": "DOV",
+    "companyName": "Dover Corporation",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 96.43,
+    "last": 96.43
+  },
+  "ARE": {
+    "symbol": "ARE",
+    "companyName": "Alexandria Real Estate Equities Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 146.48,
+    "last": 146.48
+  },
+  "CF": {
+    "symbol": "CF",
+    "companyName": "CF Industries Holdings Inc.",
+    "industry": "Agriculture",
+    "sector": "Basic Materials",
+    "price": 42.75,
+    "last": 42.75
+  },
+  "MOS": {
+    "symbol": "MOS",
+    "companyName": "Mosaic Company (The)",
+    "industry": "Agriculture",
+    "sector": "Basic Materials",
+    "price": 23.16,
+    "last": 23.16
+  },
+  "KMX": {
+    "symbol": "KMX",
+    "companyName": "CarMax Inc",
+    "industry": "Autos",
+    "sector": "Consumer Cyclical",
+    "price": 75.94,
+    "last": 75.94
+  },
+  "ROL": {
+    "symbol": "ROL",
+    "companyName": "Rollins Inc.",
+    "industry": "Business Services",
+    "sector": "Industrials",
+    "price": 36.9,
+    "last": 36.9
+  },
+  "EXPD": {
+    "symbol": "EXPD",
+    "companyName": "Expeditors International of Washington Inc.",
+    "industry": "Transportation & Logistics",
+    "sector": "Industrials",
+    "price": 74.37,
+    "last": 74.37
+  },
+  "MHK": {
+    "symbol": "MHK",
+    "companyName": "Mohawk Industries Inc.",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 140.31,
+    "last": 140.31
+  },
+  "SYMC": {
+    "symbol": "SYMC",
+    "companyName": "Symantec Corporation",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 19.71,
+    "last": 19.71
+  },
+  "CDNS": {
+    "symbol": "CDNS",
+    "companyName": "Cadence Design Systems Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 69.85,
+    "last": 69.85
+  },
+  "HFC": {
+    "symbol": "HFC",
+    "companyName": "HollyFrontier Corporation",
+    "industry": "Oil & Gas - Refining & Marketing",
+    "sector": "Energy",
+    "price": 44.69,
+    "last": 44.69
+  },
+  "IFF": {
+    "symbol": "IFF",
+    "companyName": "Internationa Flavors & Fragrances Inc.",
+    "industry": "Chemicals",
+    "sector": "Basic Materials",
+    "price": 136.96,
+    "last": 136.96
+  },
+  "AAP": {
+    "symbol": "AAP",
+    "companyName": "Advance Auto Parts Inc W/I",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 157.28,
+    "last": 157.28
+  },
+  "NCLH": {
+    "symbol": "NCLH",
+    "companyName": "Norwegian Cruise Line Holdings Ltd.",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 57.55,
+    "last": 57.55
+  },
+  "FMC": {
+    "symbol": "FMC",
+    "companyName": "FMC Corporation",
+    "industry": "Agriculture",
+    "sector": "Basic Materials",
+    "price": 75.77,
+    "last": 75.77
+  },
+  "CPRT": {
+    "symbol": "CPRT",
+    "companyName": "Copart Inc.",
+    "industry": "Autos",
+    "sector": "Consumer Cyclical",
+    "price": 67.07,
+    "last": 67.07
+  },
+  "CINF": {
+    "symbol": "CINF",
+    "companyName": "Cincinnati Financial Corporation",
+    "industry": "Insurance - Property & Casualty",
+    "sector": "Financial Services",
+    "price": 97.15,
+    "last": 97.15
+  },
+  "KSS": {
+    "symbol": "KSS",
+    "companyName": "Kohl's Corporation",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 63.77,
+    "last": 63.77
+  },
+  "CMG": {
+    "symbol": "CMG",
+    "companyName": "Chipotle Mexican Grill Inc.",
+    "industry": "Restaurants",
+    "sector": "Consumer Cyclical",
+    "price": 708.93,
+    "last": 708.93
+  },
+  "DVA": {
+    "symbol": "DVA",
+    "companyName": "DaVita Inc.",
+    "industry": "Health Care Providers",
+    "sector": "Healthcare",
+    "price": 50,
+    "last": 50
+  },
+  "HCP": {
+    "symbol": "HCP",
+    "companyName": "HCP Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 31.55,
+    "last": 31.55
+  },
+  "AKAM": {
+    "symbol": "AKAM",
+    "companyName": "Akamai Technologies Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 77.92,
+    "last": 77.92
+  },
+  "MLM": {
+    "symbol": "MLM",
+    "companyName": "Martin Marietta Materials Inc.",
+    "industry": "Building Materials",
+    "sector": "Basic Materials",
+    "price": 219.61,
+    "last": 219.61
+  },
+  "UHS": {
+    "symbol": "UHS",
+    "companyName": "Universal Health Services Inc.",
+    "industry": "Health Care Providers",
+    "sector": "Healthcare",
+    "price": 121.7,
+    "last": 121.7
+  },
+  "KSU": {
+    "symbol": "KSU",
+    "companyName": "Kansas City Southern",
+    "industry": "Transportation & Logistics",
+    "sector": "Industrials",
+    "price": 121.37,
+    "last": 121.37
+  },
+  "SJM": {
+    "symbol": "SJM",
+    "companyName": "J.M. Smucker Company (The)",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 125.74,
+    "last": 125.74
+  },
+  "FFIV": {
+    "symbol": "FFIV",
+    "companyName": "F5 Networks Inc.",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 142.61,
+    "last": 142.61
+  },
+  "ALB": {
+    "symbol": "ALB",
+    "companyName": "Albemarle Corporation",
+    "industry": "Chemicals",
+    "sector": "Basic Materials",
+    "price": 69.41,
+    "last": 69.41
+  },
+  "NRG": {
+    "symbol": "NRG",
+    "companyName": "NRG Energy Inc.",
+    "industry": "Utilities - Independent Power Producers",
+    "sector": "Utilities",
+    "price": 35.8,
+    "last": 35.8
+  },
+  "MAA": {
+    "symbol": "MAA",
+    "companyName": "Mid-America Apartment Communities Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 113.5,
+    "last": 113.5
+  },
+  "MAS": {
+    "symbol": "MAS",
+    "companyName": "Masco Corporation",
+    "industry": "Building Materials",
+    "sector": "Basic Materials",
+    "price": 38.16,
+    "last": 38.16
+  },
+  "HII": {
+    "symbol": "HII",
+    "companyName": "Huntington Ingalls Industries Inc.",
+    "industry": "Aerospace & Defense",
+    "sector": "Industrials",
+    "price": 208.73,
+    "last": 208.73
+  },
+  "HOLX": {
+    "symbol": "HOLX",
+    "companyName": "Hologic Inc.",
+    "industry": "Medical Instruments & Equipment",
+    "sector": "Healthcare",
+    "price": 45.07,
+    "last": 45.07
+  },
+  "JEC": {
+    "symbol": "JEC",
+    "companyName": "Jacobs Engineering Group Inc.",
+    "industry": "Engineering & Construction",
+    "sector": "Industrials",
+    "price": 77.5,
+    "last": 77.5
+  },
+  "CPB": {
+    "symbol": "CPB",
+    "companyName": "Campbell Soup Company",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 38.93,
+    "last": 38.93
+  },
+  "TSCO": {
+    "symbol": "TSCO",
+    "companyName": "Tractor Supply Company",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 101.04,
+    "last": 101.04
+  },
+  "RL": {
+    "symbol": "RL",
+    "companyName": "Ralph Lauren Corporation",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 114.75,
+    "last": 114.75
+  },
+  "ARNC": {
+    "symbol": "ARNC",
+    "companyName": "Arconic Inc.",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 22.12,
+    "last": 22.12
+  },
+  "EXR": {
+    "symbol": "EXR",
+    "companyName": "Extra Space Storage Inc",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 106.25,
+    "last": 106.25
+  },
+  "REG": {
+    "symbol": "REG",
+    "companyName": "Regency Centers Corporation",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 67.25,
+    "last": 67.25
+  },
+  "CBOE": {
+    "symbol": "CBOE",
+    "companyName": "Cboe Global Markets Inc.",
+    "industry": "Brokers & Exchanges",
+    "sector": "Financial Services",
+    "price": 105.25,
+    "last": 105.25
+  },
+  "PKI": {
+    "symbol": "PKI",
+    "companyName": "PerkinElmer Inc.",
+    "industry": "Medical Diagnostics & Research",
+    "sector": "Healthcare",
+    "price": 87.99,
+    "last": 87.99
+  },
+  "PVH": {
+    "symbol": "PVH",
+    "companyName": "PVH Corp.",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 110.4,
+    "last": 110.4
+  },
+  "UDR": {
+    "symbol": "UDR",
+    "companyName": "UDR Inc.",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 44.85,
+    "last": 44.85
+  },
+  "SNA": {
+    "symbol": "SNA",
+    "companyName": "Snap-On Incorporated",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 165.42,
+    "last": 165.42
+  },
+  "GPS": {
+    "symbol": "GPS",
+    "companyName": "Gap Inc. (The)",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 22.27,
+    "last": 22.27
+  },
+  "JNPR": {
+    "symbol": "JNPR",
+    "companyName": "Juniper Networks Inc.",
+    "industry": "Communication Equipment",
+    "sector": "Technology",
+    "price": 25.86,
+    "last": 25.86
+  },
+  "M": {
+    "symbol": "M",
+    "companyName": "Macy's Inc",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 21.5,
+    "last": 21.5
+  },
+  "VAR": {
+    "symbol": "VAR",
+    "companyName": "Varian Medical Systems Inc.",
+    "industry": "Medical Instruments & Equipment",
+    "sector": "Healthcare",
+    "price": 130.9,
+    "last": 130.9
+  },
+  "COG": {
+    "symbol": "COG",
+    "companyName": "Cabot Oil & Gas Corporation",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 26.27,
+    "last": 26.27
+  },
+  "KORS": {
+    "symbol": "KORS",
+    "companyName": "Michael Kors Holdings Limited",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 37.92,
+    "last": 37.92
+  },
+  "PKG": {
+    "symbol": "PKG",
+    "companyName": "Packaging Corporation of America",
+    "industry": "Packaging & Containers",
+    "sector": "Consumer Cyclical",
+    "price": 97.3,
+    "last": 97.3
+  },
+  "JWN": {
+    "symbol": "JWN",
+    "companyName": "Nordstrom Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 36.93,
+    "last": 36.93
+  },
+  "LNT": {
+    "symbol": "LNT",
+    "companyName": "Alliant Energy Corporation",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 47.77,
+    "last": 47.77
+  },
+  "DRE": {
+    "symbol": "DRE",
+    "companyName": "Duke Realty Corporation",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 30.74,
+    "last": 30.74
+  },
+  "ZION": {
+    "symbol": "ZION",
+    "companyName": "Zions Bancorporation N.A.",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 45.57,
+    "last": 45.57
+  },
+  "LKQ": {
+    "symbol": "LKQ",
+    "companyName": "LKQ Corporation",
+    "industry": "Autos",
+    "sector": "Consumer Cyclical",
+    "price": 27.44,
+    "last": 27.44
+  },
+  "TMK": {
+    "symbol": "TMK",
+    "companyName": "Torchmark Corporation",
+    "industry": "Insurance - Life",
+    "sector": "Financial Services",
+    "price": 87.39,
+    "last": 87.39
+  },
+  "PRGO": {
+    "symbol": "PRGO",
+    "companyName": "Perrigo Company plc",
+    "industry": "Drug Manufacturers",
+    "sector": "Healthcare",
+    "price": 49.9,
+    "last": 49.9
+  },
+  "NLSN": {
+    "symbol": "NLSN",
+    "companyName": "Nielsen N.V.",
+    "industry": "",
+    "sector": "",
+    "price": 23.68,
+    "last": 23.68
+  },
+  "NWL": {
+    "symbol": "NWL",
+    "companyName": "Newell Brands Inc.",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 15.54,
+    "last": 15.54
+  },
+  "IRM": {
+    "symbol": "IRM",
+    "companyName": "Iron Mountain Incorporated (Delaware)Common Stock REIT",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 32.36,
+    "last": 32.36
+  },
+  "AES": {
+    "symbol": "AES",
+    "companyName": "The AES Corporation",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 16.35,
+    "last": 16.35
+  },
+  "QRVO": {
+    "symbol": "QRVO",
+    "companyName": "Qorvo Inc.",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 68.11,
+    "last": 68.11
+  },
+  "IVZ": {
+    "symbol": "IVZ",
+    "companyName": "Invesco Ltd",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 20.68,
+    "last": 20.68
+  },
+  "AVY": {
+    "symbol": "AVY",
+    "companyName": "Avery Dennison Corporation",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 102.79,
+    "last": 102.79
+  },
+  "XEC": {
+    "symbol": "XEC",
+    "companyName": "Cimarex Energy Co",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 69.25,
+    "last": 69.25
+  },
+  "COTY": {
+    "symbol": "COTY",
+    "companyName": "Coty Inc. Class A",
+    "industry": "Consumer Packaged Goods",
+    "sector": "Consumer Defensive",
+    "price": 13.24,
+    "last": 13.24
+  },
+  "NKTR": {
+    "symbol": "NKTR",
+    "companyName": "Nektar Therapeutics",
+    "industry": "Biotechnology",
+    "sector": "Healthcare",
+    "price": 31.34,
+    "last": 31.34
+  },
+  "RE": {
+    "symbol": "RE",
+    "companyName": "Everest Re Group Ltd.",
+    "industry": "Insurance - Specialty",
+    "sector": "Financial Services",
+    "price": 249.42,
+    "last": 249.42
+  },
+  "UAA": {
+    "symbol": "UAA",
+    "companyName": "Under Armour Inc. Class A",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 21.88,
+    "last": 21.88
+  },
+  "BWA": {
+    "symbol": "BWA",
+    "companyName": "BorgWarner Inc.",
+    "industry": "Autos",
+    "sector": "Consumer Cyclical",
+    "price": 36.65,
+    "last": 36.65
+  },
+  "AOS": {
+    "symbol": "AOS",
+    "companyName": "A.O. Smith Corporation",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 45.12,
+    "last": 45.12
+  },
+  "FRT": {
+    "symbol": "FRT",
+    "companyName": "Federal Realty Investment Trust",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 130.48,
+    "last": 130.48
+  },
+  "NI": {
+    "symbol": "NI",
+    "companyName": "NiSource Inc",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 28.19,
+    "last": 28.19
+  },
+  "IPG": {
+    "symbol": "IPG",
+    "companyName": "Interpublic Group of Companies Inc. (The)",
+    "industry": "Advertising & Marketing Services",
+    "sector": "Consumer Cyclical",
+    "price": 22.47,
+    "last": 22.47
+  },
+  "PNW": {
+    "symbol": "PNW",
+    "companyName": "Pinnacle West Capital Corporation",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 95.82,
+    "last": 95.82
+  },
+  "ALLE": {
+    "symbol": "ALLE",
+    "companyName": "Allegion plc",
+    "industry": "",
+    "sector": "",
+    "price": 101.87,
+    "last": 101.87
+  },
+  "UNM": {
+    "symbol": "UNM",
+    "companyName": "Unum Group",
+    "industry": "Insurance - Life",
+    "sector": "Financial Services",
+    "price": 35.17,
+    "last": 35.17
+  },
+  "IPGP": {
+    "symbol": "IPGP",
+    "companyName": "IPG Photonics Corporation",
+    "industry": "Semiconductors",
+    "sector": "Technology",
+    "price": 138.01,
+    "last": 138.01
+  },
+  "WU": {
+    "symbol": "WU",
+    "companyName": "Western Union Company (The)",
+    "industry": "Credit Services",
+    "sector": "Financial Services",
+    "price": 19.6,
+    "last": 19.6
+  },
+  "FLIR": {
+    "symbol": "FLIR",
+    "companyName": "FLIR Systems Inc.",
+    "industry": "Computer Hardware",
+    "sector": "Technology",
+    "price": 50.21,
+    "last": 50.21
+  },
+  "RHI": {
+    "symbol": "RHI",
+    "companyName": "Robert Half International Inc.",
+    "industry": "Employment Services",
+    "sector": "Industrials",
+    "price": 56.18,
+    "last": 56.18
+  },
+  "UA": {
+    "symbol": "UA",
+    "companyName": "Under Armour Inc. Class C",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 19.36,
+    "last": 19.36
+  },
+  "FLR": {
+    "symbol": "FLR",
+    "companyName": "Fluor Corporation",
+    "industry": "Engineering & Construction",
+    "sector": "Industrials",
+    "price": 29.5,
+    "last": 29.5
+  },
+  "SLG": {
+    "symbol": "SLG",
+    "companyName": "SL Green Realty Corp",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 86.57,
+    "last": 86.57
+  },
+  "XRAY": {
+    "symbol": "XRAY",
+    "companyName": "DENTSPLY SIRONA Inc.",
+    "industry": "Medical Instruments & Equipment",
+    "sector": "Healthcare",
+    "price": 54.89,
+    "last": 54.89
+  },
+  "ALK": {
+    "symbol": "ALK",
+    "companyName": "Alaska Air Group Inc.",
+    "industry": "Airlines",
+    "sector": "Industrials",
+    "price": 62.64,
+    "last": 62.64
+  },
+  "LB": {
+    "symbol": "LB",
+    "companyName": "L Brands Inc.",
+    "industry": "Retail - Apparel & Specialty",
+    "sector": "Consumer Cyclical",
+    "price": 22.35,
+    "last": 22.35
+  },
+  "NWS": {
+    "symbol": "NWS",
+    "companyName": "News Corporation",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 11.68,
+    "last": 11.68
+  },
+  "HP": {
+    "symbol": "HP",
+    "companyName": "Helmerich & Payne Inc.",
+    "industry": "Oil & Gas - Drilling",
+    "sector": "Energy",
+    "price": 58.08,
+    "last": 58.08
+  },
+  "NWSA": {
+    "symbol": "NWSA",
+    "companyName": "News Corporation",
+    "industry": "Entertainment",
+    "sector": "Consumer Cyclical",
+    "price": 11.53,
+    "last": 11.53
+  },
+  "PNR": {
+    "symbol": "PNR",
+    "companyName": "Pentair plc.",
+    "industry": "",
+    "sector": "",
+    "price": 36.61,
+    "last": 36.61
+  },
+  "FBHS": {
+    "symbol": "FBHS",
+    "companyName": "Fortune Brands Home & Security Inc.",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 53.21,
+    "last": 53.21
+  },
+  "MAC": {
+    "symbol": "MAC",
+    "companyName": "Macerich Company (The)",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 41.96,
+    "last": 41.96
+  },
+  "HOG": {
+    "symbol": "HOG",
+    "companyName": "Harley-Davidson Inc.",
+    "industry": "Autos",
+    "sector": "Consumer Cyclical",
+    "price": 35.1,
+    "last": 35.1
+  },
+  "JEF": {
+    "symbol": "JEF",
+    "companyName": "Jefferies Financial Group Inc.",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 18.88,
+    "last": 18.88
+  },
+  "WHR": {
+    "symbol": "WHR",
+    "companyName": "Whirlpool Corporation",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 129.92,
+    "last": 129.92
+  },
+  "AMG": {
+    "symbol": "AMG",
+    "companyName": "Affiliated Managers Group Inc.",
+    "industry": "Asset Management",
+    "sector": "Financial Services",
+    "price": 90.76,
+    "last": 90.76
+  },
+  "FLS": {
+    "symbol": "FLS",
+    "companyName": "Flowserve Corporation",
+    "industry": "Industrial Products",
+    "sector": "Industrials",
+    "price": 51.15,
+    "last": 51.15
+  },
+  "TRIP": {
+    "symbol": "TRIP",
+    "companyName": "TripAdvisor Inc.",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 46.75,
+    "last": 46.75
+  },
+  "XRX": {
+    "symbol": "XRX",
+    "companyName": "Xerox Corporation",
+    "industry": "Application Software",
+    "sector": "Technology",
+    "price": 32.47,
+    "last": 32.47
+  },
+  "AIV": {
+    "symbol": "AIV",
+    "companyName": "Apartment Investment and Management Company",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 50.27,
+    "last": 50.27
+  },
+  "PHM": {
+    "symbol": "PHM",
+    "companyName": "PulteGroup Inc.",
+    "industry": "Homebuilding & Construction",
+    "sector": "Consumer Cyclical",
+    "price": 32.33,
+    "last": 32.33
+  },
+  "AIZ": {
+    "symbol": "AIZ",
+    "companyName": "Assurant Inc.",
+    "industry": "Insurance",
+    "sector": "Financial Services",
+    "price": 96.21,
+    "last": 96.21
+  },
+  "KIM": {
+    "symbol": "KIM",
+    "companyName": "Kimco Realty Corporation",
+    "industry": "REITs",
+    "sector": "Real Estate",
+    "price": 18.14,
+    "last": 18.14
+  },
+  "HBI": {
+    "symbol": "HBI",
+    "companyName": "Hanesbrands Inc.",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 16.82,
+    "last": 16.82
+  },
+  "SEE": {
+    "symbol": "SEE",
+    "companyName": "Sealed Air Corporation",
+    "industry": "Packaging & Containers",
+    "sector": "Consumer Cyclical",
+    "price": 42.1,
+    "last": 42.1
+  },
+  "NFX": {
+    "symbol": "NFX",
+    "companyName": "Newfield Exploration Company",
+    "industry": "Oil & Gas - E&P",
+    "sector": "Energy",
+    "price": 17.07,
+    "last": 17.07
+  },
+  "PBCT": {
+    "symbol": "PBCT",
+    "companyName": "People's United Financial Inc.",
+    "industry": "Banks",
+    "sector": "Financial Services",
+    "price": 16.27,
+    "last": 16.27
+  },
+  "LEG": {
+    "symbol": "LEG",
+    "companyName": "Leggett & Platt Incorporated",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 37.99,
+    "last": 37.99
+  },
+  "GT": {
+    "symbol": "GT",
+    "companyName": "The Goodyear Tire & Rubber Company",
+    "industry": "Autos",
+    "sector": "Consumer Cyclical",
+    "price": 16.08,
+    "last": 16.08
+  },
+  "FL": {
+    "symbol": "FL",
+    "companyName": "Foot Locker Inc.",
+    "industry": "Manufacturing - Apparel & Furniture",
+    "sector": "Consumer Cyclical",
+    "price": 55.47,
+    "last": 55.47
+  },
+  "SCG": {
+    "symbol": "SCG",
+    "companyName": "SCANA Corporation",
+    "industry": "Utilities - Regulated",
+    "sector": "Utilities",
+    "price": 47.78,
+    "last": 47.78
+  },
+  "BHF": {
+    "symbol": "BHF",
+    "companyName": "Brighthouse Financial Inc.",
+    "industry": "Insurance - Life",
+    "sector": "Financial Services",
+    "price": 38.37,
+    "last": 38.37
+  },
+  "MAT": {
+    "symbol": "MAT",
+    "companyName": "Mattel Inc.",
+    "industry": "Travel & Leisure",
+    "sector": "Consumer Cyclical",
+    "price": 11.14,
+    "last": 11.14
+  },
+  "HRB": {
+    "symbol": "HRB",
+    "companyName": "H&R Block Inc.",
+    "industry": "Personal Services",
+    "sector": "Consumer Cyclical",
+    "price": 27.44,
+    "last": 27.44
+  },
+  "PWR": {
+    "symbol": "PWR",
+    "companyName": "Quanta Services Inc.",
+    "industry": "Engineering & Construction",
+    "sector": "Industrials",
+    "price": 35.8,
+    "last": 35.8
+  },
+  "SRCL": {
+    "symbol": "SRCL",
+    "companyName": "Stericycle Inc.",
+    "industry": "Waste Management",
+    "sector": "Industrials",
+    "price": 48.79,
+    "last": 48.79
+  }
+}

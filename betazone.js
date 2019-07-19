@@ -9,7 +9,6 @@ const c = require(path.join(__dirname, '_config.js'));
 
 const sp500 = require(path.join(__dirname, './sp500/sp.js'));
 const tetris = require(path.join(__dirname, './tetris/tetris.js'));
-const video2gif = require(path.join(__dirname, './video2gif/video2gif.js'));
 
 if (c.app.mode === 'dev') {
   c.app.port = 3000;
@@ -27,7 +26,6 @@ app.use(function (req, res, next) {
 
 app.use('/sp500', sp500);
 app.use('/tetris', tetris);
-app.use("/video2gif", video2gif);
 
 app.get('/*', function (req, res) {
   res.status(404).json("404 Not found");

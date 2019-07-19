@@ -3,7 +3,6 @@ _aux/
 logs/
 node_modules/
 tmp/
-video2gif/tmp/
 
 #Ignore these files
 .env
