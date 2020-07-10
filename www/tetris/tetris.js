@@ -1,8 +1,8 @@
 /* global bl */
 
 const tetris = (function () {
-  const urlBase = 'https://api.jolav.me/tetris/';
-  //const urlBase = 'http://localhost:3000/tetris/';
+  const urlBase = 'https://jolav.me/api/betazone/tetris';
+  //const urlBase = 'http://localhost:3550/tetris';
   let canvas = document.getElementById('lienzo');
   let ctx = canvas.getContext('2d');
   let canvas2 = document.getElementById('lienzo2');
@@ -34,6 +34,7 @@ const tetris = (function () {
 
   function init() {
     console.log('Init Tetris', canvas.width, canvas.height);
+    document.getElementById("year").textContent = new Date().getFullYear();
     addActionEvents();
     document.getElementById('lienzo').style.backgroundColor = '#cfcfcf';
     window.addEventListener('keydown', actionKey);

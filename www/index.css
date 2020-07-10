@@ -87,7 +87,8 @@ body {
   -ms-user-select: none;
   /* IE 10+ */
   user-select: none;
-  background: #eee url('assets/back.png') no-repeat fixed center;
+  background: #eee;
+  /*background: #eee url('assets/back.png') no-repeat fixed center;*/
   background-size: cover;
   /*height: 100vh;*/
 }
@@ -103,7 +104,6 @@ body {
 }
 
 h1 {
-  font-family: 'Rambla', 'arial', sans-serif;
   font-weight: bold;
   margin: 0px;
   padding: 0px;

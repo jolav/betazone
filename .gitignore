@@ -3,15 +3,19 @@ _aux/
 logs/
 node_modules/
 tmp/
+data/
 
 #Ignore these files
+.air.conf
 .env
 .DS_Store
 _private.js
 _private.json
-tetris.json
+a_private.go
+tetris0.json
 
-
+# ignore binaries
+betazone
 
 
 
