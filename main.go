@@ -13,10 +13,11 @@ import (
 	"time"
 
 	u "betazone/_utils"
+	s "betazone/sp500"
 	t "betazone/tetris"
 )
 
-var version = "0.4.1"
+var version = "0.4.2"
 var when = "undefined"
 
 const (
@@ -35,7 +36,7 @@ func main() {
 
 	var c Conf
 	u.LoadJSONFile(JSON_CONFIG_FILE, &c)
-	u.PrettyPrintStruct(c)
+	//u.PrettyPrintStruct(c)
 
 	///// Custom Log File /////
 	if c.Mode == "production" {
@@ -50,10 +51,12 @@ func main() {
 	//////////////////////
 
 	tetris := t.NewTetris()
+	sp500 := s.NewSP500()
 
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/tetris/", tetris.Router)
+	mux.HandleFunc("/sp500/", sp500.Router)
 	mux.HandleFunc("/", u.BadRequest)
 
 	server := http.Server{

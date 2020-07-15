@@ -12,7 +12,11 @@ data/
 _private.js
 _private.json
 a_private.go
+# tetris
 tetris0.json
+# sp500
+backupSymbol.json
+symbolData.json
 
 # ignore binaries
 betazone

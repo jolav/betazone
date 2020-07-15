@@ -27,6 +27,14 @@ func LoadJSONFile(filePath string, data interface{}) {
 	}
 }
 
+// LoadJSONConfig ...
+func LoadJSONConfig(configjson []byte, c interface{}) {
+	err := json.Unmarshal(configjson, &c)
+	if err != nil {
+		log.Printf("ERROR LoadConfig %s\n", err)
+	}
+}
+
 // WriteJSONtoFile ...
 func WriteJSONtoFile(filePath string, d interface{}) {
 	f, err := os.Create(filePath)
