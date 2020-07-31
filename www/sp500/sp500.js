@@ -2,9 +2,12 @@
 const app = (function () {
   'use strict';
 
-  const urlBase = 'https://jolav.me/api/betazone/sp500/tick';
-  //const urlBase = 'http://localhost:3550/sp500/tick';
+  let urlBase = 'https://jolav.me/api/betazone/sp500/tick';
+  if (window.mode === "dev") {
+    urlBase = 'http://localhost:3000/sp500/tick';
+  }
 
+  const updateDataFromServerInterval = 4000;
   let datas;
 
   function init() {
@@ -13,7 +16,7 @@ const app = (function () {
     getAjaxData(urlBase, showData);
     setInterval(function () {
       getAjaxData(urlBase, showData);
-    }, 2000);
+    }, updateDataFromServerInterval);
   }
 
   function showData(data) {

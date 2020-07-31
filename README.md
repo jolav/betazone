@@ -7,6 +7,8 @@
 
 ### **[SP500 demo online](https://jolav.me/betazone/sp500/sp500.html)**
 
+**UPDATE 2020-07-31** IEX CLOUD FREE DATA DEPLETED. Looking for some other data resources
+
 Stock values real time.
 
 Updates every 1 seg

@@ -42,3 +42,13 @@ func MakeGetRequest(w http.ResponseWriter, url string, d interface{}) {
 		log.Fatalln(err)
 	}
 }
+
+// SliceContainsString ... returns true/false
+func SliceContainsString(str string, slice []string) bool {
+	for _, v := range slice {
+		if v == str {
+			return true
+		}
+	}
+	return false
+}

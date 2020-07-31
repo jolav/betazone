@@ -1,6 +1,0 @@
-{
-	"mode": "production",
-	"port": 3550,
-	"errorsLogFile": "logs/errors.log",
-	"hitsLogFile": "logs/hits.log"
-}

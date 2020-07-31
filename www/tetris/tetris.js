@@ -1,8 +1,12 @@
 /* global bl */
 
 const tetris = (function () {
-  const urlBase = 'https://jolav.me/api/betazone/tetris';
-  //const urlBase = 'http://localhost:3550/tetris';
+
+  let urlBase = 'https://jolav.me/api/betazone/tetris';
+  if (window.mode === "dev") {
+    urlBase = 'http://localhost:3000/tetris';
+  }
+
   let canvas = document.getElementById('lienzo');
   let ctx = canvas.getContext('2d');
   let canvas2 = document.getElementById('lienzo2');

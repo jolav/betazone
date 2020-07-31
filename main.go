@@ -10,33 +10,31 @@ import (
 	"log"
 	"net/http"
 	"os"
+	"strings"
 	"time"
 
 	u "betazone/_utils"
-	s "betazone/sp500"
+	//s "betazone/sp500"
 	t "betazone/tetris"
 )
 
-var version = "0.4.2"
+var version = "0.4.3"
 var when = "undefined"
-
-const (
-	JSON_CONFIG_FILE = "./betazone.json"
-)
 
 type Conf struct {
 	Mode          string
 	Port          int
 	ErrorsLogFile string
-	HitsLogFile   string
+	DevHosts      []string
 }
 
 func main() {
 	checkFlags()
 
 	var c Conf
-	u.LoadJSONFile(JSON_CONFIG_FILE, &c)
-	//u.PrettyPrintStruct(c)
+	u.LoadJSONConfig(getGlobalConfigJSON(), &c)
+	checkMode(&c)
+	u.PrettyPrintStruct(c)
 
 	///// Custom Log File /////
 	if c.Mode == "production" {
@@ -51,12 +49,12 @@ func main() {
 	//////////////////////
 
 	tetris := t.NewTetris()
-	sp500 := s.NewSP500()
+	//sp500 := s.NewSP500()
 
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/tetris/", tetris.Router)
-	mux.HandleFunc("/sp500/", sp500.Router)
+	//mux.HandleFunc("/sp500/", sp500.Router)
 	mux.HandleFunc("/", u.BadRequest)
 
 	server := http.Server{
@@ -80,4 +78,31 @@ func checkFlags() {
 		fmt.Printf("Date   :\t: %s\n", when)
 		os.Exit(0)
 	}
+}
+
+func checkMode(c *Conf) {
+	serverName, _ := os.Hostname()
+	serverName = strings.ToLower(serverName)
+	if u.SliceContainsString(serverName, c.DevHosts) {
+		c.Mode = "dev"
+		c.Port = 3000
+	}
+}
+
+func FAKE__getGlobalConfigJSON() (configjson []byte) {
+	// real getGlobalConfigJSON() in private.go file
+	configjson = []byte(`
+	{
+		"mode": "production",
+		"port": XXXXX,
+		"errorsLogFile": "path/to/errors.log",
+		"devHosts" : [
+			"list",
+			"of",
+			"dev",
+			"hosts"
+		]
+	}
+	`)
+	return
 }
