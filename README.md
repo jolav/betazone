@@ -1,5 +1,5 @@
 ![Maintained YES](https://img.shields.io/badge/maintained-YES-green.svg)  
-![Version](https://img.shields.io/badge/version-0.4.2-orange.svg)
+![Version](https://img.shields.io/badge/version-0.4.4-orange.svg)
 
 # [BETAZONE](https://jolav.me/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  
 
@@ -19,6 +19,17 @@ Updates every 1 seg
 ## ![logo](https://github.com/jolav/betazone/blob/master/www/assets/tetris32.png?raw=true)  **TETRIS**
 
 **[PLAY NOW](https://jolav.me/betazone/tetris/tetris.html)** the great "classic" game and beat the high score
+
+
+## ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/rogue32.png) **DUNGEON MAP GENERATOR**
+
+Map Generator using Dungeon-Building Algorithm from roguebasin.
+
+**[LIVE DEMO](https://jolav.me/betazone/dungeonMap/dungeonMap.html)**  
+
+![Example](https://github.com/jolav/betazone/blob/master/www/assets/dungeonMap.png?raw=true)
+
+
 
 <hr>
 

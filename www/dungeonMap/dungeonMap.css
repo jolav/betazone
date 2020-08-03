@@ -1,0 +1,25 @@
+body {
+  font-family: 'arial', sans-serif;
+  font-size: 0.90em;
+  line-height: 1.2em;
+  background-color: #fafafa;
+  color: #404040;
+  margin: 0px auto;
+  max-width: 960px;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+}
+
+.fontBold {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.main {
+  text-align: center;
+}
