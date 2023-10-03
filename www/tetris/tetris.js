@@ -2,7 +2,7 @@
 
 const tetris = (function () {
 
-  let urlBase = 'https://jolav.me/api/betazone/tetris';
+  let urlBase = 'https://betazone.idq.repl.co/tetris';
   if (window.mode === "dev") {
     urlBase = 'http://localhost:3000/tetris';
   }
