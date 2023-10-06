@@ -1,4 +1,4 @@
-![Maintained NO](https://img.shields.io/badge/Maintained-NO-red.svg)  
+![Active YES](https://img.shields.io/badge/Active-YES-green.svg)  
 ![Version](https://img.shields.io/badge/version-0.4.4-orange.svg)
 
 # [BETAZONE](https://jolav.me/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  

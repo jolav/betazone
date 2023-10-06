@@ -9,6 +9,7 @@ data/
 .air.conf
 .env
 .DS_Store
+mode.js
 _private.js
 _private.json
 a_private.go

@@ -2,7 +2,8 @@
 
 const tetris = (function () {
 
-  let urlBase = 'https://betazone.idq.repl.co/tetris';
+  const proxy = 'https://api.codetabs.com/v1/proxy/?quest='
+  let urlBase = proxy + 'https://betazone.idq.repl.co/tetris/hs';
   if (window.mode === "dev") {
     urlBase = 'http://localhost:3000/tetris';
   }
