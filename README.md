@@ -30,6 +30,11 @@ Map Generator using Dungeon-Building Algorithm from roguebasin.
 ![Example](https://github.com/jolav/betazone/blob/master/www/assets/dungeonMap.png?raw=true)
 
 
+## ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/life48.png) **JOHN CONWAY'S GAME OF LIFE**
+
+**[LIVE DEMO](https://jolav.me/betazone/game-of-life/life.html)**
+
+![Example](https://github.com/jolav/betazone/blob/master/www/assets/gameOfLife.png?raw=true)
 
 <hr>
 

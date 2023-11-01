@@ -1,0 +1,146 @@
+@media only screen and (max-width: 540px) {}
+
+@media only screen and (min-width: 541px) {}
+
+body {
+  font-family: "PT Sans","arial", sans-serif;
+  background-color: #caddac;
+  background-color: #fafafa;
+  font-size: 1em;
+  margin: 0px auto;
+  color: #404040;
+  max-width: 960px;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+}
+
+/* GRID */
+
+.c0 {
+background-color: #fafafa;
+}
+
+.c1 {
+  background-color: lightsalmon;
+}
+
+.board {
+  margin: 2% auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;  
+}
+
+.unit {
+border: 1px solid #ccc;
+}
+
+
+/* CONTROLS */
+
+#life {
+  color: #404040;
+  /*margin: 2% auto;*/
+  min-width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.tag {
+  padding: 0px 5px 0px 5px;
+  margin: 0px 10px;
+  font-size: 0.6em;
+  border-radius: 5px;
+  border: 2px solid grey;
+  background-color: grey;
+  color: #fafafa;
+  font-weight: bold;
+}
+
+.btn {
+  margin: 0px;
+  padding: 4px 5px 5px 5px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn + .btn {
+  border-left: none;
+}
+
+/* UP */
+
+.up {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.up1 {
+  display: flex;
+}
+
+.up2 {
+  margin-top: 15px;
+}
+
+/* DOWN */
+
+.down {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.down1 {
+  display: flex;
+}
+
+.down2 {
+  margin-top: 5px;
+}
+
+.cell {
+  width: 60px;
+  margin: 0px;
+  padding: 4px 5px 5px 5px;
+  border: 1px solid #dcdcdc;
+  background-color: #fafafa;
+  border-radius: 5px;
+  pointer-events: none;
+  font-size: 1em;
+}
+
+/* GENERIC */
+
+a, a:visited {
+  text-decoration: none;
+  color: #375EAB;
+}
+
+.jolav {
+  font-family: "arial", sans-serif;
+  font-size: 1em !important;
+}
+
+/* HR */
+
+hr {
+  margin: 10px 10% 10px 10%;
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #888, #ccc);
+}
