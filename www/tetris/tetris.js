@@ -2,12 +2,12 @@
 
 const tetris = (function () {
 
-  const proxy = 'https://api.codetabs.com/v1/proxy/?quest='
+  const proxy = 'https://api.codetabs.com/v1/proxy/?quest=';
   let urlBase = proxy + 'https://betazone.idq.repl.co/tetris';
-  if (window.mode === "dev") {
+  // 127.0.0.1 for testing local frontend with real server backend
+  if (window.location.hostname === "localhost") {
     urlBase = 'http://localhost:3000/tetris';
   }
-
   let canvas = document.getElementById('lienzo');
   let ctx = canvas.getContext('2d');
   let canvas2 = document.getElementById('lienzo2');
@@ -16,12 +16,10 @@ const tetris = (function () {
   const cols = 10;
   const rows = 22;
   let fps = 1;
-  let onoff;
   let game = false;
   let running = false;
   let score = 0;
   let board = [];
-  let nextBoard = [];
   let actual;
   let next;
   let pos = {}; // rotation fig, x, y
@@ -33,13 +31,11 @@ const tetris = (function () {
   canvas2.width = 4 * ppp;
   canvas2.height = 4 * ppp;
   let completed = 0;
-  let used = 0;
   let highscore = [];
   let player = '___';
 
   function init() {
     console.log('Init Tetris', canvas.width, canvas.height);
-    document.getElementById("year").textContent = new Date().getFullYear();
     addActionEvents();
     document.getElementById('lienzo').style.backgroundColor = '#cfcfcf';
     window.addEventListener('keydown', actionKey);
@@ -52,7 +48,6 @@ const tetris = (function () {
   function start() {
     game = true;
     completed = 0;
-    used = 0;
     endGame = false;
     running = true;
     score = 0;

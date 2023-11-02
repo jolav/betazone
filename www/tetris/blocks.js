@@ -1,4 +1,4 @@
-/* */
+/* eslint-disable no-unused-vars */
 const bl = (function () {
   'use strict';
   /* code here */
@@ -153,7 +153,7 @@ const bl = (function () {
 
   const figs = [0, ii, jj, ll, oo, ss, tt, zz];
 
-  const colors = [ '#fafafa', 'cyan', 'blue', 'orange', '#f8e354', 'green', 'purple', 'red'];
+  const colors = ['#fafafa', 'cyan', 'blue', 'orange', '#f8e354', 'green', 'purple', 'red'];
 
   return {
     figs: figs,
