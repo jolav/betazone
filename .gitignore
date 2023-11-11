@@ -17,6 +17,7 @@ tetris0.json
 # sp500
 backupSymbol.json
 symbolData.json
+zarrias.txt
 
 # ignore binaries
 betazone

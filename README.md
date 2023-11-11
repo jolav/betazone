@@ -1,13 +1,13 @@
 ![Active YES](https://img.shields.io/badge/Active-YES-green.svg)  
 ![Version](https://img.shields.io/badge/version-0.4.4-orange.svg)
 
-# [BETAZONE](https://jolav.me/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  
+# [BETAZONE](https://jolav.github.io/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  
 
 
 
 ### ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/map48.png) **MAP GENERATOR**
 
-**[Work in Progress](https://jolav.me/betazone/mapGenerator/mapGen.html)**
+**[Work in Progress](https://jolav.github.io/betazone/mapGenerator/mapGen.html)**
 
 Procedural Map Generator 
 
@@ -17,7 +17,7 @@ Procedural Map Generator
 
 Map Generator using Dungeon-Building Algorithm from roguebasin.
 
-**[LIVE DEMO](https://jolav.me/betazone/dungeonMap/dungeonMap.html)**  
+**[LIVE DEMO](https://jolav.github.io/betazone/dungeonMap/dungeonMap.html)**  
 
 ![Example](https://github.com/jolav/betazone/blob/master/www/assets/dungeonMap.png?raw=true)
 
@@ -25,7 +25,7 @@ Map Generator using Dungeon-Building Algorithm from roguebasin.
 
 ### ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/life48.png) **JOHN CONWAY'S GAME OF LIFE**
 
-**[LIVE DEMO](https://jolav.me/betazone/game-of-life/life.html)**
+**[LIVE DEMO](https://jolav.github.io/betazone/game-of-life/life.html)**
 
 ![Example](https://github.com/jolav/betazone/blob/master/www/assets/gameOfLife.png?raw=true)
 
@@ -33,7 +33,7 @@ Map Generator using Dungeon-Building Algorithm from roguebasin.
 
 ### ![logo](https://github.com/jolav/betazone/blob/master/www/assets/tetris32.png?raw=true)  **TETRIS**
 
-**[PLAY NOW](https://jolav.me/betazone/tetris/tetris.html)** the great "classic" game and beat the high score
+**[PLAY NOW](https://jolav.github.io/betazone/tetris/tetris.html)** the great "classic" game and beat the high score
 
 <hr>
 

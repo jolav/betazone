@@ -2,7 +2,7 @@
 const app = (function () {
   'use strict';
 
-  let urlBase = 'https://jolav.me/api/betazone/sp500/tick';
+  let urlBase = 'https://jolav.github.io/api/betazone/sp500/tick';
   if (window.mode === "dev") {
     urlBase = 'http://localhost:3000/sp500/tick';
   }

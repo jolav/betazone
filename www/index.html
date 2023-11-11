@@ -7,7 +7,7 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Jolav.me betazone where app ideas and prototypes go to wait" />
+  <meta name="description" content="where ideas and prototypes go to wait" />
 
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="./assets/jolav32.png">
@@ -57,9 +57,10 @@
             <strong>SP 500</strong>
           </div>
           <p>
+            <strong>UPDATE 2020-07-31 <br>
+              IEX CLOUD FREE DATA DEPLETED.</strong><br>
             Real Time Standard & Poor's 500 common stocks issued by 500 large-cap companies and traded on American stock
             exchanges.<br>
-            UPDATE 2020-07-31 IEX CLOUD FREE DATA DEPLETED. Looking for some other data resources
           </p>
         </div>
       </a>
@@ -115,14 +116,17 @@
   <!-- Begin Footer-->
   <footer class="footer">
     <hr>
-    <a href="//jolav.me">
+    <a href="//jolav.github.io">
       <img class="verticalImage" alt="goHome" src="./assets/home24.png"> Home
     </a>
     <br>
-    <span>You can submit your questions, feedbacks, and feature requests opening a issue on github or
-      <a href=mailto:hi@jolav.me>
+    <span>You can submit your questions, feedbacks, ideas and feature requests opening a issue on github or
+      <strong><a class="m mail32" alt="href="
+          #">97fdf8fbf6e1b9f3f2e1d7f8e2e3fbf8f8fcb9f4f8faO631216062e02090c3116010a170c</a>
+      </strong>
+      <!--<a href=mailto:jolav.dev@outlook.com>
         <strong>emailing us</strong>
-      </a>
+      </a>-->
     </span>
     <br>
     <img class="logo" style="max-height:32px; vertical-align:middle" alt="" src="./assets/jolav32.png"> Jolav &copy;
@@ -144,6 +148,36 @@
 </body>
 
 <script>
+  function getValue(oldValue) {
+    var value = "";
+    var keyInHex = oldValue.substr(0, 2);
+    var key = parseInt(keyInHex, 16);
+    for (var n = 2; n < oldValue.length; n += 2) {
+      var charInHex = oldValue.substr(n, 2)
+      var char = parseInt(charInHex, 16);
+      var output = char ^ key;
+      value += String.fromCharCode(output);
+    }
+    return value;
+  }
+
+  const ms = document.getElementsByClassName("m");
+
+  for (let i = 0; i < ms.length; i++) {
+    const el = ms[i]
+    const oldValue = el.innerHTML;
+    const aux = oldValue.split("O")[0]
+    const value = getValue(aux);
+    if (i === 0) {
+      el.textContent = "emailing us"
+    }
+    if (i === 1) {
+      el.textContent = value;
+    }
+    el.href = 'mailto:' + value;
+  }
+
+
   const year = document.getElementById("year")
   year.textContent = new Date().getFullYear()
 </script>
