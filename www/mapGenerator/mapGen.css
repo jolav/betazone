@@ -1,1 +1,45 @@
 /* */
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  background-color: #fff;
+  color: #404040;
+  margin: 10px auto;
+  /*max-width: 960px;*/
+  background-size: cover;
+}
+
+
+#canvas {
+  border: 1px solid #404040;
+}
+
+input#cells {
+  max-width: 80px;
+}
+
+/* Flex Layout */
+
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 100px;
+  text-align: center;
+
+}
+
+.right {
+  width: auto;
+}
