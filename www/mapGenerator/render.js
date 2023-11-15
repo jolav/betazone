@@ -1,30 +1,74 @@
 /* */
 
-import * as aux from './aux.js';
+console.log('Loading...render.js');
 
-const cv = document.getElementById('canvas');
-const ctx = cv.getContext('2d');
-//const ppp = 1; // fails48 on FF but ok in chrome
-cv.width = Math.floor((window.innerWidth - 120) / 10) * 10;
-cv.height = Math.floor((window.innerHeight - 25) / 10) * 10;
+import { C } from "./_config.js";
+import * as util from './utils.js';
+import { points } from "./voronoi.js";
+
+const canvas = document.getElementById(C.CANVAS_NAME);
+const ctx = canvas.getContext('2d');
+const ppp = 1; // fails48 on FF but ok in chrome
+let cols = 0;
+let rows = 0;
 
 function draw() {
-  //console.log("draw");
+  updateDataDraw();
   clearAll();
+  drawZones();
+  drawPoints();
+}
+
+function drawPoints() {
+  //console.log("DRAW POINTS =>", points.length, points);
+  ctx.fillStyle = "hsl(50%, 50%, 50%)";
+  for (let { x, y } of points) {
+    //ctx.fillRect(x, y, 1, 1); // For performance just rectangle of one
+    ctx.beginPath();
+    ctx.arc(x, y, 3, 0, 2 * Math.PI);
+    ctx.fill();
+  }
+}
+
+function updateDataDraw() {
+  cols = Math.floor(C.WIDTH / ppp);
+  rows = Math.floor(C.HEIGHT / ppp);
+  canvas.width = cols * ppp;
+  canvas.height = rows * ppp;
+  //console.log('width =', C.WIDTH, " | height =", C.HEIGHT,
+  //  " | cols =", cols, " | rows =", rows);
+}
+
+function drawZones() {
+  for (let px = 0; px <= canvas.width; px++) {
+    for (let py = 0; py <= canvas.height; py++) {
+      let dm = canvas.width * canvas.height;
+      for (let { x, y, c } of points) {
+        let d1 = Math.pow(Math.abs(x - px), 2);
+        let d2 = Math.pow(Math.abs(y - py), 2);
+        let d = Math.sqrt(d1 + d2);
+        if (d < dm) {
+          ctx.fillStyle = c;
+          ctx.fillRect(px, py, 1, 1);
+          dm = d;
+        }
+      }
+    }
+  }
 }
 
 function fillCanvas() {
-  ctx.fillStyle = aux.randomColor();
-  ctx.fillRect(0, 0, cv.width, cv.height);
+  ctx.fillStyle = util.randomColor();
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
 
 function clearAll() {
-  ctx.clearRect(0, 0, cv.width, cv.height);
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
   ctx.beginPath();
 }
 
 export {
-  fillCanvas,
-  draw
+  //fillCanvas,
+  draw,
 };
 

@@ -1,31 +1,25 @@
 /* */
 
-//import * as lib from "./aux.js";
-import { fillCanvas, draw } from "./render.js";
+console.log('Loading...mapGen.js');
 
-const params = {
-  canvas: "canvas",
-  action: "doit"
-};
+import { C } from "./_config.js";
+import * as render from "./render.js";
+import * as voronoi from "./voronoi.js";
 
 function init() {
-  console.log('## Init ##');
-  console.log(window.innerWidth, window.innerHeight);
-  fillCanvas();
-  document.getElementById(params.action).addEventListener("click", create);
+  console.log('## Init ##', C.MODE);
+  document.getElementById(C.ACTION).addEventListener("click", letsgo);
+  //render.draw();
 
+  if (C.MODE === "dev") {   // auto click in dev
+    //letsgo();
+  }
+}
+
+function letsgo() {
+  voronoi.create();
+  render.draw();
 }
 
 window.addEventListener('load', init);
-
-function create() {
-  let cells = document.getElementById("cells").value;
-  if (cells === undefined || cells === "") {
-    cells = document.getElementById("cells").defaultValue;
-  }
-  const select = document.getElementsByName("metricType")[0];
-  const metric = select.options[select.selectedIndex].value;
-  console.log(cells, metric);
-  draw();
-}
 
