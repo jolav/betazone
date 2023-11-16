@@ -40,13 +40,30 @@ function updateDataDraw() {
 }
 
 function drawZones() {
+  const select = document.getElementsByName("metricType")[0];
+  const metric = select.options[select.selectedIndex].value;
+  let calculateDistance = euclidean;
+  if (metric === "manhattan") {
+    calculateDistance = manhattan;
+  }
+  switch (metric) {
+    case "euclidean":
+      calculateDistance = euclidean;
+      break;
+    case "manhattan":
+      calculateDistance = manhattan;
+      break;
+    case "minkowski":
+      calculateDistance = minkowski;
+      break;
+  }
   for (let px = 0; px <= canvas.width; px++) {
     for (let py = 0; py <= canvas.height; py++) {
       let dm = canvas.width * canvas.height;
       for (let { x, y, c } of points) {
-        let d1 = Math.pow(Math.abs(x - px), 2);
-        let d2 = Math.pow(Math.abs(y - py), 2);
-        let d = Math.sqrt(d1 + d2);
+        const deltaX = x - px;
+        const deltaY = y - py;
+        let d = calculateDistance(deltaX, deltaY);
         if (d < dm) {
           ctx.fillStyle = c;
           ctx.fillRect(px, py, 1, 1);
@@ -57,6 +74,21 @@ function drawZones() {
   }
 }
 
+function euclidean(deltaX, deltaY) {
+  return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
+}
+
+function manhattan(deltaX, deltaY) {
+  return Math.abs(deltaX) + Math.abs(deltaY);
+}
+
+function minkowski(deltaX, deltaY) {
+  const n = 3;
+  return (1 / n) *
+    (Math.pow(Math.abs(deltaX), n) +
+      Math.pow(Math.abs(deltaY), n)
+    );
+}
 function fillCanvas() {
   ctx.fillStyle = util.randomColor();
   ctx.fillRect(0, 0, canvas.width, canvas.height);
