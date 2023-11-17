@@ -17,8 +17,12 @@ function init() {
 }
 
 function letsgo() {
+  const t0 = performance.now();
   voronoi.create();
   render.draw();
+  const t1 = performance.now();
+  const score = ((t1 - t0) / 1000).toFixed(2) + ' secs';
+  document.getElementById("time").innerHTML = score;
 }
 
 window.addEventListener('load', init);

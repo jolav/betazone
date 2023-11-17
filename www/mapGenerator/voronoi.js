@@ -26,7 +26,7 @@ function createPoints(cells) {
       },
     );
   }
-  console.log("POINTS =>", points.length, points);
+  //console.log("POINTS =>", points.length, points);
 }
 
 export {

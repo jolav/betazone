@@ -4,7 +4,7 @@ let C = {
   // MapGen
   ACTION: "doit",
   MIN_CELLS: 1,
-  MAX_CELLS: 200,
+  MAX_CELLS: 500,
   DEFAULT_CELLS: 20,
   // Render
   CANVAS_NAME: "canvas",
