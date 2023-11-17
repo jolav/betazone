@@ -9,7 +9,7 @@ import * as voronoi from "./voronoi.js";
 function init() {
   console.log('## Init ##', C.MODE);
   document.getElementById(C.ACTION).addEventListener("click", letsgo);
-  //render.draw();
+  render.draw();
 
   if (C.MODE === "dev") {   // auto click in dev
     //letsgo();

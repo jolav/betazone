@@ -10,10 +10,8 @@ let C = {
   CANVAS_NAME: "canvas",
   WIDTH: Math.floor((window.innerWidth - 120) / 10) * 10,
   HEIGHT: Math.floor((window.innerHeight - 25) / 10) * 10,
-  GRIDSPACE_X: 25,
-  GRIDSPACE_Y: 25,
   // Voronoi
-  DEVIATION: 0,//0.5,
+  DEVIATION: 0.7,
   // Status
   MODE: "online",
 };
