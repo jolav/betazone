@@ -4,12 +4,15 @@
   .big {
     display: none
   }
+
   .small {
     display: block;
   }
+
   .header {
     margin-top: 5px;
   }
+
   .toolTile {
     padding: 5px;
   }
@@ -19,18 +22,23 @@
   .big {
     display: block
   }
+
   .small {
     display: none;
   }
+
   h1 span {
     font-size: 1.5em;
   }
+
   .header {
     margin-top: 10px;
   }
+
   .footer {
     margin-top: 10px;
   }
+
   .toolTile {
     padding: 10px;
   }

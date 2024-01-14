@@ -3,13 +3,15 @@
 
 # [BETAZONE](https://jolav.github.io/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  
 
+<hr>
 
+### ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/map48.png) **MAP GENERATOR**  
 
-### ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/map48.png) **MAP GENERATOR**
+Procedural Map Generator using Voronoi diagram with Euclidean, Manhattan and Minkowski Metrics  
 
-**[Work in Progress](https://jolav.github.io/betazone/mapGenerator/mapGen.html)**
+**[LIVE DEMO](https://jolav.github.io/betazone/mapGenerator/mapGen.html)**
 
-Procedural Map Generator 
+![Example](https://github.com/jolav/betazone/blob/master/www/assets/mapGen.png?raw=true)
 
 <hr>
 
@@ -20,6 +22,16 @@ Map Generator using Dungeon-Building Algorithm from roguebasin.
 **[LIVE DEMO](https://jolav.github.io/betazone/dungeonMap/dungeonMap.html)**  
 
 ![Example](https://github.com/jolav/betazone/blob/master/www/assets/dungeonMap.png?raw=true)
+
+<hr>
+
+### ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/traveller32.png) **TRAVELLING SALESMAN PROBLEM**
+
+Given a list of cities and the distances between each pair of cities, what is he shortest possible route that visits each city at least once and returns to the origin city.  
+
+**[LIVE DEMO](https://jolav.github.io/betazone/tsp/travelling.html)**  
+
+![Example](https://github.com/jolav/betazone/blob/master/www/assets/travelling.png?raw=true)
 
 <hr>
 
