@@ -10,9 +10,10 @@ canvas.height = window.innerHeight - 25;
 //console.log(canvas.width, canvas.height);
 const ctx = canvas.getContext("2d");
 const pixelSize = 4;
-const scale = 1.5; //1.25;
+let scale = 1;
 
 function map() {
+  scale = getScale();
   draw.clearAll();
   draw.cities();
   draw.roads();
@@ -57,6 +58,33 @@ const draw = {
   }
 };
 
+function getScale() {
+  let scale = 1;
+  if (canvas.width > d.borders.maxX && canvas.height >= d.borders.maxY) {
+    const a = d.borders.maxX / canvas.width;
+    const b = d.borders.maxY / canvas.height;
+    if (a <= b) {
+      scale = b;
+    } else {
+      scale = a;
+    }
+  } else if (canvas.width > d.borders.maxX && canvas.height <= d.borders.maxY) {
+    scale = d.borders.maxY / canvas.height;
+  } else if (canvas.width < d.borders.maxX && canvas.height > d.borders.maxY) {
+    scale = d.borders.maxX / canvas.width;
+  } else if (canvas.width < d.borders.maxX && canvas.height <= d.borders.maxY) {
+    const a = d.borders.maxX / canvas.width;
+    const b = d.borders.maxY / canvas.height;
+    if (a <= b) {
+      scale = b;
+    } else {
+      scale = a;
+    }
+  }
+  //console.log("SCALE =>", scale);
+  return scale;
+}
 export {
   map
 };
+

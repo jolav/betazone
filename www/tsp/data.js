@@ -8,6 +8,13 @@ const d = {
   start: 0,
   nodes: [],
   graph: undefined,
+  borders: {
+    minX: 100,
+    maxX: 100,
+    minY: 100,
+    maxY: 100,
+  },
+  ratio: 0,
 };
 
 function parseRawData(rawData) {
@@ -27,6 +34,7 @@ function parseRawData(rawData) {
     if (index > 3 && index <= d.cities + 3) {
       const x = parseInt(line.split(" ")[0]);
       const y = parseInt(line.split(" ")[1]);
+      checkMinMax({ x, y });
       d.nodes[index - 3] = { x: x, y: y };
     }
     if (index > d.cities + 3 && index <= 3073) {
@@ -37,6 +45,22 @@ function parseRawData(rawData) {
       d.graph[b][a] = weight;
     }
     index++;
+  }
+  d.ratio = parseFloat((d.borders.maxX / d.borders.maxY)).toFixed(2);
+
+}
+
+function checkMinMax(pos) {
+  if (pos.x > d.borders.maxX) {
+    d.borders.maxX = pos.x;
+  }
+  if (pos.x < d.borders.minX) {
+    d.borders.minX = pos.x;
+  }
+  if (pos.y > d.borders.maxY) {
+    d.borders.maxY = pos.y;
+  } if (pos.y < d.borders.minY) {
+    d.borders.minY = pos.y;
   }
 }
 
