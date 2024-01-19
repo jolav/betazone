@@ -26,8 +26,8 @@ const K = {
   // Player
   LOS_RANGE: 15,
   // Npc
-  MAX_NPCS: 6,
-  MAX_ITEMS: 15,
+  MAX_NPCS: 60,
+  MAX_ITEMS: 150,
 };
 
 export {
