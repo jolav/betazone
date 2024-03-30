@@ -5,29 +5,6 @@
 
 <hr>
 
-### ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/roguelike48.png) **ROGUELIKE PROTOTYPE**  
-
-Full Playable 
-
-CONTROLS
-
-(↑) or (w) = Up  
-(↓) or (s) = Down  
-(←) or (a) = Left  
-(→) or (d) = Right  
-(q) = Loot  
-(t) = Skip Turn  
-(1) = Eat Food  
-(3) = Heal with medical  
-(r) = Select Next Foe  
-(f) = Select target/shoot  
-
-**[PLAY ONLINE](https://jolav.github.io/betazone/roguelike/index.html)**
-
-![Example](https://github.com/jolav/betazone/blob/master/www/assets/roguelikeGame.png?raw=true)
-
-<hr>
-
 ### ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/map48.png) **MAP GENERATOR**  
 
 Procedural Map Generator using Voronoi diagram with Euclidean, Manhattan and Minkowski Metrics  
