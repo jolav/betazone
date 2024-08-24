@@ -473,7 +473,7 @@ const tetris = (function () {
     if (action === 'GET') {
       xhr.send();
     } else if (action !== 'GET') {
-      //xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.setRequestHeader('Content-Type', 'application/json');
       xhr.send(params);
     }
   }

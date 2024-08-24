@@ -1,6 +1,6 @@
 {
   "name": "server-node",
-  "version": "0.0.1",
+  "version": "0.5.1",
   "description": "server for betazone",
   "main": "betazone.js",
   "scripts": {
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/jolav/betazone#readme",
   "dependencies": {
+    "body-parser": "^2.0.0-beta.2",
     "express": "^5.0.0-beta.3",
     "helmet": "^7.1.0"
   },

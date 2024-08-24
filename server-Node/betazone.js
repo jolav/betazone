@@ -6,6 +6,7 @@ import helmet from 'helmet';
 import { config } from "./_config.js";
 import { logger } from "./middlewares.js";
 import { random } from "./random/random.js";
+import { tetris } from "./tetris/tetris.js";
 
 const app = express();
 
@@ -16,6 +17,7 @@ app.use(logger);
 
 // routes
 app.use('/random', random);
+app.use("/tetris", tetris);
 
 app.get("/version", function (req, res) {
   res
