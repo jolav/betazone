@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>API Docs</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="where ideas and prototypes go to wait" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./../assets/jolav32.png">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="./apiDoc.css">
+  <!-- Noto Sans  -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <nav id="navbar">
+    <div class="navBox">
+      <header>Endpoints</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#Betazone_Version">Betazone Version</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Ping">Ping</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Random">Random</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main-doc">
+
+    <br>
+
+    <section id="Betazone_Version" class="main-section">
+      <header class="headerBox">Betazone Version</header>
+      <span>
+        <b>Description: </b>Returns the actual version<br>
+      </span>
+      <span>
+        <b>HTTP Request: </b>
+        <code> GET https://m.d100.top/a/version</code><br>
+      </span>
+      <span>
+        <b>Example: </b><br>
+        <span>&nbsp; -> &nbsp;&nbsp;</span><a href="https://m.d100.top/a/version">https://m.d100.top/a/version</a>
+      </span>
+      <pre>
+        {
+          "version":"0.5.1"
+        }
+      </pre>
+      </span>
+    </section>
+
+    <br>
+
+    <section id="Ping" class="main-section">
+      <header class="headerBox">Ping</header>
+      <span>
+        <b>Description: </b>Makes a ping to the server<br>
+      </span>
+      <span>
+        <b>HTTP Request: </b>
+        <code> GET https://m.d100.top/a/ping</code><br>
+      </span>
+      <span>
+        <b>Example: </b><br>
+        <span>&nbsp; -> &nbsp;&nbsp;</span><a href="https://m.d100.top/a/ping">https://m.d100.top/a/ping</a>
+      </span>
+      <pre>
+        {
+          "ping":"ok"
+        }
+      </pre>
+      </span>
+    </section>
+
+    <br>
+
+    <section id="Random" class="main-section">
+      <header class="headerBox">Random</header>
+      <span>
+        <b>Description: </b>Returns a random surname out of almost 90000 possibilities<br>
+      </span>
+      <span>
+        <b>HTTP Request: </b>
+        <code> GET https://m.d100.top/a/random/name</code><br>
+      </span>
+      <span>
+        <b>Example: </b><br>
+        <span>&nbsp; -> &nbsp;&nbsp;</span><a
+          href="https://m.d100.top/a/random/name">https://m.d100.top/a/random/name</a>
+      </span>
+      <pre>
+        {
+          "name":"MULHOLLAND"
+        }
+      </pre>
+      </span>
+    </section>
+
+    <br>
+    <br>
+
+  </main>
+
+</body>
+
+
+</html>

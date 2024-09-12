@@ -3,6 +3,16 @@
 
 # [BETAZONE](https://jolav.github.io/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  
 
+
+### ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/doc48.png) **API DOC**  
+
+Betazone API documentation  
+- Version  
+- Ping  
+- Random Name  
+
+**[ONLINE DOC](https://jolav.github.io/betazone/apiDoc/apiDoc.html)**  
+
 <hr>
 
 ### ![logo](https://raw.githubusercontent.com/jolav/betazone/master/www/assets/map48.png) **MAP GENERATOR**  

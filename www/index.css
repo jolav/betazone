@@ -201,6 +201,10 @@ a {
   vertical-align: middle;
 }
 
+.title img.verticalImage {
+  max-width: 48px;
+}
+
 .centerText {
   text-align: center;
 }
