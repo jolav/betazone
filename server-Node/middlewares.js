@@ -2,7 +2,6 @@
 
 function logger(req, res, next) {
   console.log(
-    new Date().toUTCString(),
     getIP(req),
     req.method,
     req.originalUrl

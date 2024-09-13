@@ -4,7 +4,7 @@ import { _config } from "./_private.js";
 import os from "os";
 
 const config = {
-  "version": "0.5.1",
+  "version": "0.5.2",
   "mode": "dev",
   "port": 3000,
 };
