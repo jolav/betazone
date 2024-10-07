@@ -14,6 +14,8 @@ import (
 	u "betazone/_utils"
 )
 
+const IEXCLOUD_API_KEY_PUBLIC = "FAKE"
+
 type sp500 struct {
 	Conf struct {
 		Dev            bool   `json:"dev"`
