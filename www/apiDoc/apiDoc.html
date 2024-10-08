@@ -64,6 +64,7 @@
 
     <br>
 
+
     <section id="Ping" class="main-section">
       <header class="headerBox">Ping</header>
       <span>
@@ -71,15 +72,19 @@
       </span>
       <span>
         <b>HTTP Request: </b>
-        <code> GET https://m.d100.top/a/ping</code><br>
+        <code> GET https://m.d100.top/a/ping?min=0&max100</code><br>
+        <code>min</code> must be between 0-1000<br>
+        <code>max</code> between 1-1000<br>
+        <code>max</code>must be greater than <code>min</code><br>
       </span>
       <span>
         <b>Example: </b><br>
-        <span>&nbsp; -> &nbsp;&nbsp;</span><a href="https://m.d100.top/a/ping">https://m.d100.top/a/ping</a>
+        <span>&nbsp; -> &nbsp;&nbsp;</span><a
+          href="https://m.d100.top/a/ping">https://m.d100.top/a/ping?min=0&max=100</a>
       </span>
       <pre>
         {
-          "ping":"ok"
+          "ping": 57
         }
       </pre>
       </span>

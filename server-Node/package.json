@@ -1,6 +1,6 @@
 {
-  "name": "server-node",
-  "version": "0.5.2",
+  "name": "betazone",
+  "version": "0.5.3",
   "description": "server for betazone",
   "main": "betazone.js",
   "scripts": {

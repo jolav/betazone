@@ -1,5 +1,5 @@
 ![Active YES](https://img.shields.io/badge/Active-YES-green.svg)  
-![Version](https://img.shields.io/badge/version-0.5.2-orange.svg)
+![Version](https://img.shields.io/badge/version-0.5.3-orange.svg)
 
 # [BETAZONE](https://jolav.github.io/betazone) ![logo](https://github.com/jolav/betazone/blob/master/www/assets/idea64.png?raw=true)  
 

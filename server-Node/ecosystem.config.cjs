@@ -2,7 +2,7 @@
 
 module.exports = {
   apps: [{
-    name: "BetaZone",
+    name: "betazone",
     script: 'betazone.js',
     env: {
       NODE_ENV: "production",

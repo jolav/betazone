@@ -3,8 +3,6 @@
 import express from "express";
 const random = express.Router();
 
-import { randomInt } from "../aux.js";
-
 import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 const surnames = require("./surnames.json");
@@ -17,4 +15,8 @@ random.get("/name", function (req, res) {
     .json({ name: nick });
 });
 
-export { random };  
+export { random };
+
+function randomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
