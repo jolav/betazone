@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/jolav/betazone#readme",
   "dependencies": {
-    "body-parser": "^2.0.0-beta.2",
-    "express": "^5.0.0",
+    "body-parser": "^2.0.2",
+    "express": "^5.0.1",
     "helmet": "^8.0.0"
   },
   "type": "module"
