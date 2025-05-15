@@ -2,6 +2,7 @@
 
 import express from "express";
 import helmet from 'helmet';
+import cors from 'cors';
 
 import { config } from "./_config.js";
 import { AppError } from "./middlewares.js";
@@ -10,6 +11,7 @@ import { random } from "./random/random.js";
 import { tetris } from "./tetris/tetris.js";
 
 const app = express();
+app.use(cors());
 
 app.use(helmet());
 app.disable('x-powered-by');
