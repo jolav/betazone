@@ -3,7 +3,7 @@
 const tetris = (function () {
 
   const proxy = 'https://api.codetabs.com/v1/proxy/?quest=';
-  let urlBase = 'https://api-betazone.glitch.me/tetris';
+  let urlBase = 'https://g1.d100.top/b/tetris';
   // 127.0.0.1 for testing local frontend with real server backend
   if (window.location.hostname === "localhost") {
     urlBase = 'http://localhost:3000/tetris';

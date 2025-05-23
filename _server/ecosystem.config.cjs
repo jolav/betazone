@@ -1,5 +1,8 @@
 /* */
 
+//const os = require("os");
+//const cpus = os.cpus().length;
+
 module.exports = {
   apps: [{
     name: "betazone",
@@ -10,10 +13,10 @@ module.exports = {
     ignore_watch: [
       "node_modules",
     ],
-    //instances: 1,
+    instances: 1, // cpus - 1,
     max_memory_restart: "500M",
-    output: `/home/${process.env.USER}/.myLogs/betazone-out.log`,
-    error: `/home/${process.env.USER}/.myLogs/betazone-error.log`,
+    output: `/home/${process.env.USER}/.mylogs/info.log`,
+    error: `/home/${process.env.USER}/.mylogs/error.log`,
     merge_logs: true,
     log_date_format: 'YYYY-MM-DD HH:mm:ss',
   }]
